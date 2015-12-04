@@ -12,12 +12,9 @@
 -  [The only core competency you’re ever going to need](http://biomickwatson.wordpress.com/2014/03/10/the-only-core-competency-youre-ever-going-to-need/)
 -  [You’re not allowed bioinformatics anymore](http://biomickwatson.wordpress.com/2014/07/21/youre-not-allowed-bioinformatics-anymore/)
 -  [Top N Reasons To Do A Ph.D. or Post-Doc in Bioinformatics/Computational Biology](http://caseybergman.wordpress.com/2012/07/31/top-n-reasons-to-do-a-ph-d-or-post-doc-in-bioinformaticscomputational-biology/)
--
 -  [101 Questions: a new series of interviews with notable bioinformaticians](http://www.acgt.me/?tag=101+questions)
 -  [生物信息学家级别](http://blog.sciencenet.cn/blog-404304-834869.html) [ Levels of Bioinformatics Research](http://www.longwoodgenomics.org/2014/10/11/levels-of-bioinformatics-research/)
--
 -  [You can code, too!](http://blog.olgabotvinnik.com/blog/2013/11/22/2013-11-22-you-can-code-too/)
--
 -  [It’s time to reboot bioinformatics education](http://toddharris.net/blog/2015/03/23/its-time-to-reboot-bioinformatics-education/)
 -  [An Explosion Of Bioinformatics Careers](http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2014_06_13/science.opms.r1400143)
 
