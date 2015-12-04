@@ -11,7 +11,7 @@ and miscellaneous stuff.
 - [R](https://github.com/shenwei356/awesome/blob/master/r.md)
 - [Golang](https://github.com/shenwei356/awesome/blob/master/golang.md)
 - [Perl](https://github.com/shenwei356/awesome/blob/master/perl.md)
-- [miscellaneous](https://github.com/shenwei356/awesome/blob/master/misc.md)
+- [Miscellaneous](https://github.com/shenwei356/awesome/blob/master/misc.md)
 
 ## License
 
