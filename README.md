@@ -1,7 +1,7 @@
 # awesome
 
 Collection of useful resources on Bioinformatics, data science,
-machine learning programming language (Python, Golang, R, Perl)
+machine learning, programming language (Python, Golang, R, Perl)
 and miscellaneous stuff.
 
 - [Bioinformatics](https://github.com/shenwei356/awesome/blob/master/bioinformatics.md)
