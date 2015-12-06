@@ -36,6 +36,7 @@
 - [Python安全编码与代码审计](http://www.freebuf.com/articles/web/73669.html)
 - [Python命名空间和作用域窥探](http://python.jobbole.com/81367/)
 - [regular-expressions](://developers.google.com/edu/python/regular-expressions), [Python正则表达式指南](http://www.imooc.com/article/details/id/1141), [FuzzyFinder - in 10 lines of Python](http://blog.amjith.com/fuzzyfinder-in-10-lines-of-python)
+- [Python's Hidden Regular Expression Gems](http://lucumr.pocoo.org/2015/11/18/pythons-hidden-re-gems/?)
 - [Python Tips and Traps](https://www.airpair.com/python/posts/python-tips-and-traps)
 - [Python best practices](http://www.fantascienza.net/leonardo/ar/python_best_practices.html)
 - [A random collection of useful Python snippets](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/python_patterns/patterns.ipynb)
@@ -316,10 +317,18 @@ tutorials
 
 ## Web
 
-- [Django vs Flask vs Pyramid: Choosing a Python Web Framework](https://www.airpair.com/python/posts/django-flask-pyramid)
-- [python-and-flask-are-ridiculously-powerful](http://www.jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/)
-- [the-flask-mega-tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)  | [Flask大型教程项目](http://www.pythondoc.com/flask-mega-tutorial/), [Flask 文档](http://docs.jinkan.org/docs/flask/), awesome-flask, [Designing a RESTful API with Python and Flask](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask), [Handling User Authentication With Angular and Flask](https://realpython.com/blog/python/handling-user-authentication-with-angular-and-flask/)
+### Flask
+[the-flask-mega-tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)  | [Flask大型教程项目](http://www.pythondoc.com/flask-mega-tutorial/), [Flask 文档](http://docs.jinkan.org/docs/flask/), awesome-flask, [Designing a RESTful API with Python and Flask](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask), [Handling User Authentication With Angular and Flask](https://realpython.com/blog/python/handling-user-authentication-with-angular-and-flask/)
 - [Build an API under 30 lines of code with Python and Flask](https://impythonist.wordpress.com/2015/07/12/build-an-api-under-30-lines-of-code-with-python-and-flask/?utm_content=buffer30cab&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [python-and-flask-are-ridiculously-powerful](http://www.jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/)
+- [Flask web开发笔记](http://www.cnblogs.com/pythontesting/p/5016495.html)
+
+### Comparison
+
+- [Django vs Flask vs Pyramid: Choosing a Python Web Framework](https://www.airpair.com/python/posts/django-flask-pyramid)
+
+### Others
+
 - [Web Scraping With Scrapy and MongoDB](https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/), [part2](https://realpython.com/blog/python/web-scraping-and-crawling-with-scrapy-and-mongodb/)
 - [pyquery](http://packages.python.org/pyquery/), [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/)
 - [Let’s Build A Web Server](http://ruslanspivak.com/lsbaws-part1/)([part2](http://ruslanspivak.com/lsbaws-part2/))
@@ -349,4 +358,4 @@ tutorials
 
 update all packages:
 
-- pip upgrade all  pip freeze -local | grep -v ''^\-e' | cut -d = -f 1 | xargs -n1 pip install -U
+- pip upgrade all  `pip freeze -local | grep -v ''^\-e' | cut -d = -f 1 | xargs -n1 pip install -U`

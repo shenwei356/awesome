@@ -28,7 +28,9 @@
 
 - [argparse](https://cran.r-project.org/web/packages/argparse/)
 
+## ML
 
+- [caret](https://github.com/topepo/caret/) - (Classification And Regression Training) R package that contains misc functions for training and plotting classification and regression models
 ## Visualization
 
 - Large number of images: [http://rgm3.lab.nig.ac.jp/RGM/R_image_list](http://rgm3.lab.nig.ac.jp/RGM/R_image_list)
