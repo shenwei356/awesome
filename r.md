@@ -18,11 +18,13 @@
 
 - [Text Processing in R](http://www.mjdenny.com/Text_Processing_In_R.html)
 - [pystr](https://github.com/nicolewhite/pystr) - Python String Methods in R. [http://cran.r-project.org/web/packages/pystr](http://cran.r-project.org/web/packages/pystr)
+- [R语言基础知识-字符串的处理](http://r.rzaixian.com/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/how-to-deal-with-string-huyuan.html)
 
 ## Data wrangling
 
 - [dplyr-and-plyr](http://www.slideshare.net/Sheffield_R_/dplyr-and-plyr), [When I use plyr/dplyr](http://educate-r.org//2014/01/24/usePlyr/)，[Using dplyr, and a comparison with plyr.]http://scicomp2014.edc.uri.edu/posts/2014-04-14-Smith.html
 - [dplyr: How to do data manipulation with R](http://www.sharpsightlabs.com/dplyr-intro-data-manipulation-with-r/)
+- [normalising-data-within-groups](http://www.r-bloggers.com/normalising-data-within-groups/), [script](https://dl.dropboxusercontent.com/u/67041874/normalise.R)
 
 ## CLI
 
