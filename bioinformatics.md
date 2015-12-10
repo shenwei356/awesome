@@ -152,9 +152,12 @@
 
 ## Alignment
 
-
 - [hpg-aligner](https://github.com/opencb/hpg-aligner) - HPG Aligner is an ultrafast and highly sensitive Next-Generation Sequencing (NGS) mapper which supoprts both DNA and RNA alignment
 - [AliView](https://github.com/AliView/AliView) - Software for aligning viewing and editing dna/aminoacid sequences, intuitive, fast and lightweight. Download and website: [http://www.ormbunkar.se/aliview](http://www.ormbunkar.se/aliview)
+
+## Multiple Alignment
+
+- [msa: An R Package for Multiple Sequence Alignment](http://www.bioinf.jku.at/software/msa/)
 
 
 ## Mapping

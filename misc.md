@@ -46,8 +46,6 @@
 -  [《机器学习算法之旅》](http://blog.jobbole.com/60809/)
 -  [Machine Learning Roadmap: Your Self-Study Guide to Machine Learning](http://machinelearningmastery.com/machine-learning-roadmap-your-self-study-guide-to-machine-learning/)
 -  [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin#distributed-filesystems)牛逼的系统工具
--  [Linux 常见高危操作](http://blogread.cn/it/article/6876?f=wb)
-
 ## Programming
 
 -  [55分钟学会正则表达式(译)](http://doslin.com/learn-regular-expressions-in-about-55-minutes/)
@@ -59,6 +57,7 @@
 
 ## Git and Github
 
+- []常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 -  [史上最浅显易懂的Git教程！](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) by 廖雪峰
 -  [Git 使用规范流程](http://www.ruanyifeng.com/blog/2015/08/git-use-process.html)
 -  [让你的Git水平更上一层楼的10个小贴士](http://blog.jobbole.com/75244/)
@@ -87,17 +86,6 @@
 -  [distsysbook](https://github.com/mixu/distsysbook)
 -  [Notes on Distributed Systems for Young Bloodsa](http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/)
 
-
-## Linux
-
--  [服务器操作系统应该选择 Debian/Ubuntu 还是 CentOS？](http://www.zhihu.com/question/19599986) (百家争鸣)
--  [Linux LVM简明教程](http://linux.cn/article-3218-1.html)
--  [Shell alias](http://alias.sh/)
--  [Linux 性能监测](http://linux.cn/topic-linux-system-performance-monitoring.html)
--  [Advanced Scripting Using PBS Environment Variables](https://wiki.hpcc.msu.edu/display/hpccdocs/Advanced+Scripting+Using+PBS+Environment+Variables)
--  [make和makefile，多文件项目管理](http://segmentfault.com/a/1190000003756084?utm_source=Weibo&utm_medium=shareLink&utm_campaign=socialShare)
--  [Snakemake](https://bitbucket.org/johanneskoester/snakemake/wiki/browse/) - reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern domain specific specification language (DSL) in python style:
--  @bitslife Windows 平台下好用的终端，[MobaXterm](http://mobaxterm.mobatek.net/)， 可以apt-get install 一些linux 下工具，比如 clang， 想在Windows上学习Linux，可以不用 MinGW 或者安装虚拟机了， Windows下学习生物信息的筒子们可以尝试下了。亲测，很好用。
 
 ## Internet
 
