@@ -35,3 +35,4 @@
 -  [mxnet](http://mxnet.rtfd.org/) - Lightweight, Portable, Flexible Distributed Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Go, and more
 - [利用Theano理解深度学习——Logistic Regression](http://blog.csdn.net/google19890102/article/details/48976021)，[利用Theano理解深度学习——Multilayer Perceptron](http://blog.csdn.net/google19890102/article/details/49071305)，[利用Theano理解深度学习——Convolutional Neural Networks](http://blog.csdn.net/google19890102/article/details/49966391)
 -  [人人都能用Python写出LSTM-RNN的代码！[你的神经网络学习最佳起步]][9]。 [English](http://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/)
+- [7 Steps for becoming Deep Learning Expert](https://www.linkedin.com/pulse/7-steps-becoming-deep-learning-expert-ankit-agarwal) [翻译](https://gist.github.com/ronaldhan/4fedc9b7f3cf95cf64b8)

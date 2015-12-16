@@ -57,7 +57,7 @@
 
 ## Git and Github
 
-- []常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
+- [常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 -  [史上最浅显易懂的Git教程！](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) by 廖雪峰
 -  [Git 使用规范流程](http://www.ruanyifeng.com/blog/2015/08/git-use-process.html)
 -  [让你的Git水平更上一层楼的10个小贴士](http://blog.jobbole.com/75244/)

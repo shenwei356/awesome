@@ -118,6 +118,7 @@ packages
 - [Dask](https://github.com/ContinuumIO/dask) - provides multi-core execution on larger-than-memory datasets using blocked algorithms and task scheduling.
 - [Ruffus](http://www.ruffus.org.uk/): a lightweight Python library for computational pipelines
 - [Luigi](https://github.com/spotify/luigi) is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in.
+- [pyflow](https://github.com/Illumina/pyflow) - A lightweight parallel task engine http://Illumina.github.io/pyflow/
 
 tutorials
 
@@ -169,8 +170,10 @@ tutorials
 
 - [dateutil](http://labix.org/python-dateutil)
 - [sh](http://amoffat.github.io/sh/) - a full-fledged subprocess interface for Python that allows you to call any program as if it were a function
+- [plumbum](https://github.com/tomerfiliba/plumbum) - Plumbum: Shell Combinators http://plumbum.readthedocs.org
 - [argcomplete](https://github.com/kislyuk/argcomplete) - https://github.com/kislyuk/argcomplete
 - [emoji](https://github.com/carpedm20/emoji) - emoji terminal output for Python ([EMOJI CHEAT SHEET](http://www.emoji-cheat-sheet.com/))
+- [retrying](https://github.com/rholder/retrying) - Retrying is an Apache 2.0 licensed general-purpose retrying library, written in Python, to simplify the task of adding retry behavior to just about anything.
 
 ## CLI
 
@@ -258,7 +261,7 @@ tutorials
 - [Problem Solving with Algorithms and Data Structures using python](http://interactivepython.org/runestone/static/pythonds/index.html)
 - [pyrsistent](https://github.com/tobgu/pyrsistent) - Persistent/Immutable/Functional data structures for Python
 - [graph-tool](http://graph-tool.skewed.de/)- Efficient network analysis
-- ## [NetworkX](https://networkx.github.io/) - High-productivity software for complex networks
+- [NetworkX](https://networkx.github.io/) - High-productivity software for complex networks
 
 ## Machine Learning
 
@@ -282,7 +285,7 @@ tutorials
 - [不到100行代码实现一个简单的推荐系统](http://dataunion.org/14821.html)
 - [A Neural Network in 11 lines of Python (Part 1)](http://iamtrask.github.io/2015/07/12/basic-python-network/)
 - [Simple Genetic Algorithm In 15 Lines Of Python](http://outlace.com/Simple-Genetic-Algorithm-in-15-lines-of-Python/)
-
+- [最好的Python机器学习库](http://www.csdn.net/article/2015-12-10/2826435)
 
 ## NLP
 
@@ -296,7 +299,7 @@ tutorials
 
 - [neural-networks-and-deep-learning](https://github.com/mnielsen/neural-networks-and-deep-learning)
 - [theano](http://deeplearning.net/software/theano/tutorial/index.html)
-- [keras](https://github.com/fchollet/keras) -  Theano-based Deep Learning library (convnets, recurrent neural networks, and more).   [http://keras.io/](http://keras.io/) [DeepLearning tutorial（6）易用的深度学习框架Keras简介](http://blog.csdn.net/u012162613/article/details/45397033) [DeepLearning tutorial（7）深度学习框架Keras的使用-进阶](http://blog.csdn.net/u012162613/article/details/45581421)
+- [keras](https://github.com/fchollet/keras) -  Theano-based Deep Learning library (convnets, recurrent neural networks, and more). Runs on Theano and TensorFlow.  [http://keras.io/](http://keras.io/) [DeepLearning tutorial（6）易用的深度学习框架Keras简介](http://blog.csdn.net/u012162613/article/details/45397033) [DeepLearning tutorial（7）深度学习框架Keras的使用-进阶](http://blog.csdn.net/u012162613/article/details/45581421)
 - [nolearn](https://github.com/dnouri/nolearn) - Abstractions around neural net libraries, most notably Lasagne. http://pythonhosted.org/nolearn/\
 - ## [从Theano到Lasagne：基于Python的深度学习的框架和库](http://www.csdn.net/article/2015-08-01/2825362)
 - Quick Coding Intro to Neural Networks
@@ -359,3 +362,5 @@ tutorials
 update all packages:
 
 - pip upgrade all  `pip freeze -local | grep -v ''^\-e' | cut -d = -f 1 | xargs -n1 pip install -U`
+
+[My Python Environment Workflow with Conda](http://stiglerdiet.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/)

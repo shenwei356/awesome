@@ -22,6 +22,7 @@
 
 ## Data wrangling
 
+- [faster-data-manipulation-7-packages](http://www.analyticsvidhya.com/blog/2015/12/faster-data-manipulation-7-packages/)
 - [data-wrangling-cheatsheet.pdf](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 - [tidyr](https://github.com/hadley/tidyr) tidyr is a reframing of reshape2 designed to accompany the tidy data framework, and to work hand-in-hand with magrittr and dplyr to build a solid pipeline for data analysis.
 - [dplyr-and-plyr](http://www.slideshare.net/Sheffield_R_/dplyr-and-plyr), [When I use plyr/dplyr](http://educate-r.org//2014/01/24/usePlyr/)，[Using dplyr, and a comparison with plyr.]http://scicomp2014.edc.uri.edu/posts/2014-04-14-Smith.html
