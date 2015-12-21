@@ -24,6 +24,7 @@
 
 ## Deep Learning
 
+- [DeepLearning.TV](https://www.youtube.com/channel/UC9OeZkIwhzfv-_Cb7fCikLQ)
 -  [A Neural Network in 11 lines of Python (Part 1)](http://iamtrask.github.io/2015/07/12/basic-python-network/)
 -  [深度学习简明介绍](http://xhrwang.me/2015/01/16/a-brief-overview-of-deep-learning.html)
 -  [A Deep Learning Tutorial: From Perceptrons to Deep Networks](http://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks) | 深度学习概述：从感知机到深度网络

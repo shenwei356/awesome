@@ -20,6 +20,10 @@
 - [pystr](https://github.com/nicolewhite/pystr) - Python String Methods in R. [http://cran.r-project.org/web/packages/pystr](http://cran.r-project.org/web/packages/pystr)
 - [R语言基础知识-字符串的处理](http://r.rzaixian.com/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/how-to-deal-with-string-huyuan.html)
 
+## Performance
+
+- [http://rstatistics.net/strategies-to-speed-up-r-code/](http://rstatistics.net/strategies-to-speed-up-r-code/)
+
 ## Data wrangling
 
 - [faster-data-manipulation-7-packages](http://www.analyticsvidhya.com/blog/2015/12/faster-data-manipulation-7-packages/)
@@ -36,6 +40,8 @@
 ## ML
 
 - [caret](https://github.com/topepo/caret/) - (Classification And Regression Training) R package that contains misc functions for training and plotting classification and regression models
+- [ROCR](https://rocr.bioinf.mpi-sb.mpg.de/) - visualizing classifier performance in R, with only 3 commands
+
 ## Visualization
 
 - Large number of images: [http://rgm3.lab.nig.ac.jp/RGM/R_image_list](http://rgm3.lab.nig.ac.jp/RGM/R_image_list)

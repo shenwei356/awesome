@@ -109,11 +109,17 @@
 
 ## Performance
 
-packages
+packages 1
 
-- [huey](https://github.com/coleifer/huey) - a little multi-threaded task queue for python
+- [**theano**](http://deeplearning.net/software/theano/tutorial/index.html)
+- [numba](NumPy aware dynamic Python compiler using LLVM http://numba.pydata.org/)
 - [multiprocessing](https://docs.python.org/3/library/multiprocessing.html) - offers both local and remote concurrency, effectively side-stepping the [Global Interpreter Lock](https://docs.python.org/3/glossary.html#term-global-interpreter-lock) by using subprocesses instead of threads.  **[Multiprocessing: Task parallelism for the masses](http://cslocumwx.github.io/blog/2015/02/23/python-multiprocessing/)**, [An introduction to parallel programming](http://sebastianraschka.com/Articles/2014_multiprocessing_intro.html), **[Python多进程模块Multiprocessing介绍](http://cloga.info/python/2014/01/12/PythonMultiprocessingintro/)**, [Communication Between Processes](http://pymotw.com/2/multiprocessing/communication.html), [Python多进程编程](http://www.cnblogs.com/kaituorensheng/p/4445418.html)
 - **[Python and Parallelism or Dask](http://blaze.pydata.org/en/latest/_static/presentations/icml-mloss.html#/)**
+- [numexpr](https://github.com/pydata/numexpr) - Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas, bcolz and more https://github.com/pydata/numexpr/wiki/Numexpr-Users-Guide
+
+packages 2
+
+- [huey](https://github.com/coleifer/huey) - a little multi-threaded task queue for python
 - [python-gearman](https://github.com/Yelp/python-gearman)
 - [Dask](https://github.com/ContinuumIO/dask) - provides multi-core execution on larger-than-memory datasets using blocked algorithms and task scheduling.
 - [Ruffus](http://www.ruffus.org.uk/): a lightweight Python library for computational pipelines
@@ -122,6 +128,8 @@ packages
 
 tutorials
 
+- [优化 Python 性能：PyPy、Numba 与 Cython，谁才是目前最优秀的 Python 运算解决方案？](https://www.zhihu.com/question/24695645)
+- [How To Make Python Run As Fast As Juli](https://www.ibm.com/developerworks/community/blogs/jfp/entry/Python_Meets_Julia_Micro_Performance?lang=en)
 - [A guide to analyzing Python performance](http://www.huyng.com/posts/python-performance-analysis/) | [Python性能分析指南](http://www.oschina.net/translate/python-performance-analysis?print)
 - [Python: Faster Way http://pythonfasterway.uni.me](https://github.com/zokis/Python--Faster-Way)
 - [PerformanceTips](https://wiki.python.org/moin/PythonSpeed/PerformanceTips)
