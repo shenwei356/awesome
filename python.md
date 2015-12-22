@@ -112,7 +112,7 @@
 packages 1
 
 - [**theano**](http://deeplearning.net/software/theano/tutorial/index.html)
-- [numba](NumPy aware dynamic Python compiler using LLVM http://numba.pydata.org/)
+- [numba](http://numba.pydata.org/) - NumPy aware dynamic Python compiler using LLVM
 - [multiprocessing](https://docs.python.org/3/library/multiprocessing.html) - offers both local and remote concurrency, effectively side-stepping the [Global Interpreter Lock](https://docs.python.org/3/glossary.html#term-global-interpreter-lock) by using subprocesses instead of threads.  **[Multiprocessing: Task parallelism for the masses](http://cslocumwx.github.io/blog/2015/02/23/python-multiprocessing/)**, [An introduction to parallel programming](http://sebastianraschka.com/Articles/2014_multiprocessing_intro.html), **[Python多进程模块Multiprocessing介绍](http://cloga.info/python/2014/01/12/PythonMultiprocessingintro/)**, [Communication Between Processes](http://pymotw.com/2/multiprocessing/communication.html), [Python多进程编程](http://www.cnblogs.com/kaituorensheng/p/4445418.html)
 - **[Python and Parallelism or Dask](http://blaze.pydata.org/en/latest/_static/presentations/icml-mloss.html#/)**
 - [numexpr](https://github.com/pydata/numexpr) - Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas, bcolz and more https://github.com/pydata/numexpr/wiki/Numexpr-Users-Guide
@@ -241,7 +241,7 @@ tutorials
 
 - [Matplotlib tutorial](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)
 - [example](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
-- ## matplotlib-gallery 
+- matplotlib-gallery 
 - [Implementation of typographic and design principles in matplotlib and iPython notebook](http://nbviewer.ipython.org/gist/olgabot/5357268)
 - [matplotlib_for_papers](https://github.com/jbmouret/matplotlib_for_papers)
 - [matplotlib-venn](https://github.com/konstantint/matplotlib-venn) - Area-weighted venn-diagrams for Python/matplotlib
@@ -253,7 +253,7 @@ tutorials
 - [Heatmap in matplotlib with pcolor](http://stackoverflow.com/questions/14391959/heatmap-in-matplotlib-with-pcolor)
 - [Cortical networks correlation matrix](http://stanford.edu/~mwaskom/software/seaborn/examples/network_correlations.html), [Correlation_Matrix_Example.py](https://github.com/drquant/Python_Finance/blob/master/Correlation_Matrix_Example.py)
 - [ROC Curves in Python and R](http://blog.yhathq.com/posts/roc-curves.html)
-- ## How to Create NBA Shot Charts in Python
+- How to Create NBA Shot Charts in Python
 
 ## Data structure and Algorithm
 
@@ -278,7 +278,7 @@ tutorials
 - [Advice for applying Machine Learning](https://jmetzen.github.io/2015-01-29/ml_advice.html)
 - [结合Scikit-learn介绍几种常用的特征选择方法](http://dataunion.org/14072.html)
 - [Four steps to master machine learning with python (including free books & resource](http://lernpython.de/four-steps-to-master-machine-learning-with-python-including-free-books-resources)
-- [scikit-learn](http://scikit-learn.org/stable/), [Scikit-learn tutorials for the Scipy 2013 conference](http://nbviewer.ipython.org/github/jakevdp/sklearn_scipy2013/blob/master/rendered_notebooks/01.1_setup_and_introduction.ipynb), I[ntroduction to Machine Learning with Python and Scikit-Learn](http://kukuruku.co/hub/python/introduction-to-machine-learning-with-python-andscikit-learn),  ## [scikit-learn-book](http://nbviewer.ipython.org/github/gmonce/scikit-learn-book/tree/master),  [结合Scikit-learn介绍几种常用的特征选择方法][8],  [Scikit-learn机器学习](http://muxuezi.github.io/posts/0-perface.html)
+- [scikit-learn](http://scikit-learn.org/stable/), [Scikit-learn tutorials for the Scipy 2013 conference](http://nbviewer.ipython.org/github/jakevdp/sklearn_scipy2013/blob/master/rendered_notebooks/01.1_setup_and_introduction.ipynb), I[ntroduction to Machine Learning with Python and Scikit-Learn](http://kukuruku.co/hub/python/introduction-to-machine-learning-with-python-andscikit-learn),   [scikit-learn-book](http://nbviewer.ipython.org/github/gmonce/scikit-learn-book/tree/master),  [结合Scikit-learn介绍几种常用的特征选择方法][8],  [Scikit-learn机器学习](http://muxuezi.github.io/posts/0-perface.html)
 - [Natural Language Processing with Python](http://www.nltk.org/book/)
 - [Tutorial on scikit-learn and IPython for parallel machine learning](https://github.com/ogrisel/parallel_ml_tutorial)
 - [Hierarchical Clustering, Heatmaps, and Gridspec](http://nbviewer.ipython.org/github/ucsd-scientific-python/user-group/blob/master/presentations/20131016/hierarchical_clustering_heatmaps_gridspec.ipynb)
@@ -309,7 +309,7 @@ tutorials
 - [theano](http://deeplearning.net/software/theano/tutorial/index.html)
 - [keras](https://github.com/fchollet/keras) -  Theano-based Deep Learning library (convnets, recurrent neural networks, and more). Runs on Theano and TensorFlow.  [http://keras.io/](http://keras.io/) [DeepLearning tutorial（6）易用的深度学习框架Keras简介](http://blog.csdn.net/u012162613/article/details/45397033) [DeepLearning tutorial（7）深度学习框架Keras的使用-进阶](http://blog.csdn.net/u012162613/article/details/45581421)
 - [nolearn](https://github.com/dnouri/nolearn) - Abstractions around neural net libraries, most notably Lasagne. http://pythonhosted.org/nolearn/\
-- ## [从Theano到Lasagne：基于Python的深度学习的框架和库](http://www.csdn.net/article/2015-08-01/2825362)
+- [从Theano到Lasagne：基于Python的深度学习的框架和库](http://www.csdn.net/article/2015-08-01/2825362)
 - Quick Coding Intro to Neural Networks
 - [利用python的theano库刷kaggle mnist排行榜](http://deeplearning.net/software/theano/tutorial/)
 - [使用GPU和Theano加速深度学习](http://www.csdn.net/article/2015-08-07/2825415)
@@ -329,7 +329,8 @@ tutorials
 ## Web
 
 ### Flask
-[the-flask-mega-tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)  | [Flask大型教程项目](http://www.pythondoc.com/flask-mega-tutorial/), [Flask 文档](http://docs.jinkan.org/docs/flask/), awesome-flask, [Designing a RESTful API with Python and Flask](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask), [Handling User Authentication With Angular and Flask](https://realpython.com/blog/python/handling-user-authentication-with-angular-and-flask/)
+
+-[the-flask-mega-tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)  | [Flask大型教程项目](http://www.pythondoc.com/flask-mega-tutorial/), [Flask 文档](http://docs.jinkan.org/docs/flask/), awesome-flask, [Designing a RESTful API with Python and Flask](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask), [Handling User Authentication With Angular and Flask](https://realpython.com/blog/python/handling-user-authentication-with-angular-and-flask/)
 - [Build an API under 30 lines of code with Python and Flask](https://impythonist.wordpress.com/2015/07/12/build-an-api-under-30-lines-of-code-with-python-and-flask/?utm_content=buffer30cab&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - [python-and-flask-are-ridiculously-powerful](http://www.jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/)
 - [Flask web开发笔记](http://www.cnblogs.com/pythontesting/p/5016495.html)
@@ -369,6 +370,7 @@ tutorials
 
 update all packages:
 
-- pip upgrade all  `pip freeze -local | grep -v ''^\-e' | cut -d = -f 1 | xargs -n1 pip install -U`
+- pip upgrade all  `sudo pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U`
+
 
 [My Python Environment Workflow with Conda](http://stiglerdiet.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/)
