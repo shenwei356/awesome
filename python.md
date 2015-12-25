@@ -22,6 +22,8 @@
 - [A COLLECTION OF PYTHON &#8220;MUST READS&#8221;](http://jessenoller.com/good-to-great-python-reads/)
 - [10 python blogs worth following](http://pythontips.com/2013/07/31/10-python-blogs-worth-following/)
 - [Python for Data Science vs Python for Web Development](http://www.datasciencecentral.com/profiles/blogs/python-for-data-science-vs-python-for-web-development)
+- [Computational Statistics in Python](http://people.duke.edu/~ccc14/sta-663/)
+
 
 ## Comparison to R
 
@@ -155,6 +157,7 @@ tutorials
 
 ## Database
 
+- [CodernityDB](http://labs.codernity.com/codernitydb/) - a more advanced key-value Native Python Database, with multiple key-values indexes in the same engine
 - [mongo数据库基本操作-python篇](http://www.cnblogs.com/qwj-sysu/p/4428434.html)
 - [ZODB4](http://www.zodb.org/en/latest/) - ZODB makes it really fast and easy to build and distribute [Persistent Python](http://zodb.privacv.com/persistentpython) applications
 
@@ -182,9 +185,11 @@ tutorials
 - [argcomplete](https://github.com/kislyuk/argcomplete) - https://github.com/kislyuk/argcomplete
 - [emoji](https://github.com/carpedm20/emoji) - emoji terminal output for Python ([EMOJI CHEAT SHEET](http://www.emoji-cheat-sheet.com/))
 - [retrying](https://github.com/rholder/retrying) - Retrying is an Apache 2.0 licensed general-purpose retrying library, written in Python, to simplify the task of adding retry behavior to just about anything.
+- **[dill](http://trac.mystic.cacr.caltech.edu/project/pathos/wiki/dill)** - Dill extends python's 'pickle' module for serializing and de-serializing python objects to the majority of the built-in python types
 
 ## CLI
 
+- [tqdm](https://github.com/tqdm/tqdm) - A fast, extensible progress bar for Python https://pypi.python.org/pypi/tqdm
 - **[pythonpy](https://github.com/Russell91/pythonpy)** - the swiss army knife of the command line
 
 
@@ -273,27 +278,43 @@ tutorials
 
 ## Machine Learning
 
+General
+
 - [Advice for applying Machine Learning](https://jmetzen.github.io/2015-01-29/ml_advice.html)
+- [最好的Python机器学习库](http://www.csdn.net/article/2015-12-10/2826435)
 - [大数据分析与机器学习领域Python兵器谱](http://www.thebigdata.cn/JieJueFangAn/13317.html),  [Python 网页爬虫 & 文本处理 & 科学计算 & 机器学习 & 数据挖掘兵器谱](http://www.52nlp.cn/python-%E7%BD%91%E9%A1%B5%E7%88%AC%E8%99%AB-%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86-%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98)
 - [Advice for applying Machine Learning](https://jmetzen.github.io/2015-01-29/ml_advice.html)
-- [结合Scikit-learn介绍几种常用的特征选择方法](http://dataunion.org/14072.html)
 - [Four steps to master machine learning with python (including free books & resource](http://lernpython.de/four-steps-to-master-machine-learning-with-python-including-free-books-resources)
-- [scikit-learn](http://scikit-learn.org/stable/), [Scikit-learn tutorials for the Scipy 2013 conference](http://nbviewer.ipython.org/github/jakevdp/sklearn_scipy2013/blob/master/rendered_notebooks/01.1_setup_and_introduction.ipynb), I[ntroduction to Machine Learning with Python and Scikit-Learn](http://kukuruku.co/hub/python/introduction-to-machine-learning-with-python-andscikit-learn),   [scikit-learn-book](http://nbviewer.ipython.org/github/gmonce/scikit-learn-book/tree/master),  [结合Scikit-learn介绍几种常用的特征选择方法][8],  [Scikit-learn机器学习](http://muxuezi.github.io/posts/0-perface.html)
 - [Natural Language Processing with Python](http://www.nltk.org/book/)
-- [Tutorial on scikit-learn and IPython for parallel machine learning](https://github.com/ogrisel/parallel_ml_tutorial)
 - [Hierarchical Clustering, Heatmaps, and Gridspec](http://nbviewer.ipython.org/github/ucsd-scientific-python/user-group/blob/master/presentations/20131016/hierarchical_clustering_heatmaps_gridspec.ipynb)
 - [Linear SVM Classifier on Twitter User Recognition](http://unsupervised-learning.com/linear-svm-classifier-on-recognizing-twitter-users/)
 - [在Python中使用线性回归预测数据](http://python.jobbole.com/81215/)
 - [Random Forests in Python](http://blog.yhathq.com/posts/random-forests-in-python.html), [Random Forest Regression and Classification in R and Python](http://blog.yhathq.com/posts/comparing-random-forests-in-python-and-r.html), [Powerful Guide to learn Random Forest (with codes in R & Python)](http://www.analyticsvidhya.com/blog/2015/09/random-forest-algorithm-multiple-challenges/), another post: [Random Forest in scikit-learn](http://alexhwoods.com/2015/07/01/random-forest-in-scikit-learn/), [机器学习反欺诈实践：Python+scikit-learn+随机森林](http://dataunion.org/17797.html),  [Random forest interpretation with scikit-learn](http://blog.datadive.net/random-forest-interpretation-with-scikit-learn/)
 - [6 Easy Steps to Learn Naive Bayes Algorithm (with code in Python)](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/)
 - [k-Fold Cross Validation made simple](http://www.analyticsvidhya.com/blog/2015/05/k-fold-cross-validation-simple/)
+
+
+packages
+
 - [mlxtend](https://github.com/rasbt/mlxtend) - A library of extension and helper modules for Python's data analysis and machine learning libraries.
+- [PyMC3](https://github.com/pymc-devs/pymc3) -a python module for Bayesian statistical modeling and model fitting which focuses on advanced Markov chain Monte Carlo fitting algorithms. Its flexibility and extensibility make it applicable to a large suite of problems.
+
+Scikit-learn
+
+- [scikit-learn](http://scikit-learn.org/stable/), [Scikit-learn tutorials for the Scipy 2013 conference](http://nbviewer.ipython.org/github/jakevdp/sklearn_scipy2013/blob/master/rendered_notebooks/01.1_setup_and_introduction.ipynb), I[ntroduction to Machine Learning with Python and Scikit-Learn](http://kukuruku.co/hub/python/introduction-to-machine-learning-with-python-andscikit-learn),   [scikit-learn-book](http://nbviewer.ipython.org/github/gmonce/scikit-learn-book/tree/master),  [结合Scikit-learn介绍几种常用的特征选择方法][8],  [Scikit-learn机器学习](http://muxuezi.github.io/posts/0-perface.html)
+- [结合Scikit-learn介绍几种常用的特征选择方法](http://dataunion.org/14072.html)
+- [Tutorial on scikit-learn and IPython for parallel machine learning](https://github.com/ogrisel/parallel_ml_tutorial)
+
+Theano
+
 - [Matrix factorization with Theano](http://un-mindlab.blogspot.com/2013/07/matrix-factorization-with-theano.html)
-- [PyMC3](https://github.com/pymc-devs/pymc3) is a python module for Bayesian statistical modeling and model fitting which focuses on advanced Markov chain Monte Carlo fitting algorithms. Its flexibility and extensibility make it applicable to a large suite of problems.
+
+examples
+
 - [不到100行代码实现一个简单的推荐系统](http://dataunion.org/14821.html)
 - [A Neural Network in 11 lines of Python (Part 1)](http://iamtrask.github.io/2015/07/12/basic-python-network/)
 - [Simple Genetic Algorithm In 15 Lines Of Python](http://outlace.com/Simple-Genetic-Algorithm-in-15-lines-of-Python/)
-- [最好的Python机器学习库](http://www.csdn.net/article/2015-12-10/2826435)
+
 
 ## NLP
 
@@ -325,6 +346,7 @@ tutorials
 - [An Algorithm to Extract Looping GIFs From Videos](http://zulko.github.io/blog/2015/02/01/extracting-perfectly-looping-gifs-from-videos-with-python-and-moviepy/) | [从视频提取循环播放式GIF动画的算法](http://blog.jobbole.com/84778/)
 - Basic motion detection and tracking with Python and OpenCV  (part [1](http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/), [2](http://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-with-the-raspberry-pi-python-and-opencv/))| 用 Python 和 OpenCV 检测和跟踪运动对象([上](http://python.jobbole.com/81593/)，[下](http://python.jobbole.com/81645/))
 - [Beautiful Python: A Simple ASCII Art Generator from Images](https://www.hackerearth.com/notes/beautiful-python-a-simple-ascii-art-generator-from-images/)
+- [Python编程中使用Pillow来处理图像的基础教程](http://python.jobbole.com/83685/)
 
 ## Web
 
