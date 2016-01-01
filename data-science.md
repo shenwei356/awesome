@@ -21,6 +21,7 @@
 
 ## Data structure
 
+-  [skizze](https://github.com/seiflotfy/skizze) - A probabilistic data structure service and storage
 -  [dablooms](https://github.com/bitly/dablooms) - A Scalable, Counting, Bloom Filter. Java, Python, Go edition.
 -  [inbloom](https://github.com/EverythingMe/inbloom) - Cross language bloom filter implementation
 
@@ -31,6 +32,7 @@
 -  [The Only Probability Cheatsheet You'll Ever Need](http://www.wzchen.com/probability-cheatsheet/)
 -  [Where priors come from](http://zinkov.com/posts/2015-06-09-where-priors-come-from/) (some popular distribution)
 -  [Probabilistic Programming & Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
+-  [The Advanced Matrix Factorization Jungle](https://sites.google.com/site/igorcarron2/matrixfactorizations)
 
 
 ## Big Data and Cloud
@@ -43,3 +45,7 @@
 -  [Elements of Scale: Composing and Scaling Data Platforms](http://www.benstopford.com/2015/04/28/elements-of-scale-composing-and-scaling-data-platforms/)
 -  http://www.analyticsvidhya.com/
 -  [数据科学家修炼宝典](http://mooc.guokr.com/topic/DataScientist/)
+
+## Misc
+
+-  [What to do with “small” data?](https://medium.com/rants-on-machine-learning/what-to-do-with-small-data-d253254d1a89#.720upf8f1)

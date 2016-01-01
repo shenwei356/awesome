@@ -42,8 +42,16 @@ More official [sub-repositories](http://golang.org/pkg/#subrepo)
 install them
 
 ```
-https_proxy=https://127.0.0.1:8118 go get -v golang.org/x/tools/cmd/{godoc,goimports,gorename}
+https_proxy=https://127.0.0.1:8118 go get -v golang.org/x/tools/cmd/{godoc,goimports,gorename,vet,gomvpkg,cover}
 ```
+
+other great tools
+
+```
+go get -v github.com/golang/lint/golint
+go get -v github.com/sqs/goreturns
+```
+
 
 ## Update packages
 
@@ -182,16 +190,21 @@ Date
 
 ## DB
 
-- **[goleveldb](https://github.com/syndtr/goleveldb)** - LevelDB key/value database in Go.
+KV
+
+- [goleveldb](https://github.com/syndtr/goleveldb) - LevelDB key/value database in Go.
 - [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
+- [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery
+
+doc
+
+- [tiedot](https://github.com/HouzuoGuo/tiedot) - a document database engine that uses JSON as document notation
+
+rich data structure
+
 - [SSDB](https://github.com/ideawu/ssdb) - A fast NoSQL database for storing big list of data
 - [ledisdb](https://github.com/siddontang/ledisdb) - a high performance NoSQL powered by Go
-- [nodb](https://github.com/lunny/nodb) - A pure Go embed Nosql database with kv, list, hash, zset, bitmap, set.
-- [tiedot](https://github.com/HouzuoGuo/tiedot) - a document database engine that uses JSON as document notation
 - [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database compatible with MySQL protocol.
-- [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery
-- [leveldb-go](https://code.google.com/p/leveldb-go/)  - The LevelDB key/value database in Go 官方的，但不完整
-- [levigo](https://github.com/jmhodges/levigo)  - a Go wrapper for LevelDB
 
 ## ORM
 
