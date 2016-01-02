@@ -14,4 +14,4 @@
 
 -  [Snakemake](https://bitbucket.org/johanneskoester/snakemake/wiki/browse/) - reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern domain specific specification language (DSL) in python style:
 -  @bitslife Windows 平台下好用的终端，[MobaXterm](http://mobaxterm.mobatek.net/)， 可以apt-get install 一些linux 下工具，比如 clang， 想在Windows上学习Linux，可以不用 MinGW 或者安装虚拟机了， Windows下学习生物信息的筒子们可以尝试下了。亲测，很好用。
-- [command_line_bootcamp](https://github.com/blahah/command_line_bootcamp)  Command-line bootcamp adventure in your browser.
+-  [command_line_bootcamp](https://github.com/blahah/command_line_bootcamp)  Command-line bootcamp adventure in your browser.

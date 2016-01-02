@@ -17,7 +17,7 @@
 ## Tools
 
 -  [csvkit](https://github.com/onyxfish/csvkit) - A suite of utilities for converting to and working with CSV, the king of tabular file formats. [http://csvkit.rtfd.org/](http://csvkit.rtfd.org/)
-- [datakit](https://github.com/shenwei356/datakit) - CSV/TSV file manipulation and more
+-  [datakit](https://github.com/shenwei356/datakit) - CSV/TSV file manipulation and more
 
 ## Data structure
 

@@ -129,6 +129,7 @@ Others
 - [daemon](https://github.com/takama/daemon) - A daemon package for use with Go (golang) services with no dependencies
 - [shutdown](https://github.com/klauspost/shutdown) - Shutdown management library for Go
 - [Gox](https://github.com/mitchellh/gox) - Simple Go Cross Compilation。更新go版本后，记得gox -build-toolchain
+- [clipboard](https://github.com/atotto/clipboard) - clipboard for golang
 
 Date
 
