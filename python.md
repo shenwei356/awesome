@@ -352,10 +352,12 @@ examples
 
 ### Flask
 
--[the-flask-mega-tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)  | [Flask大型教程项目](http://www.pythondoc.com/flask-mega-tutorial/), [Flask 文档](http://docs.jinkan.org/docs/flask/), awesome-flask, [Designing a RESTful API with Python and Flask](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask), [Handling User Authentication With Angular and Flask](https://realpython.com/blog/python/handling-user-authentication-with-angular-and-flask/)
+- [the-flask-mega-tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)  | [Flask大型教程项目](http://www.pythondoc.com/flask-mega-tutorial/), [Flask 文档](http://docs.jinkan.org/docs/flask/), awesome-flask, [Designing a RESTful API with Python and Flask](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask), [Handling User Authentication With Angular and Flask](https://realpython.com/blog/python/handling-user-authentication-with-angular-and-flask/)
 - [Build an API under 30 lines of code with Python and Flask](https://impythonist.wordpress.com/2015/07/12/build-an-api-under-30-lines-of-code-with-python-and-flask/?utm_content=buffer30cab&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - [python-and-flask-are-ridiculously-powerful](http://www.jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/)
 - [Flask web开发笔记](http://www.cnblogs.com/pythontesting/p/5016495.html)
+
+- [pyxley](https://github.com/stitchfix/pyxley) Python helpers for building dashboards using Flask and React
 
 ### Comparison
 
