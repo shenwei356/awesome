@@ -128,6 +128,11 @@ packages 2
 - [Luigi](https://github.com/spotify/luigi) is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in.
 - [pyflow](https://github.com/Illumina/pyflow) - A lightweight parallel task engine http://Illumina.github.io/pyflow/
 
+packages 3
+
+-  [How We Reduced CPU Usage by 80% through Python Profiling](https://nylas.com/blog/performance/)
+
+
 tutorials
 
 - [优化 Python 性能：PyPy、Numba 与 Cython，谁才是目前最优秀的 Python 运算解决方案？](https://www.zhihu.com/question/24695645)
@@ -160,6 +165,10 @@ tutorials
 - [CodernityDB](http://labs.codernity.com/codernitydb/) - a more advanced key-value Native Python Database, with multiple key-values indexes in the same engine
 - [mongo数据库基本操作-python篇](http://www.cnblogs.com/qwj-sysu/p/4428434.html)
 - [ZODB4](http://www.zodb.org/en/latest/) - ZODB makes it really fast and easy to build and distribute [Persistent Python](http://zodb.privacv.com/persistentpython) applications
+
+orm
+
+- [peewee](https://peewee.readthedocs.org/en/latest/) - Peewee is a simple and small ORM. It has few (but expressive) concepts, making it easy to learn and intuitive to use.
 
 ## File formats
 
@@ -259,6 +268,10 @@ tutorials
 - [Cortical networks correlation matrix](http://stanford.edu/~mwaskom/software/seaborn/examples/network_correlations.html), [Correlation_Matrix_Example.py](https://github.com/drquant/Python_Finance/blob/master/Correlation_Matrix_Example.py)
 - [ROC Curves in Python and R](http://blog.yhathq.com/posts/roc-curves.html)
 - How to Create NBA Shot Charts in Python
+
+## GUI
+
+-  [pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Home) - a cross-platform windowing and multimedia library for Python.
 
 ## Data structure and Algorithm
 
