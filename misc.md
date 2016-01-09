@@ -78,6 +78,7 @@
 
 -  [Network attacking map](http://map.ipviking.com/)
 -  [centos VPS上安装ShadowSocks](http://51lica.com/archives/1923)
+-  [Choosing an HTTP Status Code — Stop Making It Hard](http://racksburg.com/choosing-an-http-status-code/)
 
 ## Web
 

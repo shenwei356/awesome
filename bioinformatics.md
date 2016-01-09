@@ -66,6 +66,7 @@
 - [python] [pysam](ps://github.com/pysam-developers/pysam) - a python module for reading and manipulating Samfiles. It's a lightweight wrapper of the samtools C-API. Pysam also includes an interface for tabix. Another sam parser: [simplesam](https://github.com/mdshw5/simplesam)
 - [grabix](https://github.com/arq5x/grabix) - a wee tool for random access into BGZF files
 - [golang]  [bix](https://github.com/brentp/bix) - tabix file access with golang using biogo machinery
+- [mergesam](https://github.com/DarwinAwardWinner/mergesam) - Automate common sam & bam conversions
 
 ## Fasta/q
 
@@ -111,8 +112,9 @@
 
 - [Circleator](https://github.com/jonathancrabtree/Circleator) - Flexible circular visualization of genome-associated data with BioPerl and SVG.
 - [ComplexHeatmap](https://github.com/jokergoo/ComplexHeatmap) - make complex heatmaps as well as self define annotation graphics
-- [dalliance](https://github.com/dasmoth/dalliance) - https://github.com/dasmoth/dalliance
+- [dalliance](https://github.com/dasmoth/dalliance) - Interactive web-based genome browser. http://www.biodalliance.org/
 - [Question: Which program, tool, or strategy do you use to visualize genomic rearrangements?](https://www.biostars.org/p/158039/) 
+- [DNAplotlib](https://github.com/VoigtLab/dnaplotlib) - DNA plotting library for Python
 
 ### Circos Related
 

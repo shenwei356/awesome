@@ -163,6 +163,7 @@ tutorials
 ## Database
 
 - [CodernityDB](http://labs.codernity.com/codernitydb/) - a more advanced key-value Native Python Database, with multiple key-values indexes in the same engine
+- [zerodb](https://github.com/zero-db/zerodb) - ZeroDB is an end-to-end encrypted database. Data can be stored on untrusted database servers without ever exposing the encryption key. Clients can execute remote queries against the encrypted data without downloading all of it or suffering an excessive performance hit.
 - [mongo数据库基本操作-python篇](http://www.cnblogs.com/qwj-sysu/p/4428434.html)
 - [ZODB4](http://www.zodb.org/en/latest/) - ZODB makes it really fast and easy to build and distribute [Persistent Python](http://zodb.privacv.com/persistentpython) applications
 
@@ -288,6 +289,8 @@ tutorials
 - [pyrsistent](https://github.com/tobgu/pyrsistent) - Persistent/Immutable/Functional data structures for Python
 - [graph-tool](http://graph-tool.skewed.de/)- Efficient network analysis
 - [NetworkX](https://networkx.github.io/) - High-productivity software for complex networks
+- [bidict](https://github.com/jab/bidict) - Efficient, Pythonic bidirectional map implementation and related functionality. https://bidict.readthedocs.org/
+
 
 ## Machine Learning
 
@@ -360,6 +363,10 @@ examples
 - Basic motion detection and tracking with Python and OpenCV  (part [1](http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/), [2](http://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-with-the-raspberry-pi-python-and-opencv/))| 用 Python 和 OpenCV 检测和跟踪运动对象([上](http://python.jobbole.com/81593/)，[下](http://python.jobbole.com/81645/))
 - [Beautiful Python: A Simple ASCII Art Generator from Images](https://www.hackerearth.com/notes/beautiful-python-a-simple-ascii-art-generator-from-images/)
 - [Python编程中使用Pillow来处理图像的基础教程](http://python.jobbole.com/83685/)
+
+## GEO
+
+- [geoplotlib](https://github.com/andrea-cuttone/geoplotlib) - python toolbox for visualizing geographical data and making maps
 
 ## Web
 

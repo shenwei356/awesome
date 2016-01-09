@@ -81,6 +81,8 @@ Extended packages
 - [ggthemes](https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html) - Some extra themes, geoms, and scales for  ggplot2.
 - [cowplot](https://github.com/wilkelab/cowplot)  - provide a publication-ready theme for ggplot2
 - [ggfortify](https://github.com/sinhrks/ggfortify) - Define fortify and autoplot functions to allow ggplot2 to handle some popular R packages.  [http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/](http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/)
+- [ggrepel](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
+- [ggalt](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms and Statistical Transformations for 'ggplot2' https://cran.rstudio.com/web/packages/ggalt/ggalt.pdf
 
 Tutorial
 

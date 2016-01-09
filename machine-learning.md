@@ -14,6 +14,7 @@
 - ** [dive-into-machine-learning](https://github.com/hangtwenty/dive-into-machine-learning)**
 - [Machine Learning Roadmap: Your Self-Study Guide to Machine Learning](http://machinelearningmastery.com/machine-learning-roadmap-your-self-study-guide-to-machine-learning/)
 - [如何选择机器学习算法](http://www.52ml.net/15063.html)
+- [机器学习系列(4)_机器学习算法一览，应用建议与解决思路](http://blog.csdn.net/longxinchen_ml/article/details/50471268)
 - [Detecting diabetic retinopathy in eye images](http://jeffreydf.github.io/diabetic-retinopathy-detection/)
 - [Cheatsheet – Python & R codes for common Machine Learning Algorithms](http://www.analyticsvidhya.com/blog/2015/09/full-cheatsheet-machine-learning-algorithms/)
 - **[10 种机器学习算法的要点（附 Python 和 R 代码）](http://blog.jobbole.com/92021/) | [Essentials of Machine Learning Algorithms (with Python and R Codes)](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/)**
