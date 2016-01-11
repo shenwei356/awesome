@@ -1,6 +1,11 @@
 # Linux
 
-# doc
+## resources
+
+-  [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
+-  [awesome-shell](https://github.com/alebcay/awesome-shell)
+
+## doc
 
 -  [Linux 常见高危操作](http://blogread.cn/it/article/6876?f=wb)
 -  [服务器操作系统应该选择 Debian/Ubuntu 还是 CentOS？](http://www.zhihu.com/question/19599986) (百家争鸣)

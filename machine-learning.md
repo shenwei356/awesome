@@ -25,6 +25,7 @@
 ## Random Forest
 
 - [Powerful Guide to learn Random Forest (with codes in R & Python)](http://www.analyticsvidhya.com/blog/2015/09/random-forest-algorithm-multiple-challenges/), [Tuning the parameters of your Random Forest model](https://www.codementor.io/python/tutorial/data-science-python-pandas-r-dimensionality-reduction)
+- [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
 
 ## Neural Network
 

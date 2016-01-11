@@ -72,6 +72,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [composable-go-services-using-libchan/](http://blog.codeship.com/composable-go-services-using-libchan/)
 - [go-promise](https://github.com/fanliao/go-promise) - A library implement futrue and promise
 - [libchan](https://github.com/docker/libchan) - Like Go channels over the network,
+- [go-broadcast](https://github.com/dustin/go-broadcast) - A trivial channel pubsub I use in lots of projects. http://godoc.org/github.com/dustin/go-broadcast
 
 ## Data Structure
 
@@ -102,6 +103,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [graph](https://github.com/gonum/graph) - Graph packages for the Go language
 - [golearn](https://github.com/sjwhitworth/golearn) - Machine Learning for Go
 - [gonn](https://github.com/fxsjy/gonn) -GoNN is an implementation of Neural Network in Go Language, which includes BPNN, RBF, PCN
+- [CloudForest](https://github.com/ryanbressler/CloudForest) - Ensembles of decision trees in go/golang.
 
 ## Math
 
@@ -162,6 +164,7 @@ Date
 
 ## Text
 
+- [go-humanize](https://github.com/dustin/go-humanize) - Go Humans! (formatters for units to human friendly sizes) https://godoc.org/github.com/dustin/go-humanize
 - [A modern text indexing library for go](https://github.com/blevesearch/bleve)
 - [govalidator](https://github.com/asaskevich/govalidator) - Package of string validators and sanitizers for Go lang
 - [iconv](https://github.com/qiniu/iconv) - Golang bindings to libiconv - Convert string to requested character encoding
