@@ -83,6 +83,7 @@ Extended packages
 - [ggfortify](https://github.com/sinhrks/ggfortify) - Define fortify and autoplot functions to allow ggplot2 to handle some popular R packages.  [http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/](http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/)
 - [ggrepel](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
 - [ggalt](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms and Statistical Transformations for 'ggplot2' https://cran.rstudio.com/web/packages/ggalt/ggalt.pdf
+- [ggforce](https://github.com/thomasp85/ggforce) - aime primarily at ad hoc data visualization in order to investigate the data at hand, and less at utilities for composing custom plots a la D3.js.
 
 Tutorial
 
@@ -109,6 +110,8 @@ Tutorial
 - [A gentle introduction to cluster analysis using R](https://eight2late.wordpress.com/2015/07/22/a-gentle-introduction-to-cluster-analysis-using-r/)
 
 ## File formats
+
+-  [rio](https://github.com/leeper/rio) - A Swiss-army knife for data I/O
 
 reads xlsx/xls library(xslx)
 

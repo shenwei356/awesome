@@ -112,7 +112,9 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 
 ## Statistics
 
-- [gostat](https://code.google.com/p/gostat/) - A statistics library for the go language
+- [stats](https://github.com/montanaflynn/stats) - A statistics package with common functions that are missing from the Golang standard library.
+- [stat](https://github.com/grd/stat) - https://github.com/grd/stat  t-test
+- [stat](https://github.com/gonum/stat) - Statistics package for Go
 
 ## NLP
 
