@@ -51,7 +51,7 @@
 - [ggvis](http://ggvis.rstudio.com/)- Interactive grammar of graphics for R
 - corrplot
 - ordination plots
-- [igraph](http://igraph.org/r/)
+- [igraph](http://igraph.org/r/), [**Network Analysis and Visualization with R and igraph**](http://kateto.net/networks-r-igraph)
 - Dendrogram: hclust
 - [ggord](https://github.com/fawda123/ggord) - a take on ordination plots using ggplot2
 - [gbiplot](https://github.com/vqv/ggbiplot) - A biplot based on ggplot2

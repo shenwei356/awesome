@@ -78,6 +78,7 @@
 - [yapf](https://github.com/google/yapf) - A formatter for Python files
 - [Python error check graph](http://stephenvanvreede.com/2013/12/10/2014-tech-job-market/)
 - [Python中eval带来的潜在风险](http://drops.wooyun.org/tips/7710)
+- [关于Python的面试题](https://github.com/taizilongxu/interview_python)
 
 ## Functional Programming
 
@@ -270,6 +271,10 @@ tutorials
 - [ROC Curves in Python and R](http://blog.yhathq.com/posts/roc-curves.html)
 - How to Create NBA Shot Charts in Python
 
+## Map
+
+- [folium](https://github.com/python-visualization/folium) - Python Data. Leaflet.js Maps
+
 ## GUI
 
 -  [pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Home) - a cross-platform windowing and multimedia library for Python.
@@ -418,3 +423,5 @@ update all packages:
 
 
 [My Python Environment Workflow with Conda](http://stiglerdiet.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/)
+
+[Open Sourcing a Python Project the Right Way](http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/), [中文译文](http://python.jobbole.com/84113/)
