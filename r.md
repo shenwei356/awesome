@@ -84,6 +84,8 @@ Extended packages
 - [ggrepel](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
 - [ggalt](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms and Statistical Transformations for 'ggplot2' https://cran.rstudio.com/web/packages/ggalt/ggalt.pdf
 - [ggforce](https://github.com/thomasp85/ggforce) - aime primarily at ad hoc data visualization in order to investigate the data at hand, and less at utilities for composing custom plots a la D3.js.
+- [gganimate](https://github.com/dgrtwo/gganimate) - Create easy animations with ggplot2
+
 
 Tutorial
 

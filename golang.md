@@ -96,7 +96,9 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [compress](https://github.com/klauspost/compress) - Optimized compression packages
 
 
+## File format
 
+- [xlsx](https://github.com/tealeg/xlsx) - Google Go (golang) library for reading and writing XLSX files.
 
 ## Algorithm
 
@@ -145,6 +147,7 @@ Date
 ## CLI
 
 - **[cobra](https://github.com/spf13/cobra)** - A Commander for modern Go CLI interactions
+- [writ](https://github.com/bobziuchkovski/writ) - A flexible command and option parser for Go
 - [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go
 - [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go
 - **[color](https://github.com/fatih/color)** - Color package for Go (golang) [http://godoc.org/github.com/fatih/color](http://godoc.org/github.com/fatih/color) . It has support for Windows too
@@ -235,6 +238,10 @@ rich data structure
 ## Image
 
 - [gift](https://github.com/disintegration/gift) - Go Image Filtering Toolkit
+
+## 3D
+
+-  [ln](https://github.com/fogleman/ln) - 3D line art engine.
 
 
 ## HPC

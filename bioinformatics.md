@@ -63,6 +63,7 @@
 - [golang] [biogo/hts](https://github.com/biogo/hts)
 - [bamtools](https://github.com/pezmaster31/bamtools) - C++ API & command-line toolkit for working with BAM data
 - [samblaster](https://github.com/GregoryFaust/samblaster) -  a tool to mark duplicates and extract discordant and split reads from sam files.
+- [python] [pysamstats](https://github.com/alimanfoo/pysamstats) - A fast Python and command-line utility for extracting simple statistics against genome positions based on sequence alignments from a SAM or BAM file.
 - [python] [pysam](ps://github.com/pysam-developers/pysam) - a python module for reading and manipulating Samfiles. It's a lightweight wrapper of the samtools C-API. Pysam also includes an interface for tabix. Another sam parser: [simplesam](https://github.com/mdshw5/simplesam)
 - [grabix](https://github.com/arq5x/grabix) - a wee tool for random access into BGZF files
 - [golang]  [bix](https://github.com/brentp/bix) - tabix file access with golang using biogo machinery
@@ -83,6 +84,8 @@
 
 - [golang] [irelate](https://github.com/brentp/irelate) - Streaming relation (overlap, distance, KNN) of (any number of) sorted genomic interval sets. #golang
 - [golang] [vcfgo](https://github.com/brentp/vcfgo) - a golang library to read, write and manipulate files in the variant call format.
+- [vcflib](https://github.com/vcflib/vcflib) - a simple C++ library for parsing and manipulating VCF files, + many command-line utilities 
+
 
 ## Others formats
 
@@ -141,16 +144,22 @@
 - [Jellyfish](https://github.com/gmarcais/Jellyfish)
 
 
-#### Phylogenetic tree
+## Phylogenetic tree
 
 - [R] [ggtree](http://www.bioconductor.org/packages/3.1/bioc/vignettes/ggtree/inst/doc/ggtree.html) - a phylogenetic tree viewer for different types of tree annotations
 - [python] [ETE tools](http://etetoolkit.org/)
 - [evolview](http://evolgenius.info/evolview/)
 
+## NCBI Taxonomy
+
+- [NCBI_taxonomy_tree](https://github.com/frallain/NCBI_taxonomy_tree) - NCBI taxonomy tree in-memory mapping
+- [taxiphy](https://github.com/bendmorris/taxiphy) - Common repository for scripts to generate trees from taxonomies. Currently includes ITIS, NCBI, and GBIF.
+
 ## Assembly
 
 - [Bandage](https://github.com/rrwick/Bandage) - a Bioinformatics Application for Navigating De novo Assembly Graphs Easily
 - [nucleotid.es](http://nucleotid.es) - an assembler catalogue
+
 
 ## Alignment
 

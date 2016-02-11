@@ -425,3 +425,5 @@ update all packages:
 [My Python Environment Workflow with Conda](http://stiglerdiet.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/)
 
 [Open Sourcing a Python Project the Right Way](http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/), [中文译文](http://python.jobbole.com/84113/)
+
+[fake-factory](https://pypi.python.org/pypi/fake-factory/) - Faker is a Python package that generates fake data for you.
