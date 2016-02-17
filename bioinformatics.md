@@ -80,8 +80,6 @@
 - [bedtools2](https://github.com/arq5x/bedtools2) - A powerful toolset for genome arithmetic.
 - [python] [gffutils](https://github.com/daler/gffutils) - GFF and GTF file manipulation and interconversion
 - [python] [pybedtools](https://github.com/daler/pybedtools) - Python wrapper for Aaron Quinlan's BEDTools
-
-
 - [golang] [irelate](https://github.com/brentp/irelate) - Streaming relation (overlap, distance, KNN) of (any number of) sorted genomic interval sets. #golang
 - [golang] [vcfgo](https://github.com/brentp/vcfgo) - a golang library to read, write and manipulate files in the variant call format.
 - [vcflib](https://github.com/vcflib/vcflib) - a simple C++ library for parsing and manipulating VCF files, + many command-line utilities 

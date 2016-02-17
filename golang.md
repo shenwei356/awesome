@@ -73,6 +73,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [go-promise](https://github.com/fanliao/go-promise) - A library implement futrue and promise
 - [libchan](https://github.com/docker/libchan) - Like Go channels over the network,
 - [go-broadcast](https://github.com/dustin/go-broadcast) - A trivial channel pubsub I use in lots of projects. http://godoc.org/github.com/dustin/go-broadcast
+- [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang
 
 ## Data Structure
 
@@ -85,7 +86,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters
 - [bitset](https://github.com/willf/bitset) - Go package implementing bitsets
 - **[BoomFilters](://github.com/tylertreat/BoomFilters)** - Probabilistic data structures for processing continuous, unbounded streams. This includes Stable Bloom Filters, Scalable Bloom Filters, Counting Bloom Filters, Inverse Bloom Filters, Cuckoo Filters, several variants of traditional Bloom filters, HyperLogLog, Count-Min Sketch, and MinHash
-- [goraph](https://github.com/gyuho/goraph)
+- [goraph](https://github.com/gyuho/goraph) - Package goraph implements graph, tree data structures and algorithms.
 - [go-radix](https://github.com/armon/go-radix) - Golang implementation of Radix trees, [go-immutable-radix](https://github.com/hashicorp/go-immutable-radix)
 
 ## IO
@@ -94,6 +95,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [readahead](https://github.com/klauspost/readahead) - Asynchronous read-ahead for Go readers
 - [pgzip](https://github.com/klauspost/pgzip) - Go parallel gzip (de)compression
 - [compress](https://github.com/klauspost/compress) - Optimized compression packages
+- [breader](https://github.com/shenwei356/breader) - breader (Buffered File Reader), asynchronous parsing and pre-processing while reading file. Safe cancellation is also supported.
 
 
 ## File format
@@ -159,6 +161,7 @@ Date
 - [pb](https://github.com/cheggaaa/pb) - Console progress bar for Golang
 - [viper](https://github.com/spf13/viper) -Go configuration with fangs
 - [goconfig](https://github.com/Unknwon/goconfig) - goconfig is a easy-use comments-support configuration file(.ini) parser for the Go Programming Language
+- [go-homedir](https://github.com/mitchellh/go-homedir) - Go library for detecting and expanding the user's home directory without cgo.
 
 ## JSON
 
@@ -197,6 +200,7 @@ Date
 - [postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email. http://zachlatta.com/postman
 - [gomail](https://github.com/go-gomail/gomail) - The best way to send emails in Go.
 - [go-i18n](https://github.com/nicksnyder/go-i18n) - Translate your Go program into multiple languages with templates and CLDR plural support.
+- [gorequest](https://github.com/parnurzeal/gorequest) - GoRequest -- Simplified HTTP client ( inspired by nodejs SuperAgent ) http://parnurzeal.github.io/gorequest/
 
 ## DB
 
@@ -205,6 +209,11 @@ KV
 - [goleveldb](https://github.com/syndtr/goleveldb) - LevelDB key/value database in Go.
 - [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
 - [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery
+
+In-memory
+
+- [go-memdb](https://github.com/hashicorp/go-memdb) - Golang in-memory database built on immutable radix trees
+- [yakdb](https://github.com/needcaffeine/yakdb) - yakdb (yet another key-value database) is a highly-performant in-memory key-value store written in Go. http://vicvijayakumar.com/yakdb-a-nosql-database-in-go.html
 
 doc
 
@@ -264,3 +273,7 @@ rich data structure
 [Go projects index](https://code.google.com/p/go-wiki/wiki/Projects)
 
 See more on [awesome-go](https://github.com/avelino/awesome-go), [golang opensource projects](http://www.open-open.com/lib/view/open1396063913278.html#Command-line_Option_Parsers)
+
+## misc
+
+- [range over interface{} which stores a slice](https://stackoverflow.com/questions/14025833/range-over-interface-which-stores-a-slice/14026030#14026030)

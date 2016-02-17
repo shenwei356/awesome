@@ -101,6 +101,7 @@ Tutorial
 - [ggplot2 - Easy way to mix multiple graphs on the same page](http://www.sthda.com/english/wiki/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page-r-software-and-data-visualization)
 - [2D plot with histograms for each dimension](http://blog.mckuhn.de/2013/04/2d-plot-with-histograms-for-each.html)
 - [R Recipe: Aligning Axes in ggplot2]( http://www.exegetic.biz/blog/2015/05/r-recipe-aligning-axes-in-ggplot2/)
+- [making-faceted-heatmaps-with-ggplot2/](http://rud.is/b/2016/02/14/making-faceted-heatmaps-with-ggplot2/)
 
 ## Statistics
 
