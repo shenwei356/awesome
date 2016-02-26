@@ -88,6 +88,8 @@
 ## Others formats
 
 - [blast_table2xml](https://github.com/jameslz/blast_table2xml) - Convert blast m6 format to xml for blast2go
+- [*seqmagick*](http://seqmagick.readthedocs.org/en/latest/) - file format conversion in Biopython in a convenient way
+
 
 ## data structure
 
@@ -152,6 +154,7 @@
 
 - [NCBI_taxonomy_tree](https://github.com/frallain/NCBI_taxonomy_tree) - NCBI taxonomy tree in-memory mapping
 - [taxiphy](https://github.com/bendmorris/taxiphy) - Common repository for scripts to generate trees from taxonomies. Currently includes ITIS, NCBI, and GBIF.
+- [gtaxon](https://github.com/shenwei356/gtaxon) - A fast cross-platform NCBI taxonomy data querying (gi2taxid, taxid2taxon, name2taxid, LCA) tool, with cmd client and REST API server for both local and remote server. 
 
 ## Assembly
 

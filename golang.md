@@ -74,12 +74,15 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [libchan](https://github.com/docker/libchan) - Like Go channels over the network,
 - [go-broadcast](https://github.com/dustin/go-broadcast) - A trivial channel pubsub I use in lots of projects. http://godoc.org/github.com/dustin/go-broadcast
 - [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang
+- [Mastering concurrency in Go](https://www.outlearn.com/learn/matryer/mastering-concurrency-in-go)
+- [**So You Wanna Go Fast?**](http://bravenewgeek.com/so-you-wanna-go-fast/)
 
 ## Data Structure
 
 - **[go-datastructures](https://github.com/Workiva/go-datastructures)** - Go-datastructures is a collection of useful, performant, and threadsafe Go datastructures.
 - [golang-set](https://github.com/deckarep/golang-set) - A simple set type for the Go language.
 - [set](https://github.com/fatih/set) - Set is a basic and simple, hash-based, Set data structure implementation in Go (Golang)
+- [set](https://github.com/xtgo/set) - General, type-safe, non-allocating set-operations for any sort.Interface
 - [pmap (ParallelMap)](https://github.com/shenwei356/pmap) - A lock-free parallel map in go
 - [lane](https://github.com/oleiade/lane) - A golang queues, stacks and deques implementation library
 - [btree](https://github.com/google/btree) - by google
