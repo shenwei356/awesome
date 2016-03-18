@@ -2,7 +2,8 @@
 
 ## data
 
--  [gut-sync](https://github.com/tillberg/gut) - Realtime bidirectional folder synchronization
+- [gut-sync](https://github.com/tillberg/gut) - Realtime bidirectional folder synchronization
+- [magic-wormhole](https://github.com/warner/magic-wormhole) - get things from one computer to another, safely
 
 
 ## MISC

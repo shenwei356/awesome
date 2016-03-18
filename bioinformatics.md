@@ -187,6 +187,18 @@
 - [PhyloSift](https://github.com/gjospin/PhyloSift) - Phylogenetic and taxonomic analysis for genomes and metagenomes
 - [MetaQuery: Annotation and quantitative analysis of genes in the human gut microbiome](http://metaquery.docpollard.org/)
 
+
+### Classifier | removing human reads
+
+- [taxonomer.iobio](http://taxonomer.iobio.io/info.html) - Taxonomer is a kmer-based ultrafast metagenomics tool for assigning taxonomy to sequencing reads from both clinical and environmental samples.
+- [BMTagger](ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/) - Best Match Tagger for removing human reads from metagenomics datasets [paper](https://www.researchgate.net/publication/267988741_BMTagger_Best_Match_Tagger_for_removing_human_reads_from_metagenomics_datasets),[sop](http://hmpdacc.org/doc/HumanSequenceRemoval_SOP.pdf)
+- [Centrifuge](http://ccb.jhu.edu/software/centrifuge) - Classifier for metagenomic sequences
+
+
+## Virome
+
+- [viral-ngs](https://github.com/broadinstitute/viral-ngs) - Viral genomics analysis pipelines
+
 ## Chip-seq
 
 - [ChIP-seq-analysis](https://github.com/crazyhottommy/ChIP-seq-analysis)

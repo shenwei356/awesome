@@ -75,7 +75,16 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [go-broadcast](https://github.com/dustin/go-broadcast) - A trivial channel pubsub I use in lots of projects. http://godoc.org/github.com/dustin/go-broadcast
 - [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang
 - [Mastering concurrency in Go](https://www.outlearn.com/learn/matryer/mastering-concurrency-in-go)
+- [bufferManager.go](https://github.com/songgao/bufferManager.go) - bufferManager demonstrates a technique to decrease pressure on GC in Go.
+
+## Performance
+
+- [Go Performance Tales](http://jmoiron.net/blog/go-performance-tales/)
 - [**So You Wanna Go Fast?**](http://bravenewgeek.com/so-you-wanna-go-fast/)
+
+## Test
+
+- [gotests](https://github.com/cweill/gotests) - Generate better Go tests from your source code.
 
 ## Data Structure
 
@@ -91,6 +100,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - **[BoomFilters](://github.com/tylertreat/BoomFilters)** - Probabilistic data structures for processing continuous, unbounded streams. This includes Stable Bloom Filters, Scalable Bloom Filters, Counting Bloom Filters, Inverse Bloom Filters, Cuckoo Filters, several variants of traditional Bloom filters, HyperLogLog, Count-Min Sketch, and MinHash
 - [goraph](https://github.com/gyuho/goraph) - Package goraph implements graph, tree data structures and algorithms.
 - [go-radix](https://github.com/armon/go-radix) - Golang implementation of Radix trees, [go-immutable-radix](https://github.com/hashicorp/go-immutable-radix)
+- [sortutil](https://github.com/cznic/sortutil) - Utilities supplemental to the Go standard "sort" package
 
 ## IO
 
@@ -142,6 +152,7 @@ Others
 - [shutdown](https://github.com/klauspost/shutdown) - Shutdown management library for Go
 - [Gox](https://github.com/mitchellh/gox) - Simple Go Cross Compilation。更新go版本后，记得gox -build-toolchain
 - [clipboard](https://github.com/atotto/clipboard) - clipboard for golang
+- [go.pipeline](https://github.com/songgao/go.pipeline) - go.pipeline is a utility library that imitates unix pipeline. It simplifies chaining unix commands (and other stuff) in Go.
 
 Date
 
@@ -191,11 +202,11 @@ Date
 - [beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language. [http://beego.me](http://beego.me/)
 - [echo](https://github.com/labstack/echo) - Echo is a fast :rocket: and unfancy micro web framework for Golang. http://echo.labstack.com
 - [ace](https://github.com/yosssi/ace) - HTML template engine for Go [http://ace.yoss.si/](http://ace.yoss.si/)
-- [osin]https://github.com/RangelReale/osin - Golang OAuth2 server library
+- [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library
 - [go-oauth](https://github.com/garyburd/go-oauth) - OAuth 1.0 client package for Go
 - [go-http-auth](https://github.com/abbot/go-http-auth) - Basic and Digest HTTP Authentication for golang http
 - [gomniauth](https://github.com/stretchr/gomniauth) - Authentication framework for Go applications.
-- [hawk](https://github.com/hueniverse/hawk))  - HTTP Holk Authentication Schemz
+- [hawk](https://github.com/hueniverse/hawk)  - HTTP Holk Authentication Schemz
 - [gopencils](https://github.com/bndr/gopencils) - Easily consume REST APIs with Go (golang)
 - [code.google.com/p/go.crypto/ssh](https://godoc.org/code.google.com/p/go.crypto/ssh) - Package ssh implements an SSH client and server. [example](http://kukuruku.co/hub/golang/ssh-commands-execution-on-hundreds-of-servers-via-go)
 - [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
