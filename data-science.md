@@ -24,6 +24,9 @@
 -  [skizze](https://github.com/seiflotfy/skizze) - A probabilistic data structure service and storage
 -  [dablooms](https://github.com/bitly/dablooms) - A Scalable, Counting, Bloom Filter. Java, Python, Go edition.
 -  [inbloom](https://github.com/EverythingMe/inbloom) - Cross language bloom filter implementation
+-  HyperLogLog & HyperLogLog++, 
+   [大数据计算：如何仅用1.5KB内存为十亿对象计数 - Hyper LogLog 算法](http://blog.csdn.net/heiyeshuwu/article/details/41248379),
+   [如何快速估计巨大 dataset 中unique 元素的数目](http://baozitraining.org/blog/how-to-quickly-count-unique-items-in-large-dataset/)
 
 ## Statistics
 

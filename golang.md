@@ -76,7 +76,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang
 - [Mastering concurrency in Go](https://www.outlearn.com/learn/matryer/mastering-concurrency-in-go)
 - [bufferManager.go](https://github.com/songgao/bufferManager.go) - bufferManager demonstrates a technique to decrease pressure on GC in Go.
-
+- [Interfaces in Go Object Oriented Go](https://medium.com/@gianbiondi/interfaces-in-go-59c3dc9c2d98#.8sk9pzn9g)
 ## Performance
 
 - [Go Performance Tales](http://jmoiron.net/blog/go-performance-tales/)
@@ -101,6 +101,9 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [goraph](https://github.com/gyuho/goraph) - Package goraph implements graph, tree data structures and algorithms.
 - [go-radix](https://github.com/armon/go-radix) - Golang implementation of Radix trees, [go-immutable-radix](https://github.com/hashicorp/go-immutable-radix)
 - [sortutil](https://github.com/cznic/sortutil) - Utilities supplemental to the Go standard "sort" package
+- [go-minhash](https://github.com/dgryski/go-minhash) - BottomK minwise hashing for streaming set similarity
+- [hyperloglog](https://github.com/clarkduvall/hyperloglog) - HyperLogLog and HyperLogLog++ implementation in Go/Golang. http://godoc.org/github.com/clarkduvall/hyperloglog
+
 
 ## IO
 

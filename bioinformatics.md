@@ -78,6 +78,7 @@
 ## GFF/BED/VCF
 
 - [bedtools2](https://github.com/arq5x/bedtools2) - A powerful toolset for genome arithmetic.
+- [BEDOPS](https://bedops.readthedocs.org/en/latest/index.html) - the fast, highly scalable and easily-parallelizable genome analysis toolkit
 - [python] [gffutils](https://github.com/daler/gffutils) - GFF and GTF file manipulation and interconversion
 - [python] [pybedtools](https://github.com/daler/pybedtools) - Python wrapper for Aaron Quinlan's BEDTools
 - [golang] [irelate](https://github.com/brentp/irelate) - Streaming relation (overlap, distance, KNN) of (any number of) sorted genomic interval sets. #golang

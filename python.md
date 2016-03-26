@@ -283,6 +283,7 @@ tutorials
 
 - [dablooms](https://github.com/bitly/dablooms) - A Scalable, Counting, Bloom Filter. Java, Python, Go edition.
 - [inbloom](https://github.com/EverythingMe/inbloom) - Cross language bloom filter implementation
+- [datasketch](https://github.com/ekzhu/datasketch) - MinHash, LSH, Weighted MinHash, b-bit MinHash, HyperLogLog, HyperLogLog++
 - [addit](https://github.com/mewwts/addict) - The Python Dict that's better than heroin.
 - [python-bloomfilter](https://github.com/jaybaird/python-bloomfilter) - Scalable Bloom Filter implemented in Python
 - [python-Levenshtein](https://github.com/ztane/python-Levenshtein/) -The Levenshtein Python C extension module contains functions for fast computation of Levenshtein distance and string similarity | similar package: [editdistance](https://github.com/aflc/editdistance)
@@ -295,7 +296,7 @@ tutorials
 - [graph-tool](http://graph-tool.skewed.de/)- Efficient network analysis
 - [NetworkX](https://networkx.github.io/) - High-productivity software for complex networks
 - [bidict](https://github.com/jab/bidict) - Efficient, Pythonic bidirectional map implementation and related functionality. https://bidict.readthedocs.org/
-
+- [nlib](https://github.com/mdipierro/nlib) - Python Library of Numerical Algorithms
 
 ## Machine Learning
 
