@@ -297,6 +297,8 @@ tutorials
 - [NetworkX](https://networkx.github.io/) - High-productivity software for complex networks
 - [bidict](https://github.com/jab/bidict) - Efficient, Pythonic bidirectional map implementation and related functionality. https://bidict.readthedocs.org/
 - [nlib](https://github.com/mdipierro/nlib) - Python Library of Numerical Algorithms
+- [pomegranate](https://github.com/jmschrei/pomegranate) - Fast, flexible and easy to use probabilistic modelling in Python. http://pomegranate.readthedocs.org/en/latest/
+
 
 ## Machine Learning
 

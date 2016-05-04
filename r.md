@@ -1,5 +1,13 @@
 # R
 
+## base
+
+update all R packages
+
+    path <- "/home/shenwei/R/x86_64-redhat-linux-gnu-library/3.2"
+    package_df <- as.data.frame(installed.packages(path))
+    package_list <- as.character(package_df$Package) 
+    install.packages(package_list)
 
 ## Tutorial 
 
@@ -47,16 +55,15 @@
 - Large number of images: [http://rgm3.lab.nig.ac.jp/RGM/R_image_list](http://rgm3.lab.nig.ac.jp/RGM/R_image_list)
 - [Static and dynamic network visualization with R](http://kateto.net/network-visualization)
 - [http://rcharts.io/gallery/](http://rcharts.io/gallery/)
-- [ggnet](https://github.com/briatte/ggnet) - Simple network plots with ggplot2 in R.
-- [ggvis](http://ggvis.rstudio.com/)- Interactive grammar of graphics for R
 - corrplot
 - ordination plots
 - [igraph](http://igraph.org/r/), [**Network Analysis and Visualization with R and igraph**](http://kateto.net/networks-r-igraph)
 - Dendrogram: hclust
-- [ggord](https://github.com/fawda123/ggord) - a take on ordination plots using ggplot2
-- [gbiplot](https://github.com/vqv/ggbiplot) - A biplot based on ggplot2
 - [factoextra](https://github.com/kassambara/factoextra) -  Visualization of the outputs of a multivariate analysis [http://www.sthda.com](http://www.sthda.com/)
 - Sankey from Scratch using rCharts, d3.js, and igraph
+- [rCircos](https://cran.r-project.org/web/packages/RCircos/index.html): R package for circular plots. [last update: 2013]
+- [**OmicCircos**](http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.html): R package for circular plots for omics data.[last update: 2015-04]
+
 
 Shiny
 
@@ -76,15 +83,25 @@ Shiny
 ## ggplot2
 
 
-Extended packages
+Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visualize), 
+[ggally](https://github.com/ggobi/ggally)
 
-- [ggthemes](https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html) - Some extra themes, geoms, and scales for  ggplot2.
-- [cowplot](https://github.com/wilkelab/cowplot)  - provide a publication-ready theme for ggplot2
+- [***ggthemes***](https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html) - Some extra themes, geoms, and scales for  ggplot2.
+- [***cowplot***](https://github.com/wilkelab/cowplot)  - provide a publication-ready theme for ggplot2. similar package: [ggmatrix](https://ggobi.github.io/ggally/gh-pages/ggmatrix.html), [ggpairs](https://ggobi.github.io/ggally/gh-pages/ggpairs.html), [ggscatmat](https://ggobi.github.io/ggally/gh-pages/ggscatmat.html)
+
 - [ggfortify](https://github.com/sinhrks/ggfortify) - Define fortify and autoplot functions to allow ggplot2 to handle some popular R packages.  [http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/](http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/)
-- [ggrepel](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
+- [***ggrepel**](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
 - [ggalt](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms and Statistical Transformations for 'ggplot2' https://cran.rstudio.com/web/packages/ggalt/ggalt.pdf
 - [ggforce](https://github.com/thomasp85/ggforce) - aime primarily at ad hoc data visualization in order to investigate the data at hand, and less at utilities for composing custom plots a la D3.js.
-- [gganimate](https://github.com/dgrtwo/gganimate) - Create easy animations with ggplot2
+- [***gganimate***](https://github.com/dgrtwo/gganimate) - Create easy animations with ggplot2
+- [ggord](https://github.com/fawda123/ggord) - a take on ordination plots using ggplot2
+- [gbiplot](https://github.com/vqv/ggbiplot) - A biplot based on ggplot2
+- [***ggnet***](https://github.com/briatte/ggnet) - Simple network plots with ggplot2 in R. Similar packages: [ggnetworkmap](https://ggobi.github.io/ggally/gh-pages/ggnetworkmap.html), [ggraph](https://github.com/thomasp85/ggraph) - Grammar of Graph Graphics
+- [ggvis](http://ggvis.rstudio.com/)- Interactive grammar of graphics for R
+- [***ggcorr***](https://briatte.github.io/ggcorr/): correlation matrixes with ggplot2
+- [***ggsurv***](https://ggobi.github.io/ggally/gh-pages/ggsurv.html) - survival curves with ggplot2
+- [ggExtra](https://github.com/daattali/ggExtra) Add marginal histograms to ggplot2, and more ggplot2 enhancements http://daattali.com/shiny/ggExtra-ggMarginal-demo/
+- [ggradar](https://github.com/ricardo-bion/ggradar) - radar charts with ggplot2
 
 
 Tutorial

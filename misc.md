@@ -140,6 +140,7 @@
 -  [A Soft Murmur](http://asoftmurmur.com/)
 -  [https://www.planet.com](https://www.planet.com)
 -  [What if we had a planet instead of a Moon?](http://io9.com/5929076/what-if-we-had-a-planet-instead-of-a-moon)
+-  [meme](https://github.com/leeper/meme) - Meme Generation in R
 
 
 ## Internet

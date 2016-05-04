@@ -77,6 +77,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [Mastering concurrency in Go](https://www.outlearn.com/learn/matryer/mastering-concurrency-in-go)
 - [bufferManager.go](https://github.com/songgao/bufferManager.go) - bufferManager demonstrates a technique to decrease pressure on GC in Go.
 - [Interfaces in Go Object Oriented Go](https://medium.com/@gianbiondi/interfaces-in-go-59c3dc9c2d98#.8sk9pzn9g)
+
 ## Performance
 
 - [Go Performance Tales](http://jmoiron.net/blog/go-performance-tales/)
@@ -117,6 +118,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 ## File format
 
 - [xlsx](https://github.com/tealeg/xlsx) - Google Go (golang) library for reading and writing XLSX files.
+- [multicorecsv](https://github.com/mzimmerman/multicorecsv) - A multicore csv reader library in Go. 3X
 
 ## Algorithm
 
@@ -179,6 +181,7 @@ Date
 - [viper](https://github.com/spf13/viper) -Go configuration with fangs
 - [goconfig](https://github.com/Unknwon/goconfig) - goconfig is a easy-use comments-support configuration file(.ini) parser for the Go Programming Language
 - [go-homedir](https://github.com/mitchellh/go-homedir) - Go library for detecting and expanding the user's home directory without cgo.
+- [go-prettytable](https://github.com/tatsushid/go-prettytable) - A library for Golang to build a simple text table with a multibyte, doublewidth character support
 
 ## JSON
 

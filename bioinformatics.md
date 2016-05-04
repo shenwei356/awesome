@@ -151,11 +151,12 @@
 - [python] [ETE tools](http://etetoolkit.org/)
 - [evolview](http://evolgenius.info/evolview/)
 
-## NCBI Taxonomy
+## Taxonomy
 
 - [NCBI_taxonomy_tree](https://github.com/frallain/NCBI_taxonomy_tree) - NCBI taxonomy tree in-memory mapping
 - [taxiphy](https://github.com/bendmorris/taxiphy) - Common repository for scripts to generate trees from taxonomies. Currently includes ITIS, NCBI, and GBIF.
 - [gtaxon](https://github.com/shenwei356/gtaxon) - A fast cross-platform NCBI taxonomy data querying (gi2taxid, taxid2taxon, name2taxid, LCA) tool, with cmd client and REST API server for both local and remote server. 
+- [R] [taxize](https://github.com/ropensci/taxize) - A taxonomic toolbelt for R http://ropensci.org/tutorials/taxize.html
 
 ## Assembly
 
@@ -189,6 +190,11 @@
 - [MetaQuery: Annotation and quantitative analysis of genes in the human gut microbiome](http://metaquery.docpollard.org/)
 
 
+## 16S
+
+-  [高通量数据处理的一些经验和建议](http://blog.sciencenet.cn/blog-871198-677805.html)
+-  [How to choose ordination method, such as PCA, CA, PCoA, and NMDS?](https://www.researchgate.net/post/How_to_choose_ordination_method_such_as_PCA_CA_PCoA_and_NMDS)
+
 ### Classifier | removing human reads
 
 - [taxonomer.iobio](http://taxonomer.iobio.io/info.html) - Taxonomer is a kmer-based ultrafast metagenomics tool for assigning taxonomy to sequencing reads from both clinical and environmental samples.
@@ -213,6 +219,7 @@
 ## PCR
 
 - [find_differential_primers](https://github.com/widdowquinn/find_differential_primers) - Scripts to aid the design of differential primers for diagnostic PCR.
+- [Primer3-py](http://libnano.github.io/primer3-py/) - Primer3-py is a Python-abstracted API for the popular Primer3 library. The intention is to provide a simple and reliable interface for automated oligo analysis and design.
 
 ## HPC
 
