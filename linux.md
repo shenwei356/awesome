@@ -14,6 +14,7 @@
 -  [Linux 性能监测](http://linux.cn/topic-linux-system-performance-monitoring.html)
 -  [Advanced Scripting Using PBS Environment Variables](https://wiki.hpcc.msu.edu/display/hpccdocs/Advanced+Scripting+Using+PBS+Environment+Variables)
 -  [make和makefile，多文件项目管理](http://segmentfault.com/a/1190000003756084?utm_source=Weibo&utm_medium=shareLink&utm_campaign=socialShare)
+-  [关于CPU Cache -- 程序猿需要知道的那些事](https://cenalulu.github.io/linux/all-about-cpu-cache/)
 
 ## tools
 

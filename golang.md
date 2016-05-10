@@ -7,6 +7,7 @@
 -  [(Draft) Traps, Gotchas, and Common Mistakes in Go (golang)](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
 -  Rob Pike的Go语言PPT教程翻译[1](http://tonybai.com/2012/08/23/the-go-programming-language-tutorial-part1/),[2](http://tonybai.com/2012/08/27/the-go-programming-language-tutorial-part2/),[3](http://tonybai.com/2012/08/28/the-go-programming-language-tutorial-part3/)
 -  [Translating Effective Python into Go: Know When to Use Channels for Generator-Like Functions](http://www.informit.com/articles/article.aspx?p=2359758)
+- [go-best-practices-2016](https://peter.bourgon.org/go-best-practices-2016/?utm_source=golangweekly&utm_medium=email)
 
 ## Install packages
 
@@ -82,6 +83,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 
 - [Go Performance Tales](http://jmoiron.net/blog/go-performance-tales/)
 - [**So You Wanna Go Fast?**](http://bravenewgeek.com/so-you-wanna-go-fast/)
+- [gcvis](https://github.com/davecheney/gcvis) - Visualise Go program GC trace data in real time http://dave.cheney.net/2014/07/11/visualising-the-go-garbage-collector
 
 ## Test
 
@@ -90,7 +92,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 ## Data Structure
 
 - **[go-datastructures](https://github.com/Workiva/go-datastructures)** - Go-datastructures is a collection of useful, performant, and threadsafe Go datastructures.
-- [golang-set](https://github.com/deckarep/golang-set) - A simple set type for the Go language.
+- [**golang-set**](https://github.com/deckarep/golang-set) - A simple set type for the Go language.
 - [set](https://github.com/fatih/set) - Set is a basic and simple, hash-based, Set data structure implementation in Go (Golang)
 - [set](https://github.com/xtgo/set) - General, type-safe, non-allocating set-operations for any sort.Interface
 - [pmap (ParallelMap)](https://github.com/shenwei356/pmap) - A lock-free parallel map in go
@@ -99,11 +101,13 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters
 - [bitset](https://github.com/willf/bitset) - Go package implementing bitsets
 - **[BoomFilters](://github.com/tylertreat/BoomFilters)** - Probabilistic data structures for processing continuous, unbounded streams. This includes Stable Bloom Filters, Scalable Bloom Filters, Counting Bloom Filters, Inverse Bloom Filters, Cuckoo Filters, several variants of traditional Bloom filters, HyperLogLog, Count-Min Sketch, and MinHash
+- [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo Filter: Practically Better Than Bloom
 - [goraph](https://github.com/gyuho/goraph) - Package goraph implements graph, tree data structures and algorithms.
 - [go-radix](https://github.com/armon/go-radix) - Golang implementation of Radix trees, [go-immutable-radix](https://github.com/hashicorp/go-immutable-radix)
 - [sortutil](https://github.com/cznic/sortutil) - Utilities supplemental to the Go standard "sort" package
 - [go-minhash](https://github.com/dgryski/go-minhash) - BottomK minwise hashing for streaming set similarity
 - [hyperloglog](https://github.com/clarkduvall/hyperloglog) - HyperLogLog and HyperLogLog++ implementation in Go/Golang. http://godoc.org/github.com/clarkduvall/hyperloglog
+- [mafsa](https://github.com/smartystreets/mafsa) - Package mafsa implements Minimal Acyclic Finite State Automata in Go, essentially a high-speed, memory-efficient, Unicode-friendly set of strings. https://godoc.org/github.com/smartystreets/mafsa
 
 
 ## IO
@@ -126,6 +130,8 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [golearn](https://github.com/sjwhitworth/golearn) - Machine Learning for Go
 - [gonn](https://github.com/fxsjy/gonn) -GoNN is an implementation of Neural Network in Go Language, which includes BPNN, RBF, PCN
 - [CloudForest](https://github.com/ryanbressler/CloudForest) - Ensembles of decision trees in go/golang.
+- [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
+
 
 ## Math
 
@@ -156,6 +162,7 @@ Others
 - [daemon](https://github.com/takama/daemon) - A daemon package for use with Go (golang) services with no dependencies
 - [shutdown](https://github.com/klauspost/shutdown) - Shutdown management library for Go
 - [Gox](https://github.com/mitchellh/gox) - Simple Go Cross Compilation。更新go版本后，记得gox -build-toolchain
+- [goxc](https://github.com/laher/goxc) - a build tool for Go, with a focus on cross-compiling, packaging and deployment
 - [clipboard](https://github.com/atotto/clipboard) - clipboard for golang
 - [go.pipeline](https://github.com/songgao/go.pipeline) - go.pipeline is a utility library that imitates unix pipeline. It simplifies chaining unix commands (and other stuff) in Go.
 
@@ -280,6 +287,11 @@ rich data structure
 - [circuit](https://github.com/gocircuit/circuit)
 - [go-workers](https://github.com/jrallison/go-workers) - Sidekiq compatible background workers in golang
 - [glow](https://github.com/chrislusf/glow) - Glow is an easy-to-use distributed computation system written in Go, similar to Hadoop Map Reduce, Spark, Flink, Samza, etc. Currently just started and not feature rich yet, but should be reliable to run most common cases.
+
+### distributed systems
+
+- [Go kit](https://github.com/go-kit/kit) is a distributed programming toolkit for building microservices in large organizations.
+- [gam](https://github.com/rogeralsing/gam) - Go Actor Model framework - Ultra fast distributed actors for Golang
 
 ## Flow / piple
 
