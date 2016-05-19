@@ -100,7 +100,8 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [btree](https://github.com/google/btree) - by google
 - [bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters
 - [bitset](https://github.com/willf/bitset) - Go package implementing bitsets
-- **[BoomFilters](://github.com/tylertreat/BoomFilters)** - Probabilistic data structures for processing continuous, unbounded streams. This includes Stable Bloom Filters, Scalable Bloom Filters, Counting Bloom Filters, Inverse Bloom Filters, Cuckoo Filters, several variants of traditional Bloom filters, HyperLogLog, Count-Min Sketch, and MinHash
+- [countminsketch](https://github.com/shenwei356/countminsketch) - An implementation of Count-Min Sketch in Golang
+- **[BoomFilters](https://github.com/tylertreat/BoomFilters)** - Probabilistic data structures for processing continuous, unbounded streams. This includes Stable Bloom Filters, Scalable Bloom Filters, Counting Bloom Filters, Inverse Bloom Filters, Cuckoo Filters, several variants of traditional Bloom filters, HyperLogLog, Count-Min Sketch, and MinHash
 - [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo Filter: Practically Better Than Bloom
 - [goraph](https://github.com/gyuho/goraph) - Package goraph implements graph, tree data structures and algorithms.
 - [go-radix](https://github.com/armon/go-radix) - Golang implementation of Radix trees, [go-immutable-radix](https://github.com/hashicorp/go-immutable-radix)
@@ -131,6 +132,8 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [gonn](https://github.com/fxsjy/gonn) -GoNN is an implementation of Neural Network in Go Language, which includes BPNN, RBF, PCN
 - [CloudForest](https://github.com/ryanbressler/CloudForest) - Ensembles of decision trees in go/golang.
 - [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
+- [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
+
 
 
 ## Math

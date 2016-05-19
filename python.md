@@ -167,6 +167,8 @@ tutorials
 - [zerodb](https://github.com/zero-db/zerodb) - ZeroDB is an end-to-end encrypted database. Data can be stored on untrusted database servers without ever exposing the encryption key. Clients can execute remote queries against the encrypted data without downloading all of it or suffering an excessive performance hit.
 - [mongo数据库基本操作-python篇](http://www.cnblogs.com/qwj-sysu/p/4428434.html)
 - [ZODB4](http://www.zodb.org/en/latest/) - ZODB makes it really fast and easy to build and distribute [Persistent Python](http://zodb.privacv.com/persistentpython) applications
+- [pickleDB](https://pythonhosted.org/pickleDB/) - pickleDB is a lightweight and simple key-value store
+- [tinydb](https://github.com/msiemens/tinydb) - TinyDB is a lightweight document oriented database optimized for your happiness :) https://tinydb.readthedocs.org
 
 orm
 
@@ -174,6 +176,7 @@ orm
 
 ## File formats
 
+- [tablib](https://github.com/kennethreitz/tablib) - Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c. http://python-tablib.org
 - [Simple CSV Data Wrangling with Python](http://districtdatalabs.silvrback.com/simple-csv-data-wrangling-with-python)
 - [电子表格](https://github.com/qiwsir/StarterLearningPython/blob/master/234.md)
 - [python-pdfkit](https://github.com/JazzCore/python-pdfkit) - Wkhtmltopdf python wrapper to convert html to pdf
@@ -202,7 +205,8 @@ orm
 
 - [tqdm](https://github.com/tqdm/tqdm) - A fast, extensible progress bar for Python https://pypi.python.org/pypi/tqdm
 - **[pythonpy](https://github.com/Russell91/pythonpy)** - the swiss army knife of the command line
-
+- [colorama](https://pypi.python.org/pypi/colorama) - Cross-platform colored terminal text.
+- [Gooey](https://github.com/chriskiehl/Gooey) - Turn (almost) any Python command line program into a full GUI application with one line
 
 ## Data Science
 
@@ -278,6 +282,7 @@ tutorials
 ## GUI
 
 -  [pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Home) - a cross-platform windowing and multimedia library for Python.
+- [kivy](https://github.com/kivy/kivy) - Open source UI framework written in Python, running on Windows, Linux, OS X, Android and iOS https://kivy.org
 
 ## Data structure and Algorithm
 
@@ -286,7 +291,7 @@ tutorials
 - [datasketch](https://github.com/ekzhu/datasketch) - MinHash, LSH, Weighted MinHash, b-bit MinHash, HyperLogLog, HyperLogLog++
 - [addit](https://github.com/mewwts/addict) - The Python Dict that's better than heroin.
 - [python-bloomfilter](https://github.com/jaybaird/python-bloomfilter) - Scalable Bloom Filter implemented in Python
-- [python-Levenshtein](https://github.com/ztane/python-Levenshtein/) -The Levenshtein Python C extension module contains functions for fast computation of Levenshtein distance and string similarity | similar package: [editdistance](https://github.com/aflc/editdistance)
+
 - madoka-python - Memory-efficient Count-Min Sketch Counter (based on Madoka C++ library## )
 - [graphlab.SGraph](https://dato.com/products/create/docs/generated/graphlab.SGraph.html) - A scalable graph data structure. [userguide](https://dato.com/learn/userguide/sgraph/sgraph.html)
 - [Algorithms](https://github.com/prakhar1989/Algorithms) - Data Structures and Algorithms in Python
@@ -299,6 +304,10 @@ tutorials
 - [nlib](https://github.com/mdipierro/nlib) - Python Library of Numerical Algorithms
 - [pomegranate](https://github.com/jmschrei/pomegranate) - Fast, flexible and easy to use probabilistic modelling in Python. http://pomegranate.readthedocs.org/en/latest/
 
+string
+
+- [python-Levenshtein](https://github.com/ztane/python-Levenshtein/) -The Levenshtein Python C extension module contains functions for fast computation of Levenshtein distance and string similarity | similar package: [editdistance](https://github.com/aflc/editdistance),
+- [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) - Fuzzy String Matching in Python http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
 
 ## Machine Learning
 
@@ -322,10 +331,12 @@ packages
 
 - [mlxtend](https://github.com/rasbt/mlxtend) - A library of extension and helper modules for Python's data analysis and machine learning libraries.
 - [PyMC3](https://github.com/pymc-devs/pymc3) -a python module for Bayesian statistical modeling and model fitting which focuses on advanced Markov chain Monte Carlo fitting algorithms. Its flexibility and extensibility make it applicable to a large suite of problems.
+- [deap](https://github.com/DEAP/deap) - Distributed Evolutionary Algorithms in Python http://deap.readthedocs.org/
+
 
 Scikit-learn
 
-- [scikit-learn](http://scikit-learn.org/stable/), [Scikit-learn tutorials for the Scipy 2013 conference](http://nbviewer.ipython.org/github/jakevdp/sklearn_scipy2013/blob/master/rendered_notebooks/01.1_setup_and_introduction.ipynb), I[ntroduction to Machine Learning with Python and Scikit-Learn](http://kukuruku.co/hub/python/introduction-to-machine-learning-with-python-andscikit-learn),   [scikit-learn-book](http://nbviewer.ipython.org/github/gmonce/scikit-learn-book/tree/master),  [结合Scikit-learn介绍几种常用的特征选择方法][8],  [Scikit-learn机器学习](http://muxuezi.github.io/posts/0-perface.html)
+- [scikit-learn](http://scikit-learn.org/stable/), [Scikit-learn tutorials for the Scipy 2013 conference](http://nbviewer.ipython.org/github/jakevdp/sklearn_scipy2013/blob/master/rendered_notebooks/01.1_setup_and_introduction.ipynb), I[ntroduction to Machine Learning with Python and Scikit-Learn](http://kukuruku.co/hub/python/introduction-to-machine-learning-with-python-andscikit-learn),   [scikit-learn-book](http://nbviewer.ipython.org/github/gmonce/scikit-learn-book/tree/master),  [结合Scikit-learn介绍几种常用的特征选择方法][8],  [Scikit-learn机器学习](http://muxuezi.github.io/posts/0-perface.html), [scipy_2015_sklearn_tutorial](https://github.com/amueller/scipy_2015_sklearn_tutorial)
 - [结合Scikit-learn介绍几种常用的特征选择方法](http://dataunion.org/14072.html)
 - [Tutorial on scikit-learn and IPython for parallel machine learning](https://github.com/ogrisel/parallel_ml_tutorial)
 

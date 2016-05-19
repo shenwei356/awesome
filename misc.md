@@ -85,6 +85,10 @@
 -  [file-server](https://github.com/codeskyblue/file-server) - File Static Server written by golang.
 -  [hugo](https://github.com/spf13/hugo) - A Fast and Flexible Static Site Generator built with love by spf13 in GoLang [http://gohugo.io](http://gohugo.io/)
 
+## AngularJS
+
+- [11个很棒的 AngularJS 工具](http://www.imooc.com/article/1505)
+
 ## Docker
 
 -  [valuable-docker-links](http://www.nkode.io/2014/08/24/valuable-docker-links.html)
