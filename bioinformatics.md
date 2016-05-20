@@ -48,8 +48,9 @@
 
 ## Comprehensive packages
 
-- [Biopython](http://biopython.org/)
-- [Biogo](https://github.com/biogo)
+- [python] [Biopython](http://biopython.org/)
+- [golang] [Biogo](https://github.com/biogo)
+- [golang] [bio](https://github.com/shenwei356/bio) - A simple but high-performance bioinformatics package in Go
 
 ## General file formats
 
@@ -72,8 +73,14 @@
 ## Fasta/q
 
 - [seqtk](https://github.com/lh3/seqtk) - Toolkit for processing sequences in FASTA/Q formats
+- [fakit](http://github.com/shenwei356/fakit) - A cross-platform and efficient toolkit for FASTA/Q file manipulation http://shenwei356.github.io/fakit
 - [python] [pyfaidx](https://github.com/mdshw5/pyfaidx) - pyfaidx: efficient pythonic random access to fasta subsequences
+- [golang] [bio](https://github.com/shenwei356/bio) - A simple but high-performance bioinformatics package in Go
+
+FASTA index
+
 - [golang] [faidx](https://github.com/brentp/faidx)
+- [golang] [bio/seqio/fai](https://github.com/shenwei356/bio/tree/master/seqio/fai)
 
 ## GFF/BED/VCF
 
@@ -91,6 +98,9 @@
 - [blast_table2xml](https://github.com/jameslz/blast_table2xml) - Convert blast m6 format to xml for blast2go
 - [*seqmagick*](http://seqmagick.readthedocs.org/en/latest/) - file format conversion in Biopython in a convenient way
 
+## Database API
+
+- [pyensembl](https://github.com/hammerlab/pyensembl) - Python interface to ensembl reference genome metadata (exons, transcripts, etc...)
 
 ## data structure
 
@@ -142,7 +152,9 @@
 
 ## Kmer
 
+- [khmer](https://github.com/dib-lab/khmer) - In-memory nucleotide sequence k-mer counting, filtering, graph traversal and more http://khmer.readthedocs.org/
 - [Jellyfish](https://github.com/gmarcais/Jellyfish)
+ 
 
 
 ## Phylogenetic tree

@@ -24,6 +24,10 @@
 - [websequencediagrams](https://www.websequencediagrams.com/)
 
 
-## 
+## PC
+
+- [battery](https://github.com/distatus/battery) - cross-platform, normalized battery information library
+
+## others
 
 - [word_cloud](https://github.com/amueller/word_cloud) - A little word cloud generator in Python

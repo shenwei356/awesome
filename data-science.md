@@ -48,6 +48,15 @@
 -  http://www.analyticsvidhya.com/
 -  [数据科学家修炼宝典](http://mooc.guokr.com/topic/DataScientist/)
 
+## Books
+
+- [***Mining of Massive Datasets***](http://www.mmds.org/) - The book is based on Stanford Computer Science course CS246: Mining Massive Datasets
+
+## Course
+
+- [Stanford Computer Science course CS246: Mining Massive Datasets](http://www.ee.columbia.edu/~cylin/course/bigdata/index.html)
+- [algorithms for Big Data](http://grigory.us/big-data-class.html) - This class will give you a biased sample of techniques for scalable data anslysis
+
 ## Misc
 
 -  [What to do with “small” data?](https://medium.com/rants-on-machine-learning/what-to-do-with-small-data-d253254d1a89#.720upf8f1)
