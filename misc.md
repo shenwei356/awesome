@@ -89,6 +89,11 @@
 
 - [11个很棒的 AngularJS 工具](http://www.imooc.com/article/1505)
 
+## Vuejs
+
+- [Vuejs](http://vuejs.org/)
+
+
 ## Docker
 
 -  [valuable-docker-links](http://www.nkode.io/2014/08/24/valuable-docker-links.html)

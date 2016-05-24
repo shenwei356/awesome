@@ -174,6 +174,9 @@ Date
 - [monday](https://github.com/mikespook/) - Monday is a minimalistic translator for month and day of week names in time.Date objects
 - [Now](https://github.com/jinzhu/now) - Now is a time toolkit for golang
 
+Debug
+
+- [go-spew](https://github.com/davecgh/go-spew) - Go-spew implements a deep pretty printer for Go data structures to aid in debugging.
 
 ## CLI
 
@@ -206,6 +209,7 @@ Date
 - [A modern text indexing library for go](https://github.com/blevesearch/bleve)
 - [govalidator](https://github.com/asaskevich/govalidator) - Package of string validators and sanitizers for Go lang
 - [iconv](https://github.com/qiniu/iconv) - Golang bindings to libiconv - Convert string to requested character encoding
+- [diff](https://github.com/mb0/diff) - Go difference algorithm
 
 ## Markdown
 
