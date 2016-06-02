@@ -10,6 +10,20 @@
 -  [DataPyR](https://datapyr.zeef.com/kranthi.kumar)
 -  [Choosing R or Python for data analysis? An infographic](http://blog.datacamp.com/r-or-python-for-data-analysis/)
 
+## Workflow/Pipelines tools
+
+DSL
+
+-  [***snakemake***](https://bitbucket.org/snakemake/snakemake/wiki/Home) - Snakemake is a workflow management system that aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern specification language in python style.  [Build bioinformatics pipelines with Snakemake](https://slowkow.com/notes/snakemake-tutorial/)
+-  [nextflow](https://github.com/nextflow-io/nextflow) - A DSL for data-driven computational pipelines http://nextflow.io
+-  [sake](https://github.com/tonyfischetti/sake) - A self-documenting build automation tool
+
+Language-dependent
+
+-  [toil](https://github.com/BD2KGenomics/toil) - A scalable, efficient, cross-platform and easy-to-use workflow engine in pure Python
+-  [Ruffus](http://www.ruffus.org.uk/) - Ruffus is a Computation Pipeline library for python. It is open-sourced, powerful and user-friendly, and widely used in science and bioinformatics.
+
+
 ## Dataset
 
 -  [awesome-public-datasets](https://github.com/caesar0301/awesome-public-datasets) - An awesome list of (large-scale) public datasets on the Internet. (On-going collection)
@@ -17,6 +31,7 @@
 ## Tools
 
 -  [csvkit](https://github.com/onyxfish/csvkit) - A suite of utilities for converting to and working with CSV, the king of tabular file formats. [http://csvkit.rtfd.org/](http://csvkit.rtfd.org/)
+-  [csvtk](https://github.com/shenwei356/csvtk) - Another cross-platform, efficient, practical and pretty CSV/TSV toolkit in Golang http://shenwei356.github.io/csvtk 
 
 ## Data structure
 

@@ -161,6 +161,7 @@ log
 Others
 
 - [gouuid](https://github.com/nu7hatch/gouuid) - Pure Go UUID implementation
+- [basex](https://github.com/dineshappavoo/basex) - Create Youtube-Like IDs With Golang
 - [quarnster/util](https://github.com/quarnster/util) - Various Go utility code
 - [daemon](https://github.com/takama/daemon) - A daemon package for use with Go (golang) services with no dependencies
 - [shutdown](https://github.com/klauspost/shutdown) - Shutdown management library for Go
@@ -202,6 +203,10 @@ Debug
 - [megajson](https://github.com/benbjohnson/megajson) - A JSON parser generator for high performance encoding and decoding in Go.
 - [gojson](https://github.com/ChimeraCoder/gojson) - A simple command-line tool for manipulating JSON for use in developing Go cod
 - [jsonpp](https://github.com/jmhodges/jsonpp) - A command line JSON pretty printer.
+
+## Serialization
+
+- [Practical Golang: Using Protobuffs](https://jacobmartins.com/2016/05/24/practical-golang-using-protobuffs/)
 
 ## Text
 
@@ -259,6 +264,9 @@ rich data structure
 - [ledisdb](https://github.com/siddontang/ledisdb) - a high performance NoSQL powered by Go
 - [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database compatible with MySQL protocol.
 
+graph
+
+- [dgraph](https://github.com/dgraph-io/dgraph) - Scalable, Distributed, Low Latency Graph Database
 ## ORM
 
 - [gorm](https://github.com/jinzhu/gorm) - The fantastic ORM library for Golang, aims to be developer friendly
@@ -299,6 +307,7 @@ rich data structure
 
 - [Go kit](https://github.com/go-kit/kit) is a distributed programming toolkit for building microservices in large organizations.
 - [gam](https://github.com/rogeralsing/gam) - Go Actor Model framework - Ultra fast distributed actors for Golang
+- [rpcx](https://github.com/smallnest/rpcx) - rpcx is a distributed RPC service framework based net/rpc like alibaba Dubbo and weibo Motan. Implemented by Go
 
 ## Flow / piple
 

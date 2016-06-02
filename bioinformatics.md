@@ -69,6 +69,7 @@
 - [grabix](https://github.com/arq5x/grabix) - a wee tool for random access into BGZF files
 - [golang]  [bix](https://github.com/brentp/bix) - tabix file access with golang using biogo machinery
 - [mergesam](https://github.com/DarwinAwardWinner/mergesam) - Automate common sam & bam conversions
+- [SAMstat](http://samstat.sourceforge.net/) - Displaying sequence statistics for next generation sequencing
 
 ## Fasta/q
 
