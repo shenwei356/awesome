@@ -55,15 +55,19 @@ update all R packages
 - Large number of images: [http://rgm3.lab.nig.ac.jp/RGM/R_image_list](http://rgm3.lab.nig.ac.jp/RGM/R_image_list)
 - [Static and dynamic network visualization with R](http://kateto.net/network-visualization)
 - [http://rcharts.io/gallery/](http://rcharts.io/gallery/)
-- corrplot
+- [corrplot](https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html)
 - ordination plots
 - [igraph](http://igraph.org/r/), [**Network Analysis and Visualization with R and igraph**](http://kateto.net/networks-r-igraph)
 - Dendrogram: hclust
 - [factoextra](https://github.com/kassambara/factoextra) -  Visualization of the outputs of a multivariate analysis [http://www.sthda.com](http://www.sthda.com/)
 - Sankey from Scratch using rCharts, d3.js, and igraph
-- [rCircos](https://cran.r-project.org/web/packages/RCircos/index.html): R package for circular plots. [last update: 2013]
-- [**OmicCircos**](http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.html): R package for circular plots for omics data.[last update: 2015-04]
 - [largevis](https://github.com/elbamos/largevis) - This is an implementation of the largeVis algorithm described in (https://arxiv.org/abs/1602.00370). It also incorporates code for a very fast algorithm for estimating k-nearest neighbors.
+
+circos like
+
+- [rCircos](https://cran.r-project.org/web/packages/RCircos/index.html): R package for circular plots. [last update: 2013]
+- [**OmicCircos**](http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.html): R package for circular plots for omics data. [vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/OmicCircos/inst/doc/OmicCircos_vignette.pdf) [last update: 2016-05]
+- [circlize](https://github.com/jokergoo/circlize) - circular layout in R http://jokergoo.github.io/circlize()
 
 
 Shiny

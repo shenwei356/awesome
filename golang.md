@@ -84,6 +84,9 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [Go Performance Tales](http://jmoiron.net/blog/go-performance-tales/)
 - [**So You Wanna Go Fast?**](http://bravenewgeek.com/so-you-wanna-go-fast/)
 - [gcvis](https://github.com/davecheney/gcvis) - Visualise Go program GC trace data in real time http://dave.cheney.net/2014/07/11/visualising-the-go-garbage-collector
+- [go-torch](https://github.com/uber/go-torch) - Stochastic flame graph profiler for Go programs
+
+- [Visualizing profiling in Go: A different way](http://www.florinpatan.ro/2016/05/visualizing-profiling-in-go-different.html)
 
 ## Test
 
@@ -140,6 +143,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 
 - [geom](https://github.com/skelterjohn/geom) - 2d geometry for golang
 - [gonum](https://github.com/gonum)
+- [pip-go](https://github.com/JamesMilnerUK/pip-go) - Point in polygon implemented in Go
 
 ## Statistics
 

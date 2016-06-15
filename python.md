@@ -133,6 +133,9 @@ packages 3
 
 -  [How We Reduced CPU Usage by 80% through Python Profiling](https://nylas.com/blog/performance/)
 
+tools
+
+- [vprof](https://github.com/nvdv/vprof) - Visual Python profiler
 
 tutorials
 

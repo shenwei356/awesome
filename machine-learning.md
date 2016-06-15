@@ -27,6 +27,14 @@
 - [Powerful Guide to learn Random Forest (with codes in R & Python)](http://www.analyticsvidhya.com/blog/2015/09/random-forest-algorithm-multiple-challenges/), [Tuning the parameters of your Random Forest model](https://www.codementor.io/python/tutorial/data-science-python-pandas-r-dimensionality-reduction)
 - [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
 
+## 
+
+- [A Guide to Gradient Boosted Trees with XGBoost in Python](https://jessesw.com/XG-Boost/)
+
+## benchmark
+
+- [benchm-ml](https://github.com/szilard/benchm-ml) - A minimal benchmark for scalability, speed and accuracy of commonly used open source implementations (R packages, Python scikit-learn, H2O, xgboost, Spark MLlib etc.) of the top machine learning algorithms for binary classification (random forests, gradient boosted trees, deep neural networks etc.).
+
 ## Neural Network
 
 -  [Learning How To Code Neural Networks](https://blog.skcript.com/how-to-learn-neural-networks-758b78f2736e)
