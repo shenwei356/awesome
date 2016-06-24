@@ -26,3 +26,12 @@
 ## Book
 
 - [Programmieren in C](http://prof.beuth-hochschule.de/scheffler/lehre/programmieren-in-c/)
+
+
+## Library
+
+### DB
+
+- [SQLite](http://www.sqlite.org/) - A self-contained, serverless, zero-configuration,
+transactional SQL database engine with a C interface. Public domain.
+- [LMDB](http://symas.com/mdb/) - An ultra-fast, ultra-compact key-value embedded data store

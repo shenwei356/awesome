@@ -113,6 +113,9 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [hyperloglog](https://github.com/clarkduvall/hyperloglog) - HyperLogLog and HyperLogLog++ implementation in Go/Golang. http://godoc.org/github.com/clarkduvall/hyperloglog
 - [mafsa](https://github.com/smartystreets/mafsa) - Package mafsa implements Minimal Acyclic Finite State Automata in Go, essentially a high-speed, memory-efficient, Unicode-friendly set of strings. https://godoc.org/github.com/smartystreets/mafsa
 
+Persistent
+
+- [goque](https://github.com/beeker1121/goque) - Persistent stacks, queues, and priority queues for Go backed by LevelDB
 
 ## IO
 
@@ -186,6 +189,7 @@ Debug
 ## CLI
 
 - **[cobra](https://github.com/spf13/cobra)** - A Commander for modern Go CLI interactions
+- [flag2](https://github.com/ProfOak/flag2) - A more traditional flag library for the go programming language
 - [writ](https://github.com/bobziuchkovski/writ) - A flexible command and option parser for Go
 - [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go
 - [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go
@@ -219,6 +223,8 @@ Debug
 - [govalidator](https://github.com/asaskevich/govalidator) - Package of string validators and sanitizers for Go lang
 - [iconv](https://github.com/qiniu/iconv) - Golang bindings to libiconv - Convert string to requested character encoding
 - [diff](https://github.com/mb0/diff) - Go difference algorithm
+- [bmatch](https://github.com/AndreasBriese/bmatch) is faster fixed pattern search for Go.
+- [bleve](https://github.com/blevesearch/bleve) - A modern text indexing library for go
 
 ## Markdown
 

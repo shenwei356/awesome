@@ -18,7 +18,7 @@ and miscellaneous stuff.
 - [Golang](https://github.com/shenwei356/awesome/blob/master/golang.md)
 - [Perl](https://github.com/shenwei356/awesome/blob/master/perl.md)
 - [C](https://github.com/shenwei356/awesome/blob/master/c.md)
-- [Javascript]((https://github.com/shenwei356/awesome/blob/master/javascript.md)
+- [Javascript](https://github.com/shenwei356/awesome/blob/master/javascript.md)
 
 ## Specific domains
 

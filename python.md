@@ -156,6 +156,7 @@ tutorials
 - [Theano教程：Python的内存管理](http://www.cnblogs.com/90zeng/p/python_memory.html)
 - **[A guide to analyzing Python performance](http://www.huyng.com/posts/python-performance-analysis/)**
 - [Python多核编程mpi4py实践](http://tech.cnnetsec.com/1010.html)
+- [***Python 性能分析大全***](http://python.jobbole.com/85381/)
 
 ## Bigdata
 
@@ -198,6 +199,7 @@ orm
 
 - [dateutil](http://labix.org/python-dateutil)
 - [sh](http://amoffat.github.io/sh/) - a full-fledged subprocess interface for Python that allows you to call any program as if it were a function
+- [duct.py](https://github.com/oconnor663/duct.py) - A Python library for shelling out.
 - [plumbum](https://github.com/tomerfiliba/plumbum) - Plumbum: Shell Combinators http://plumbum.readthedocs.org
 - [argcomplete](https://github.com/kislyuk/argcomplete) - https://github.com/kislyuk/argcomplete
 - [emoji](https://github.com/carpedm20/emoji) - emoji terminal output for Python ([EMOJI CHEAT SHEET](http://www.emoji-cheat-sheet.com/))
@@ -360,6 +362,12 @@ examples
 - newspaper - News, full-text, and article metadata extraction
 - [python利用utf-8编码判断中文英文字符(转)](http://blog.csdn.net/qinbaby/article/details/23201883)
 - [python-pinyin](https://github.com/mozillazg/python-pinyin)
+
+## Clustering
+
+- [annoy](https://github.com/spotify/annoy) - Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
+- [pysparnn](https://github.com/facebookresearch/pysparnn) - Approximate Nearest Neighbor Search for Sparse Data in Python!
+
 
 
 ## Deep learning

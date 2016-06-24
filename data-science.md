@@ -32,6 +32,7 @@ Language-dependent
 
 -  [csvkit](https://github.com/onyxfish/csvkit) - A suite of utilities for converting to and working with CSV, the king of tabular file formats. [http://csvkit.rtfd.org/](http://csvkit.rtfd.org/)
 -  [csvtk](https://github.com/shenwei356/csvtk) - Another cross-platform, efficient, practical and pretty CSV/TSV toolkit in Golang http://shenwei356.github.io/csvtk 
+-  [icdiff](https://github.com/jeffkaufman/icdiff) - improved colored diff http://www.jefftk.com/icdiff
 
 ## Data structure
 

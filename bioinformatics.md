@@ -61,11 +61,12 @@
 ## bam/sam/tabix/bgzf
 
 - [python] [hts-python](https://github.com/brentp/hts-python) - pythonic wrapper for libhts
+- [python] [htseq](https://github.com/simon-anders/htseq) - HTSeq is a Python library to facilitate processing and analysis of data from high-throughput sequencing (HTS) experiments. http://www-huber.embl.de/users/anders/HTSeq/
 - [golang] [biogo/hts](https://github.com/biogo/hts)
 - [bamtools](https://github.com/pezmaster31/bamtools) - C++ API & command-line toolkit for working with BAM data
 - [samblaster](https://github.com/GregoryFaust/samblaster) -  a tool to mark duplicates and extract discordant and split reads from sam files.
 - [python] [pysamstats](https://github.com/alimanfoo/pysamstats) - A fast Python and command-line utility for extracting simple statistics against genome positions based on sequence alignments from a SAM or BAM file.
-- [python] [pysam](ps://github.com/pysam-developers/pysam) - a python module for reading and manipulating Samfiles. It's a lightweight wrapper of the samtools C-API. Pysam also includes an interface for tabix. Another sam parser: [simplesam](https://github.com/mdshw5/simplesam)
+- [python] [pysam](https://github.com/pysam-developers/pysam) - a python module for reading and manipulating Samfiles. It's a lightweight wrapper of the samtools C-API. Pysam also includes an interface for tabix. Another sam parser: [simplesam](https://github.com/mdshw5/simplesam)
 - [grabix](https://github.com/arq5x/grabix) - a wee tool for random access into BGZF files
 - [golang]  [bix](https://github.com/brentp/bix) - tabix file access with golang using biogo machinery
 - [mergesam](https://github.com/DarwinAwardWinner/mergesam) - Automate common sam & bam conversions
