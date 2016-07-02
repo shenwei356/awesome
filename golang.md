@@ -194,11 +194,11 @@ Debug
 - [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go
 - [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go
 - **[color](https://github.com/fatih/color)** - Color package for Go (golang) [http://godoc.org/github.com/fatih/color](http://godoc.org/github.com/fatih/color) . It has support for Windows too
-- [Console progress bar for Golang](https://github.com/cheggaaa/pb)
 - [emoji](https://github.com/kyokomi/emoji) - emoji terminal output for golang
 - [go-sh](https://github.com/codeskyblue/go-sh) - like python-sh, for easy call shell with golang.
 - [uitable ](https://github.com/gosuri/uitable) - A go library to improve readability in terminal apps using tabular data
 - **[uiprogress](https://github.com/gosuri/uiprogress)** - A go library to render (multi) progress bars in terminal applications.
+- [barely](https://github.com/reconquest/barely) - Simple and extensible status bar to pretty display of Go-lang program's progress
 - [pb](https://github.com/cheggaaa/pb) - Console progress bar for Golang
 - [viper](https://github.com/spf13/viper) -Go configuration with fangs
 - [goconfig](https://github.com/Unknwon/goconfig) - goconfig is a easy-use comments-support configuration file(.ini) parser for the Go Programming Language
