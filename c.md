@@ -2,6 +2,15 @@
 
 ## Tutorial
 
+### Guide
+
+- [用一年时间如何能掌握 C++ ？](https://www.zhihu.com/question/23933514/answer/26393521)
+- [如何通过自学找到一份开发的工作？](https://www.zhihu.com/question/26421707/answer/53879709)
+- [学会了 C 语言真的可以开发出很多东西吗？](https://www.zhihu.com/question/23844552)
+- [GitHub 或者其他的开源平台中是否有一些适合初学者的 C++ 项目？](https://www.zhihu.com/question/28341521/answer/40684395)
+- [C++ 如何进阶？](https://www.zhihu.com/question/20291953)
+
+
 ### regexp
 
 - [Regular expressions in C: examples?](http://stackoverflow.com/questions/1085083/regular-expressions-in-c-examples)

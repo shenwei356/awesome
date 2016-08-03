@@ -3,6 +3,10 @@
 ## Doc
 -  [Three Things About Data Science You Won't Find In the Books](http://blog.mikiobraun.de/2015/03/three-things-about-data-science.html)
 
+## Markup Language
+
+- [YAML 语言教程](http://www.ruanyifeng.com/blog/2016/07/yaml.html)
+
 # Languages
 
 -  [Data Science with Python & R: Dimensionality Reduction and Clustering](https://www.codementor.io/python/tutorial/data-science-python-pandas-r-dimensionality-reduction)

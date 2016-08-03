@@ -87,6 +87,8 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [go-torch](https://github.com/uber/go-torch) - Stochastic flame graph profiler for Go programs
 - [Visualizing profiling in Go: A different way](http://www.florinpatan.ro/2016/05/visualizing-profiling-in-go-different.html)
 - [如何监控 golang 程序的垃圾回收](https://holys.im/2016/07/01/monitor-golang-gc/)
+- [Debugging performance issues in Go programs](https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs)
+- [golang手动管理内存](http://my.oschina.net/lubia/blog/175154)
 
 ## Test
 
@@ -130,6 +132,7 @@ Persistent
 
 - [xlsx](https://github.com/tealeg/xlsx) - Google Go (golang) library for reading and writing XLSX files.
 - [multicorecsv](https://github.com/mzimmerman/multicorecsv) - A multicore csv reader library in Go. 3X
+- [copmress](https://github.com/dsnet/compress) - Collection of compression related Go packages.
 
 ## Algorithm
 

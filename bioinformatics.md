@@ -75,9 +75,9 @@ Programming skills
 ## Fasta/q
 
 - [seqtk](https://github.com/lh3/seqtk) - Toolkit for processing sequences in FASTA/Q formats
-- [fakit](http://github.com/shenwei356/fakit) - A cross-platform and efficient toolkit for FASTA/Q file manipulation http://shenwei356.github.io/fakit
+- [seqkit](http://github.com/shenwei356/seqkit) - A cross-platform and efficient toolkit for FASTA/Q file manipulation http://shenwei356.github.io/seqkit
 - [python] [pyfaidx](https://github.com/mdshw5/pyfaidx) - pyfaidx: efficient pythonic random access to fasta subsequences
-- [golang] [bio](https://github.com/shenwei356/bio) - A simple but high-performance bioinformatics package in Go
+- [golang] [bio](https://github.com/shenwei356/bio) - A lightweight and high-performance bioinformatics package in Go
 
 FASTA index
 

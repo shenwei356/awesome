@@ -64,3 +64,4 @@ packages
 - [XGboost](https://github.com/dmlc/xgboost) - An optimized general purpose gradient boosting library. The library is parallelized, and also provides an optimized distributed version.
 - [mxnet](http://mxnet.rtfd.org/) - Lightweight, Portable, Flexible Distributed Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Go, and more
 - [利用Theano理解深度学习——Logistic Regression](http://blog.csdn.net/google19890102/article/details/48976021)，[利用Theano理解深度学习——Multilayer Perceptron](http://blog.csdn.net/google19890102/article/details/49071305)，[利用Theano理解深度学习——Convolutional Neural Networks](http://blog.csdn.net/google19890102/article/details/49966391)
+- [hyperas](https://github.com/maxpumperla/hyperas) - Keras + Hyperopt: A very simple wrapper for convenient hyperparameter optimization http://maxpumperla.github.io/hyperas/

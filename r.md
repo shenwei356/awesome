@@ -62,6 +62,8 @@ update all R packages
 - [factoextra](https://github.com/kassambara/factoextra) -  Visualization of the outputs of a multivariate analysis [http://www.sthda.com](http://www.sthda.com/)
 - Sankey from Scratch using rCharts, d3.js, and igraph
 - [largevis](https://github.com/elbamos/largevis) - This is an implementation of the largeVis algorithm described in (https://arxiv.org/abs/1602.00370). It also incorporates code for a very fast algorithm for estimating k-nearest neighbors.
+- [Vennerable](https://github.com/js229/Vennerable) - Vennerable provides Venn diagrams in R. It displays Venn and Euler diagrams for up to 9 different sets and using a variety of geometries. It allows the display of area-weighted Venn diagrams and allows fine graphical control over the result.
+- [alluvial](https://github.com/mbojan/alluvial) - Alluvial diagrams ![](http://bc.bojanorama.pl/wp-content/uploads/2014/03/titanic4.svg)
 
 circos like
 
@@ -94,7 +96,7 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [***ggthemes***](https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html) - Some extra themes, geoms, and scales for  ggplot2.
 - [***cowplot***](https://github.com/wilkelab/cowplot)  - provide a publication-ready theme for ggplot2. similar package: [ggmatrix](https://ggobi.github.io/ggally/gh-pages/ggmatrix.html), [ggpairs](https://ggobi.github.io/ggally/gh-pages/ggpairs.html), [ggscatmat](https://ggobi.github.io/ggally/gh-pages/ggscatmat.html)
 - [***ggfortify***](https://github.com/sinhrks/ggfortify) - Define fortify and autoplot functions to allow ggplot2 to handle some popular R packages.  [http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/](http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/)
-- [***ggrepel**](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
+- [***ggrepel***](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
 - [ggalt](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms and Statistical Transformations for 'ggplot2' https://cran.rstudio.com/web/packages/ggalt/ggalt.pdf
 - [ggforce](https://github.com/thomasp85/ggforce) - aime primarily at ad hoc data visualization in order to investigate the data at hand, and less at utilities for composing custom plots a la D3.js.
 - [***gganimate***](https://github.com/dgrtwo/gganimate) - Create easy animations with ggplot2

@@ -383,6 +383,7 @@ examples
 - [技术向：一文读懂卷积神经网络CNN](http://dataunion.org/11692.html)
 - [Deep Learning Libraries by Language](http://www.teglor.com/b/deep-learning-libraries-language-cm569/)
 - [PDNN: A Python Toolkit for Deep Learning](http://www.cs.cmu.edu/~ymiao/pdnntk.html)
+- [keras-rl](https://github.com/matthiasplappert/keras-rl) - Deep Reinforcement Learning for Keras.
 
 ## Image
 
