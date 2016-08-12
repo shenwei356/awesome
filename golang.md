@@ -104,6 +104,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [lane](https://github.com/oleiade/lane) - A golang queues, stacks and deques implementation library
 - [btree](https://github.com/google/btree) - by google
 - [bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters
+- [cfilter](https://github.com/irfansharif/cfilter) - Cuckoo Filter implementation in Go, better than Bloom Filters
 - [bitset](https://github.com/willf/bitset) - Go package implementing bitsets
 - [countminsketch](https://github.com/shenwei356/countminsketch) - An implementation of Count-Min Sketch in Golang
 - **[BoomFilters](https://github.com/tylertreat/BoomFilters)** - Probabilistic data structures for processing continuous, unbounded streams. This includes Stable Bloom Filters, Scalable Bloom Filters, Counting Bloom Filters, Inverse Bloom Filters, Cuckoo Filters, several variants of traditional Bloom filters, HyperLogLog, Count-Min Sketch, and MinHash
@@ -189,6 +190,14 @@ Debug
 
 - [go-spew](https://github.com/davecgh/go-spew) - Go-spew implements a deep pretty printer for Go data structures to aid in debugging.
 
+Release
+
+- [staticfiles](https://github.com/bouk/staticfiles) - staticfiles compiles a directory of files into an embeddable .go 
+
+## Code generator
+
+- [go-poet](https://github.com/dpolansky/go-poet/) - A Go package for generating Go code
+
 ## CLI
 
 - **[cobra](https://github.com/spf13/cobra)** - A Commander for modern Go CLI interactions
@@ -236,7 +245,7 @@ Debug
 ## WEB
 
 - [go.rice](https://github.com/GeertJohan/go.rice) is a Go package that makes working with resources such as html,js,css,images,templates, etc very easy.
-- **[gin](https://gin-gonic.github.io/gin/)** - Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance, up to 40 times faster. If you need smashing performance, get yourself some Gin.
+- **[gin](https://gin-gonic.github.io/gin/)** - Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance, up to 40 times faster. If you need smashing performance, get yourself some Gin. [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin)
 - [beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language. [http://beego.me](http://beego.me/)
 - [echo](https://github.com/labstack/echo) - Echo is a fast :rocket: and unfancy micro web framework for Golang. http://echo.labstack.com
 - [ace](https://github.com/yosssi/ace) - HTML template engine for Go [http://ace.yoss.si/](http://ace.yoss.si/)
