@@ -78,6 +78,8 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [Mastering concurrency in Go](https://www.outlearn.com/learn/matryer/mastering-concurrency-in-go)
 - [bufferManager.go](https://github.com/songgao/bufferManager.go) - bufferManager demonstrates a technique to decrease pressure on GC in Go.
 - [Interfaces in Go Object Oriented Go](https://medium.com/@gianbiondi/interfaces-in-go-59c3dc9c2d98#.8sk9pzn9g)
+- [Go Traps](http://go-traps.appspot.com/)
+- [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
 
 ## Performance
 
@@ -216,9 +218,11 @@ Release
 - [goconfig](https://github.com/Unknwon/goconfig) - goconfig is a easy-use comments-support configuration file(.ini) parser for the Go Programming Language
 - [go-homedir](https://github.com/mitchellh/go-homedir) - Go library for detecting and expanding the user's home directory without cgo.
 - [go-prettytable](https://github.com/tatsushid/go-prettytable) - A library for Golang to build a simple text table with a multibyte, doublewidth character support
+- [govvv](https://ahmetalpbalkan.com/blog/govvv/) – Versioning for Go binaries
 
 ## JSON
 
+- [gjson](https://github.com/tidwall/gjson) - Get JSON values very quickly in Go
 - [ffjson](https://github.com/pquerna/ffjson): faster JSON for Go
 - [megajson](https://github.com/benbjohnson/megajson) - A JSON parser generator for high performance encoding and decoding in Go.
 - [gojson](https://github.com/ChimeraCoder/gojson) - A simple command-line tool for manipulating JSON for use in developing Go cod
