@@ -10,6 +10,9 @@
 - [GitHub 或者其他的开源平台中是否有一些适合初学者的 C++ 项目？](https://www.zhihu.com/question/28341521/answer/40684395)
 - [C++ 如何进阶？](https://www.zhihu.com/question/20291953)
 
+### Performance
+
+- [AwesomePerfCpp](https://github.com/fenbf/AwesomePerfCpp) - A curated list of awesome C/C++ performance optimization resources: talks, articles, books, libraries, tools, sites, blogs. Inspired by awesome. https://fenbf.github.io/AwesomePerfCpp/
 
 ### regexp
 

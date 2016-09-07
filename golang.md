@@ -70,6 +70,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 
 ## Programming Patterns
 
+- [go-patterns](https://github.com/tmrts/go-patterns) - A curated list of Go patterns and idioms http://tmrts.com/go-patterns
 - [composable-go-services-using-libchan/](http://blog.codeship.com/composable-go-services-using-libchan/)
 - [go-promise](https://github.com/fanliao/go-promise) - A library implement futrue and promise
 - [libchan](https://github.com/docker/libchan) - Like Go channels over the network,
@@ -312,11 +313,16 @@ graph
 - [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation. [paper](http://www.svgopen.org/2011/papers/34-SVGo_a_Go_Library_for_SVG_generation/), [slide](https://speakerdeck.com/ajstarks/programming-pictures-with-svgo)
 - [gonum/plot](https://github.com/gonum/plot/wiki/Example-plots), [example](https://github.com/gonum/plot/wiki/Example-plots)
 
+
 ## Image
 
 - [gift](https://github.com/disintegration/gift) - Go Image Filtering Toolkit
 
-## 3D
+## Graphics
+
+- [gg](https://github.com/fogleman/gg) - Go Graphics - 2D rendering in Go with a simple API. https://godoc.org/github.com/fogleman/gg
+
+3D
 
 -  [ln](https://github.com/fogleman/ln) - 3D line art engine.
 
