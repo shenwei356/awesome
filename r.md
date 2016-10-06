@@ -4,10 +4,8 @@
 
 update all R packages
 
-    path <- "/home/shenwei/R/x86_64-redhat-linux-gnu-library/3.2"
-    package_df <- as.data.frame(installed.packages(path))
-    package_list <- as.character(package_df$Package) 
-    install.packages(package_list)
+    install.packages("rvcheck")
+    update_all()
 
 ## Tutorial 
 
@@ -108,6 +106,7 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [***ggnet***](https://github.com/briatte/ggnet) - Simple network plots with ggplot2 in R. Similar packages: [ggnetworkmap](https://ggobi.github.io/ggally/gh-pages/ggnetworkmap.html), [ggraph](https://github.com/thomasp85/ggraph) - Grammar of Graph Graphics
 - [ggvis](http://ggvis.rstudio.com/)- Interactive grammar of graphics for R
 - [***ggcorr***](https://briatte.github.io/ggcorr/): correlation matrixes with ggplot2
+- [***ggtree***](http://guangchuangyu.github.io/ggtree): an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data.
 - [***ggsurv***](https://ggobi.github.io/ggally/gh-pages/ggsurv.html) - survival curves with ggplot2
 - [ggExtra](https://github.com/daattali/ggExtra) Add marginal histograms to ggplot2, and more ggplot2 enhancements http://daattali.com/shiny/ggExtra-ggMarginal-demo/
 - [ggradar](https://github.com/ricardo-bion/ggradar) - radar charts with ggplot2

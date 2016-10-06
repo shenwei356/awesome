@@ -81,6 +81,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [Interfaces in Go Object Oriented Go](https://medium.com/@gianbiondi/interfaces-in-go-59c3dc9c2d98#.8sk9pzn9g)
 - [Go Traps](http://go-traps.appspot.com/)
 - [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
+- [Who needs generics? Use ... instead!](https://appliedgo.net/generics/), [Summary of Go Generics Discussions](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/edit#heading=h.vuko0u3txoew)
 
 ## Performance
 
@@ -92,6 +93,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [如何监控 golang 程序的垃圾回收](https://holys.im/2016/07/01/monitor-golang-gc/)
 - [Debugging performance issues in Go programs](https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs)
 - [golang手动管理内存](http://my.oschina.net/lubia/blog/175154)
+- [go-filemutex](https://github.com/alexflint/go-filemutex) - Like sync.Mutex, but works across processes
 
 ## Test
 
@@ -122,6 +124,14 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 Persistent
 
 - [goque](https://github.com/beeker1121/goque) - Persistent stacks, queues, and priority queues for Go backed by LevelDB
+
+## Code generator
+
+- [gen](https://github.com/clipperhouse/gen) - Type-driven code generation for Go http://clipperhouse.github.io/gen/
+- [gengen](https://github.com/joeshaw/gengen) - A Go source transformation tool for generics
+- [generic](https://github.com/taylorchu/generic) - A code generation tool to enable generics in go
+- [genny](https://github.com/cheekybits/genny) - Elegant generics for Go
+
 
 ## IO
 
@@ -317,6 +327,7 @@ graph
 ## Image
 
 - [gift](https://github.com/disintegration/gift) - Go Image Filtering Toolkit
+- [bild](https://github.com/anthonynsimon/bild) - A collection of parallel image processing algorithms in pure Go
 
 ## Graphics
 
