@@ -106,6 +106,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [set](https://github.com/fatih/set) - Set is a basic and simple, hash-based, Set data structure implementation in Go (Golang)
 - [set](https://github.com/xtgo/set) - General, type-safe, non-allocating set-operations for any sort.Interface
 - [pmap (ParallelMap)](https://github.com/shenwei356/pmap) - A lock-free parallel map in go
+- [concurrent-map](https://github.com/streamrail/concurrent-map) - provides a high-performance solution to this by sharding the map with minimal time spent waiting for locks.
 - [lane](https://github.com/oleiade/lane) - A golang queues, stacks and deques implementation library
 - [btree](https://github.com/google/btree) - by google
 - [bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters

@@ -1,7 +1,12 @@
 # Data Science
 
 ## Doc
+
 -  [Three Things About Data Science You Won't Find In the Books](http://blog.mikiobraun.de/2015/03/three-things-about-data-science.html)
+
+## Data storage
+
+- [Ten Simple Rulesfor Digital Data Storage](http://journals.plos.org/ploscompbiol/article/asset?id=10.1371/journal.pcbi.1005097.PDF)
 
 ## Markup Language
 

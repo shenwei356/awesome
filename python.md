@@ -368,6 +368,9 @@ examples
 - [annoy](https://github.com/spotify/annoy) - Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
 - [pysparnn](https://github.com/facebookresearch/pysparnn) - Approximate Nearest Neighbor Search for Sparse Data in Python!
 
+## Optimization
+
+- [Spearmint](https://github.com/HIPS/Spearmint) - Spearmint Bayesian optimization codebase
 
 
 ## Deep learning
