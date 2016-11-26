@@ -61,6 +61,13 @@ Language-dependent
 -  [Probabilistic Programming & Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 -  [The Advanced Matrix Factorization Jungle](https://sites.google.com/site/igorcarron2/matrixfactorizations)
 
+p-value
+
+- [Scientific method: Statistical errors](http://www.nature.com/news/scientific-method-statistical-errors-1.14700)
+- [P value ban: small step for a journal, giant leap for science](https://www.sciencenews.org/blog/context/p-value-ban-small-step-journal-giant-leap-science)
+- [Science Isn’t Broken](http://fivethirtyeight.com/features/science-isnt-broken/)
+- [Odds Are, It's Wrong](https://www.sciencenews.org/article/odds-are-its-wrong)
+
 
 ## Big Data and Cloud
 

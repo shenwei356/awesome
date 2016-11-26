@@ -68,20 +68,34 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - goimports, [see more](https://michaelwhatcott.com/gosublime-goimports/)
 
 
-## Programming Patterns
+## Programming
 
 - [go-patterns](https://github.com/tmrts/go-patterns) - A curated list of Go patterns and idioms http://tmrts.com/go-patterns
 - [composable-go-services-using-libchan/](http://blog.codeship.com/composable-go-services-using-libchan/)
-- [go-promise](https://github.com/fanliao/go-promise) - A library implement futrue and promise
 - [libchan](https://github.com/docker/libchan) - Like Go channels over the network,
-- [go-broadcast](https://github.com/dustin/go-broadcast) - A trivial channel pubsub I use in lots of projects. http://godoc.org/github.com/dustin/go-broadcast
-- [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang
-- [Mastering concurrency in Go](https://www.outlearn.com/learn/matryer/mastering-concurrency-in-go)
-- [bufferManager.go](https://github.com/songgao/bufferManager.go) - bufferManager demonstrates a technique to decrease pressure on GC in Go.
 - [Interfaces in Go Object Oriented Go](https://medium.com/@gianbiondi/interfaces-in-go-59c3dc9c2d98#.8sk9pzn9g)
 - [Go Traps](http://go-traps.appspot.com/)
 - [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
 - [Who needs generics? Use ... instead!](https://appliedgo.net/generics/), [Summary of Go Generics Discussions](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/edit#heading=h.vuko0u3txoew)
+- [Practical advice for Go library authors](https://go-talks.appspot.com/github.com/cep21/go-talks/practical-advice-for-go-library-authors.slide)
+
+packages
+
+- [go-promise](https://github.com/fanliao/go-promise) - A library implement futrue and promise
+- [bufferManager.go](https://github.com/songgao/bufferManager.go) - bufferManager demonstrates a technique to decrease pressure on GC in Go.
+
+## goroutine/chanel
+
+tutorials
+
+- [Using contexts to avoid leaking goroutines](http://golang.rakyll.org/leakingctx/)
+- [Mastering concurrency in Go](https://www.outlearn.com/learn/matryer/mastering-concurrency-in-go)
+
+packages
+
+- [go-broadcast](https://github.com/dustin/go-broadcast) - A trivial channel pubsub I use in lots of projects. http://godoc.org/github.com/dustin/go-broadcast
+- [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang
+
 
 ## Performance
 
@@ -347,7 +361,7 @@ graph
 - [go-workers](https://github.com/jrallison/go-workers) - Sidekiq compatible background workers in golang
 - [glow](https://github.com/chrislusf/glow) - Glow is an easy-to-use distributed computation system written in Go, similar to Hadoop Map Reduce, Spark, Flink, Samza, etc. Currently just started and not feature rich yet, but should be reliable to run most common cases.
 
-### distributed systems
+### Distributed systems
 
 - [Go kit](https://github.com/go-kit/kit) is a distributed programming toolkit for building microservices in large organizations.
 - [gam](https://github.com/rogeralsing/gam) - Go Actor Model framework - Ultra fast distributed actors for Golang

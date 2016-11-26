@@ -15,6 +15,7 @@
 -  [Advanced Scripting Using PBS Environment Variables](https://wiki.hpcc.msu.edu/display/hpccdocs/Advanced+Scripting+Using+PBS+Environment+Variables)
 -  [make和makefile，多文件项目管理](http://segmentfault.com/a/1190000003756084?utm_source=Weibo&utm_medium=shareLink&utm_campaign=socialShare)
 -  [关于CPU Cache -- 程序猿需要知道的那些事](https://cenalulu.github.io/linux/all-about-cpu-cache/)
+-  [由一次磁盘告警引发的血案 -- du 和 ls 的区别](http://blog.jobbole.com/108058/)
 
 ## tools
 

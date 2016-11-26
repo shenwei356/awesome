@@ -59,6 +59,7 @@
 
 packages
 
+- [Evaluation of Deep Learning Frameworks](https://github.com/zer0n/deepframeworks)
 - [Deep Machine Learning libraries and frameworks](https://medium.com/@abduljaleel/deep-machine-learning-libraries-and-frameworks-5fdf2bb6bfbe)
 - [Deep Learning Libraries by Language](http://www.teglor.com/b/deep-learning-libraries-language-cm569/)
 - [XGboost](https://github.com/dmlc/xgboost) - An optimized general purpose gradient boosting library. The library is parallelized, and also provides an optimized distributed version.
