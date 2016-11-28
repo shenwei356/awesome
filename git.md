@@ -12,3 +12,8 @@
 -  [git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
 -  [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
 -  [Oh shit, git!](http://ohshitgit.com/) - "So here are some bad situations I've gotten myself into, and how I eventually got myself out of them in plain english." e.g. Oh shit, I committed and immediately realized I need to make one small change! `git commit --amend`
+
+## Note
+
+- [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/),
+  and then [Syncing a fork](https://help.github.com/articles/syncing-a-fork/) when upstream goes ahead.
