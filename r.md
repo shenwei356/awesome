@@ -19,6 +19,7 @@ update all R packages
 
 - [10 R packages I wish I knew about earlier](http://blog.yhathq.com/posts/10-R-packages-I-wish-I-knew-about-earlier.html)
 - [Great R packages for data import, wrangling & visualization](http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html)
+- [R package development - the Leek group way! ](https://github.com/jtleek/rpackages)
 
 ## Text
 

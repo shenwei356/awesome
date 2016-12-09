@@ -31,6 +31,8 @@ Programming skills
 -  [病原微生物高通量测序数据分析笔记](http://indexofire.gitbooks.io/notebook_of_analyzing_pathogen_ngs_data/)
 -  [What to do with lots of (sequencing) data](http://ivory.idyll.org/blog//2015-what-to-do-with-sequencing-data.html)
 -  [The myths of bioinformatics software](https://liorpachter.wordpress.com/2015/07/10/the-myths-of-bioinformatics-software)
+-  [**Good Habit for Bioinformatics Analyst or Scientist**](https://www.biostars.org/p/190366/)
+-  [**What Are The Most Common Stupid Mistakes In Bioinformatics?**](https://www.biostars.org/p/7126/#191667)
 
 ## 生物信息杂谈
 

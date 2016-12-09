@@ -7,6 +7,7 @@
 ## Data storage
 
 - [Ten Simple Rulesfor Digital Data Storage](http://journals.plos.org/ploscompbiol/article/asset?id=10.1371/journal.pcbi.1005097.PDF)
+- [How to share data with a statistician](https://github.com/jtleek/datasharing)
 
 ## Markup Language
 
