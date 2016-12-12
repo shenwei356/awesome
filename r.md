@@ -29,7 +29,12 @@ update all R packages
 
 ## Performance
 
+docs
+
 - [http://rstatistics.net/strategies-to-speed-up-r-code/](http://rstatistics.net/strategies-to-speed-up-r-code/)
+
+
+packages
 
 ## Data wrangling
 
@@ -45,6 +50,12 @@ update all R packages
 - [argparse](https://cran.r-project.org/web/packages/argparse/)
 
 ## ML
+
+docs
+
+- [useR-machine-learning-tutorial](https://github.com/ledell/useR-machine-learning-tutorial/blob/master/random-forest.Rmd)
+
+packages
 
 - [caret](https://github.com/topepo/caret/) - (Classification And Regression Training) R package that contains misc functions for training and plotting classification and regression models
 - [ROCR](https://rocr.bioinf.mpi-sb.mpg.de/) - visualizing classifier performance in R, with only 3 commands

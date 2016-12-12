@@ -18,7 +18,7 @@
 - [Detecting diabetic retinopathy in eye images](http://jeffreydf.github.io/diabetic-retinopathy-detection/)
 - [Cheatsheet – Python & R codes for common Machine Learning Algorithms](http://www.analyticsvidhya.com/blog/2015/09/full-cheatsheet-machine-learning-algorithms/)
 - **[10 种机器学习算法的要点（附 Python 和 R 代码）](http://blog.jobbole.com/92021/) | [Essentials of Machine Learning Algorithms (with Python and R Codes)](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/)**
-
+- [useR-machine-learning-tutorial](https://github.com/ledell/useR-machine-learning-tutorial/blob/master/random-forest.Rmd)
 
 - [What is feature engineering?](https://en.wikipedia.org/wiki/Feature_engineering)
 
@@ -26,6 +26,7 @@
 
 - [Powerful Guide to learn Random Forest (with codes in R & Python)](http://www.analyticsvidhya.com/blog/2015/09/random-forest-algorithm-multiple-challenges/), [Tuning the parameters of your Random Forest model](https://www.codementor.io/python/tutorial/data-science-python-pandas-r-dimensionality-reduction)
 - [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
+- [A Complete Tutorial on Tree Based Modeling from Scratch (in R & Python)](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/)
 
 ## unclassified 
 
@@ -66,6 +67,7 @@ packages
 - [mxnet](http://mxnet.rtfd.org/) - Lightweight, Portable, Flexible Distributed Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Go, and more
 - [利用Theano理解深度学习——Logistic Regression](http://blog.csdn.net/google19890102/article/details/48976021)，[利用Theano理解深度学习——Multilayer Perceptron](http://blog.csdn.net/google19890102/article/details/49071305)，[利用Theano理解深度学习——Convolutional Neural Networks](http://blog.csdn.net/google19890102/article/details/49966391)
 - [hyperas](https://github.com/maxpumperla/hyperas) - Keras + Hyperopt: A very simple wrapper for convenient hyperparameter optimization http://maxpumperla.github.io/hyperas/
+
 
 ## Optimization
 
