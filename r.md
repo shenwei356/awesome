@@ -59,6 +59,8 @@ packages
 
 - [caret](https://github.com/topepo/caret/) - (Classification And Regression Training) R package that contains misc functions for training and plotting classification and regression models
 - [ROCR](https://rocr.bioinf.mpi-sb.mpg.de/) - visualizing classifier performance in R, with only 3 commands
+- [xgboost](https://github.com/dmlc/xgboost) - Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow
+    - [How to use XGBoost algorithm in R in easy steps](https://www.analyticsvidhya.com/blog/2016/01/xgboost-algorithm-easy-steps/)
 
 ## Visualization
 
@@ -79,7 +81,7 @@ circos like
 
 - [rCircos](https://cran.r-project.org/web/packages/RCircos/index.html): R package for circular plots. [last update: 2013]
 - [**OmicCircos**](http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.html): R package for circular plots for omics data. [vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/OmicCircos/inst/doc/OmicCircos_vignette.pdf) [last update: 2016-05]
-- [circlize](https://github.com/jokergoo/circlize) - circular layout in R http://jokergoo.github.io/circlize()
+- [circlize](https://github.com/jokergoo/circlize) - circular layout in R http://jokergoo.github.io/circlize
 
 
 Shiny
