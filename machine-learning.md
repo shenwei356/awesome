@@ -19,12 +19,17 @@
 - [Cheatsheet – Python & R codes for common Machine Learning Algorithms](http://www.analyticsvidhya.com/blog/2015/09/full-cheatsheet-machine-learning-algorithms/)
 - **[10 种机器学习算法的要点（附 Python 和 R 代码）](http://blog.jobbole.com/92021/) | [Essentials of Machine Learning Algorithms (with Python and R Codes)](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/)**
 - [useR-machine-learning-tutorial](https://github.com/ledell/useR-machine-learning-tutorial/blob/master/random-forest.Rmd)
-
 - [What is feature engineering?](https://en.wikipedia.org/wiki/Feature_engineering)
+
+Learning
+
+- [5 Techniques To Understand Machine Learning Algorithms Without the Background in Mathematics](http://machinelearningmastery.com/techniques-to-understand-machine-learning-algorithms-without-the-background-in-mathematics/)
+- [machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+- [What If I Am Not Good At Mathematics](http://machinelearningmastery.com/what-if-im-not-good-at-mathematics/)
 
 ## Random Forest
 
-- [Powerful Guide to learn Random Forest (with codes in R & Python)](http://www.analyticsvidhya.com/blog/2015/09/random-forest-algorithm-multiple-challenges/), [Tuning the parameters of your Random Forest model](https://www.codementor.io/python/tutorial/data-science-python-pandas-r-dimensionality-reduction)
+- [Powerful Guide to learn Random Forest (with codes in R & Python)](http://www.analyticsvidhya.com/blog/2015/09/random-forest-algorithm-multiple-challenges/), [Tuning the parameters of your Random Forest model](https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/)
 - [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
 - [A Complete Tutorial on Tree Based Modeling from Scratch (in R & Python)](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/)
 

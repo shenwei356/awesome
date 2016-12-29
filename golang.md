@@ -245,6 +245,7 @@ Release
 - [go-homedir](https://github.com/mitchellh/go-homedir) - Go library for detecting and expanding the user's home directory without cgo.
 - [go-prettytable](https://github.com/tatsushid/go-prettytable) - A library for Golang to build a simple text table with a multibyte, doublewidth character support
 - [govvv](https://ahmetalpbalkan.com/blog/govvv/) – Versioning for Go binaries
+- [教你写一个color日志库，不止有代码还有原理。](https://www.zybuluo.com/aliasliyu4/note/612147?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
 ## JSON
 
