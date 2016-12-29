@@ -23,6 +23,7 @@
 
 Learning
 
+- [看机器学习论文时，看不懂数学公式怎么办？](https://www.zhihu.com/question/50967184)
 - [5 Techniques To Understand Machine Learning Algorithms Without the Background in Mathematics](http://machinelearningmastery.com/techniques-to-understand-machine-learning-algorithms-without-the-background-in-mathematics/)
 - [machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
 - [What If I Am Not Good At Mathematics](http://machinelearningmastery.com/what-if-im-not-good-at-mathematics/)
