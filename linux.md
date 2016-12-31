@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Linux](#linux)
+  - [resources](#resources)
+  - [Doc](#doc)
+  - [tools](#tools)
+  - [shell](#shell)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Linux
 
 ## resources
@@ -5,7 +17,7 @@
 -  [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
 -  [awesome-shell](https://github.com/alebcay/awesome-shell)
 
-## doc
+## Doc
 
 -  [Linux 常见高危操作](http://blogread.cn/it/article/6876?f=wb)
 -  [服务器操作系统应该选择 Debian/Ubuntu 还是 CentOS？](http://www.zhihu.com/question/19599986) (百家争鸣)

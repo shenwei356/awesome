@@ -1,3 +1,24 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Data Science](#data-science)
+  - [Doc](#doc)
+  - [Data storage](#data-storage)
+  - [Markup Language](#markup-language)
+  - [Languages](#languages)
+  - [Workflow/Pipelines tools](#workflowpipelines-tools)
+  - [Dataset](#dataset)
+  - [Tools](#tools)
+  - [Data structure](#data-structure)
+  - [Statistics](#statistics)
+  - [Big Data and Cloud](#big-data-and-cloud)
+  - [Books](#books)
+  - [Course](#course)
+  - [Misc](#misc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Data Science
 
 ## Doc
@@ -13,7 +34,7 @@
 
 - [YAML 语言教程](http://www.ruanyifeng.com/blog/2016/07/yaml.html)
 
-# Languages
+## Languages
 
 -  [Data Science with Python & R: Dimensionality Reduction and Clustering](https://www.codementor.io/python/tutorial/data-science-python-pandas-r-dimensionality-reduction)
 -  [R vs Python: head to head data analysis](https://www.dataquest.io/blog/python-vs-r/) | [R vs Python：硬碰硬的数据分析](http://mp.weixin.qq.com/s?__biz=MzA4OTg5NzY3NA==&mid=208986906&idx=4&sn=799e06b3d09acb8025df550aca3596a9)
@@ -41,7 +62,7 @@ Language-dependent
 ## Tools
 
 -  [csvkit](https://github.com/onyxfish/csvkit) - A suite of utilities for converting to and working with CSV, the king of tabular file formats. [http://csvkit.rtfd.org/](http://csvkit.rtfd.org/)
--  [csvtk](https://github.com/shenwei356/csvtk) - Another cross-platform, efficient, practical and pretty CSV/TSV toolkit in Golang http://shenwei356.github.io/csvtk 
+-  [csvtk](https://github.com/shenwei356/csvtk) - Another cross-platform, efficient, practical and pretty CSV/TSV toolkit in Golang http://shenwei356.github.io/csvtk
 -  [icdiff](https://github.com/jeffkaufman/icdiff) - improved colored diff http://www.jefftk.com/icdiff
 
 ## Data structure
@@ -49,7 +70,7 @@ Language-dependent
 -  [skizze](https://github.com/seiflotfy/skizze) - A probabilistic data structure service and storage
 -  [dablooms](https://github.com/bitly/dablooms) - A Scalable, Counting, Bloom Filter. Java, Python, Go edition.
 -  [inbloom](https://github.com/EverythingMe/inbloom) - Cross language bloom filter implementation
--  HyperLogLog & HyperLogLog++, 
+-  HyperLogLog & HyperLogLog++,
    [大数据计算：如何仅用1.5KB内存为十亿对象计数 - Hyper LogLog 算法](http://blog.csdn.net/heiyeshuwu/article/details/41248379),
    [如何快速估计巨大 dataset 中unique 元素的数目](http://baozitraining.org/blog/how-to-quickly-count-unique-items-in-large-dataset/)
 

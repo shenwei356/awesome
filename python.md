@@ -1,3 +1,50 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Python](#python)
+  - [Tutorials](#tutorials)
+  - [Comparison to R](#comparison-to-r)
+  - [Coding](#coding)
+  - [Functional Programming](#functional-programming)
+  - [Concurrence Programming](#concurrence-programming)
+  - [Data science](#data-science)
+  - [IDE](#ide)
+  - [Performance](#performance)
+  - [Bigdata](#bigdata)
+  - [Database](#database)
+  - [File formats](#file-formats)
+  - [Others](#others)
+  - [Kits](#kits)
+  - [Utils](#utils)
+  - [CLI](#cli)
+  - [Data Science](#data-science)
+  - [Statistical and visualization](#statistical-and%C2%A0visualization)
+  - [NumPy](#numpy)
+  - [Pandas](#pandas)
+  - [matplotlib](#matplotlib)
+  - [Plots](#plots)
+  - [Map](#map)
+  - [GUI](#gui)
+  - [Data structure and Algorithm](#data-structure-and%C2%A0algorithm)
+  - [Machine Learning](#machine-learning)
+  - [NLP](#nlp)
+  - [Clustering](#clustering)
+  - [Optimization](#optimization)
+  - [Deep learning](#deep-learning)
+  - [Image](#image)
+  - [GEO](#geo)
+  - [Web](#web)
+    - [Flask](#flask)
+    - [Comparison](#comparison)
+    - [Others](#others-1)
+  - [Fun](#fun)
+  - [Finance](#finance)
+  - [More](#more)
+  - [Misc](#misc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Python
 
 ## Tutorials

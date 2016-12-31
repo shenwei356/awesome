@@ -1,6 +1,30 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [R](#r)
+  - [Base](#base)
+  - [Tutorial ](#tutorial)
+  - [Packages](#packages)
+  - [Text](#text)
+  - [Performance](#performance)
+  - [Data wrangling](#data%C2%A0wrangling)
+  - [CLI](#cli)
+  - [ML](#ml)
+  - [Visualization](#visualization)
+  - [Color](#color)
+  - [Heatmap](#heatmap)
+  - [ggplot2](#ggplot2)
+  - [Statistics](#statistics)
+  - [Cluster](#cluster)
+  - [File formats](#file-formats)
+  - [Misc](#misc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # R
 
-## base
+## Base
 
 update all R packages
 
@@ -102,7 +126,7 @@ Shiny
 ## ggplot2
 
 
-Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visualize), 
+Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visualize),
 [ggally](https://github.com/ggobi/ggally)
 
 [ggplot2 extensions - gallery](http://www.ggplot2-exts.org/gallery/)

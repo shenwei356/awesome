@@ -1,3 +1,33 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Miscellaneous](#miscellaneous)
+  - [Book](#book)
+  - [Cloud service](#cloud-service)
+  - [Online course](#online-course)
+  - [Biology](#biology)
+  - [Microbiology](#microbiology)
+  - [Work && Career](#work--career)
+  - [IT](#it)
+  - [DNA](#dna)
+  - [Database](#database)
+  - [Distributed system](#distributed-system)
+  - [Internet](#internet)
+  - [Web](#web)
+  - [AngularJS](#angularjs)
+  - [Vuejs](#vuejs)
+  - [Docker](#docker)
+  - [Visualization](#visualization)
+  - [CLI](#cli)
+  - [Text Editer](#text-editer)
+  - [Markdown Editor](#markdown-editor)
+  - [Life](#life)
+  - [Fun](#fun)
+  - [Internet](#internet-1)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Miscellaneous
 
 

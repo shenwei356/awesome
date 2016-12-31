@@ -1,7 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Marchine Learning](#marchine-learning)
+  - [Doc](#doc)
+  - [Random Forest](#random-forest)
+  - [unclassified](#unclassified)
+  - [Clustering](#clustering)
+  - [benchmark](#benchmark)
+  - [Neural Network](#neural-network)
+  - [Deep Learning](#deep-learning)
+  - [Optimization](#optimization)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Marchine Learning
 
 
-## ML
+## Doc
 
 - [Very Brief Introduction to Machine Learning for AI](http://www.iro.umontreal.ca/~pift6266/H10/notes/mlintro.html)
 - [Markov Chains](http://setosa.io/blog/2014/07/26/markov-chains/index.html)
@@ -34,7 +50,7 @@ Learning
 - [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
 - [A Complete Tutorial on Tree Based Modeling from Scratch (in R & Python)](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/)
 
-## unclassified 
+## unclassified
 
 - [A Guide to Gradient Boosted Trees with XGBoost in Python](https://jessesw.com/XG-Boost/)
 
@@ -78,4 +94,3 @@ packages
 ## Optimization
 
 - [Spearmint](https://github.com/HIPS/Spearmint) - Spearmint Bayesian optimization codebase
-

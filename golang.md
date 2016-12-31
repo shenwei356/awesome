@@ -1,3 +1,47 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Golang](#golang)
+  - [doc](#doc)
+  - [Install packages](#install-packages)
+  - [Awesome go](#awesome-go)
+  - [Update packages](#update-packages)
+  - [Necessary dev tools](#necessary-dev-tools)
+  - [Programming](#programming)
+  - [goroutine/chanel](#goroutinechanel)
+  - [Performance](#performance)
+  - [Test](#test)
+  - [Data Structure](#data-structure)
+  - [Code generator](#code-generator)
+  - [IO](#io)
+  - [File format](#file-format)
+  - [Algorithm](#algorithm)
+  - [Marchine Learning](#marchine-learning)
+  - [Math](#math)
+  - [Statistics](#statistics)
+  - [NLP](#nlp)
+  - [Util](#util)
+  - [Code generator](#code-generator-1)
+  - [CLI](#cli)
+  - [JSON](#json)
+  - [Serialization](#serialization)
+  - [Text](#text)
+  - [Markdown](#markdown)
+  - [WEB](#web)
+  - [DB](#db)
+  - [GUI](#gui)
+  - [Figure and Chart](#figure%C2%A0and-chart)
+  - [Image](#image)
+  - [Graphics](#graphics)
+  - [HPC](#hpc)
+  - [Distributed systems](#distributed-systems)
+  - [Flow / piple](#flow--piple)
+  - [Glue](#glue)
+  - [misc](#misc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Golang
 
 ## doc
@@ -7,7 +51,7 @@
 -  [(Draft) Traps, Gotchas, and Common Mistakes in Go (golang)](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
 -  Rob Pike的Go语言PPT教程翻译[1](http://tonybai.com/2012/08/23/the-go-programming-language-tutorial-part1/),[2](http://tonybai.com/2012/08/27/the-go-programming-language-tutorial-part2/),[3](http://tonybai.com/2012/08/28/the-go-programming-language-tutorial-part3/)
 -  [Translating Effective Python into Go: Know When to Use Channels for Generator-Like Functions](http://www.informit.com/articles/article.aspx?p=2359758)
-- [go-best-practices-2016](https://peter.bourgon.org/go-best-practices-2016/?utm_source=golangweekly&utm_medium=email)
+- [go-best-practices-2016](https://peter.bourgon.org/go-best-practices-2016/)
 
 ## Install packages
 
@@ -53,6 +97,10 @@ go get -v github.com/golang/lint/golint
 go get -v github.com/sqs/goreturns
 ```
 
+## Awesome go
+
+- [go.libhunt.com](https://go.libhunt.com)
+
 
 ## Update packages
 
@@ -90,6 +138,7 @@ tutorials
 
 - [Using contexts to avoid leaking goroutines](http://golang.rakyll.org/leakingctx/)
 - [Mastering concurrency in Go](https://www.outlearn.com/learn/matryer/mastering-concurrency-in-go)
+- [Go channels are bad and you should feel bad](http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/?utm_source=statuscode&utm_medium=medium)
 
 packages
 
@@ -101,6 +150,14 @@ packages
 
 - [Go Performance Tales](http://jmoiron.net/blog/go-performance-tales/)
 - [**So You Wanna Go Fast?**](http://bravenewgeek.com/so-you-wanna-go-fast/)
+- [**writing-high-performance-go**](http://go-talks.appspot.com/github.com/davecheney/presentations/writing-high-performance-go.slide)
+    The compiler implements a specific optimisation for this case
+        var m map[string]string
+        v, ok := m[string(bytes)]
+    This will avoid the conversion of the byte slice to a string for the map lookup. This is very specific, it won't work if you do something like
+        key := string(bytes)
+        val, ok := m[key]
+
 - [gcvis](https://github.com/davecheney/gcvis) - Visualise Go program GC trace data in real time http://dave.cheney.net/2014/07/11/visualising-the-go-garbage-collector
 - [go-torch](https://github.com/uber/go-torch) - Stochastic flame graph profiler for Go programs
 - [Visualizing profiling in Go: A different way](http://www.florinpatan.ro/2016/05/visualizing-profiling-in-go-different.html)
@@ -162,6 +219,7 @@ Persistent
 - [xlsx](https://github.com/tealeg/xlsx) - Google Go (golang) library for reading and writing XLSX files.
 - [multicorecsv](https://github.com/mzimmerman/multicorecsv) - A multicore csv reader library in Go. 3X
 - [copmress](https://github.com/dsnet/compress) - Collection of compression related Go packages.
+- [csvtk](https://github.com/shenwei356/csvtk) - Another cross-platform, efficient, practical and pretty CSV/TSV toolkit in Golang http://bioinf.shenwei.me/csvtk
 
 ## Algorithm
 
@@ -172,7 +230,9 @@ Persistent
 - [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
 - [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
 
+## Marchine Learning
 
+- [gorgonia](https://github.com/chewxy/gorgonia) - Gorgonia is a library that helps facilitate machine learning in Go.
 
 ## Math
 
@@ -208,6 +268,7 @@ Others
 - [goxc](https://github.com/laher/goxc) - a build tool for Go, with a focus on cross-compiling, packaging and deployment
 - [clipboard](https://github.com/atotto/clipboard) - clipboard for golang
 - [go.pipeline](https://github.com/songgao/go.pipeline) - go.pipeline is a utility library that imitates unix pipeline. It simplifies chaining unix commands (and other stuff) in Go.
+- [go-qrcode](https://github.com/skip2/go-qrcode) - :sparkles: QR Code encoder (Go) http://go-qrcode.appspot.com
 
 Date
 
@@ -220,7 +281,8 @@ Debug
 
 Release
 
-- [staticfiles](https://github.com/bouk/staticfiles) - staticfiles compiles a directory of files into an embeddable .go 
+- [staticfiles](https://github.com/bouk/staticfiles) - staticfiles compiles a directory of files into an embeddable .go
+- [govvv](https://ahmetalpbalkan.com/blog/govvv/) – Versioning for Go binaries
 
 ## Code generator
 
@@ -244,8 +306,8 @@ Release
 - [goconfig](https://github.com/Unknwon/goconfig) - goconfig is a easy-use comments-support configuration file(.ini) parser for the Go Programming Language
 - [go-homedir](https://github.com/mitchellh/go-homedir) - Go library for detecting and expanding the user's home directory without cgo.
 - [go-prettytable](https://github.com/tatsushid/go-prettytable) - A library for Golang to build a simple text table with a multibyte, doublewidth character support
-- [govvv](https://ahmetalpbalkan.com/blog/govvv/) – Versioning for Go binaries
 - [教你写一个color日志库，不止有代码还有原理。](https://www.zybuluo.com/aliasliyu4/note/612147?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+- [tablewriter](https://github.com/olekukonko/tablewriter) - ASCII table in golang
 
 ## JSON
 
@@ -362,11 +424,12 @@ graph
 - [go-workers](https://github.com/jrallison/go-workers) - Sidekiq compatible background workers in golang
 - [glow](https://github.com/chrislusf/glow) - Glow is an easy-to-use distributed computation system written in Go, similar to Hadoop Map Reduce, Spark, Flink, Samza, etc. Currently just started and not feature rich yet, but should be reliable to run most common cases.
 
-### Distributed systems
+## Distributed systems
 
 - [Go kit](https://github.com/go-kit/kit) is a distributed programming toolkit for building microservices in large organizations.
 - [gam](https://github.com/rogeralsing/gam) - Go Actor Model framework - Ultra fast distributed actors for Golang
 - [rpcx](https://github.com/smallnest/rpcx) - rpcx is a distributed RPC service framework based net/rpc like alibaba Dubbo and weibo Motan. Implemented by Go
+- [mesh](https://github.com/weaveworks/mesh) - Mesh is a tool for building distributed applications.
 
 ## Flow / piple
 
