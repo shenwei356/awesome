@@ -144,6 +144,7 @@ packages
 
 - [go-broadcast](https://github.com/dustin/go-broadcast) - A trivial channel pubsub I use in lots of projects. http://godoc.org/github.com/dustin/go-broadcast
 - [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang
+- [abool](https://github.com/tevino/abool) - Atomic Boolean library for cleaner Golang code, optimized for performance yet simple to use.
 
 
 ## Performance
@@ -165,6 +166,12 @@ packages
 - [Debugging performance issues in Go programs](https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs)
 - [golang手动管理内存](http://my.oschina.net/lubia/blog/175154)
 - [go-filemutex](https://github.com/alexflint/go-filemutex) - Like sync.Mutex, but works across processes
+
+Packages:
+
+Applications:
+
+- [rush](https://github.com/shenwei356/rush) -- parallelly execute shell commands. A GNU parallel like tool in Go. It supports Linux/OS X/Windows!
 
 ## Test
 
@@ -189,6 +196,7 @@ packages
 - [goraph](https://github.com/gyuho/goraph) - Package goraph implements graph, tree data structures and algorithms.
 - [go-radix](https://github.com/armon/go-radix) - Golang implementation of Radix trees, [go-immutable-radix](https://github.com/hashicorp/go-immutable-radix)
 - [sortutil](https://github.com/cznic/sortutil) - Utilities supplemental to the Go standard "sort" package
+- [golib/sort](https://github.com/tideland/golib#sort) - Parallel Quicksort.
 - [go-minhash](https://github.com/dgryski/go-minhash) - BottomK minwise hashing for streaming set similarity
 - [hyperloglog](https://github.com/clarkduvall/hyperloglog) - HyperLogLog and HyperLogLog++ implementation in Go/Golang. http://godoc.org/github.com/clarkduvall/hyperloglog
 - [mafsa](https://github.com/smartystreets/mafsa) - Package mafsa implements Minimal Acyclic Finite State Automata in Go, essentially a high-speed, memory-efficient, Unicode-friendly set of strings. https://godoc.org/github.com/smartystreets/mafsa
@@ -229,6 +237,7 @@ Persistent
 - [CloudForest](https://github.com/ryanbressler/CloudForest) - Ensembles of decision trees in go/golang.
 - [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
 - [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
+- [algorithms](https://github.com/arnauddri/algorithms) - Algorithms & Data Structures in Go
 
 ## Marchine Learning
 
@@ -308,6 +317,7 @@ Release
 - [go-prettytable](https://github.com/tatsushid/go-prettytable) - A library for Golang to build a simple text table with a multibyte, doublewidth character support
 - [教你写一个color日志库，不止有代码还有原理。](https://www.zybuluo.com/aliasliyu4/note/612147?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 - [tablewriter](https://github.com/olekukonko/tablewriter) - ASCII table in golang
+- [Handling CTRL-C (interrupt signal) in Golang Programs](https://nathanleclaire.com/blog/2014/08/24/handling-ctrl-c-interrupt-signal-in-golang-programs/)
 
 ## JSON
 
@@ -430,6 +440,8 @@ graph
 - [gam](https://github.com/rogeralsing/gam) - Go Actor Model framework - Ultra fast distributed actors for Golang
 - [rpcx](https://github.com/smallnest/rpcx) - rpcx is a distributed RPC service framework based net/rpc like alibaba Dubbo and weibo Motan. Implemented by Go
 - [mesh](https://github.com/weaveworks/mesh) - Mesh is a tool for building distributed applications.
+- [Beehive](https://github.com/kandoo/beehive) Beehive is a distributed programming framework that comes with built-in transactions, replication, fault-tolerance, runtime instrumentation, and optimized placement.
+
 
 ## Flow / piple
 
