@@ -1,18 +1,18 @@
+# Utilities
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
-- [Utilities](#utilities)
-  - [data](#data)
-  - [MISC](#misc)
-  - [Fun](#fun)
-  - [ascii](#ascii)
-  - [PC](#pc)
-  - [others](#others)
+- [data](#data)
+- [MISC](#misc)
+- [Fun](#fun)
+- [ascii](#ascii)
+- [PC](#pc)
+- [others](#others)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Utilities
 
 ## data
 

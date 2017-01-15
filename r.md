@@ -1,28 +1,28 @@
+# R
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
-- [R](#r)
-  - [Base](#base)
-  - [Tutorial ](#tutorial)
-  - [Packages](#packages)
-  - [Text](#text)
-  - [Performance](#performance)
-  - [Data wrangling](#data%C2%A0wrangling)
-  - [CLI](#cli)
-  - [ML](#ml)
-  - [Visualization](#visualization)
-  - [Color](#color)
-  - [Heatmap](#heatmap)
-  - [ggplot2](#ggplot2)
-  - [Statistics](#statistics)
-  - [Cluster](#cluster)
-  - [File formats](#file-formats)
-  - [Misc](#misc)
+- [Base](#base)
+- [Tutorial ](#tutorial)
+- [Packages](#packages)
+- [Text](#text)
+- [Performance](#performance)
+- [Data wrangling](#data%C2%A0wrangling)
+- [CLI](#cli)
+- [ML](#ml)
+- [Visualization](#visualization)
+- [Color](#color)
+- [Heatmap](#heatmap)
+- [ggplot2](#ggplot2)
+- [Statistics](#statistics)
+- [Cluster](#cluster)
+- [File formats](#file-formats)
+- [Misc](#misc)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# R
 
 ## Base
 

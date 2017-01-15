@@ -1,48 +1,48 @@
+# Golang
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
-- [Golang](#golang)
-  - [doc](#doc)
-  - [Install packages](#install-packages)
-  - [Awesome go](#awesome-go)
-  - [Update packages](#update-packages)
-  - [Necessary dev tools](#necessary-dev-tools)
-  - [Programming](#programming)
-  - [goroutine/chanel](#goroutinechanel)
-  - [Performance](#performance)
-  - [Test](#test)
-  - [Data Structure](#data-structure)
-  - [Code generator](#code-generator)
-  - [IO](#io)
-  - [File format](#file-format)
-  - [Algorithm](#algorithm)
-  - [Marchine Learning](#marchine-learning)
-  - [Math](#math)
-  - [Statistics](#statistics)
-  - [NLP](#nlp)
-  - [Util](#util)
-  - [Code generator](#code-generator-1)
-  - [CLI](#cli)
-  - [JSON](#json)
-  - [Serialization](#serialization)
-  - [Text](#text)
-  - [Markdown](#markdown)
-  - [WEB](#web)
-  - [DB](#db)
-  - [GUI](#gui)
-  - [Figure and Chart](#figure%C2%A0and-chart)
-  - [Image](#image)
-  - [Graphics](#graphics)
-  - [HPC](#hpc)
-  - [Distributed systems](#distributed-systems)
-  - [Flow / piple](#flow--piple)
-  - [Glue](#glue)
-  - [misc](#misc)
+- [doc](#doc)
+- [Install packages](#install-packages)
+- [Awesome go](#awesome-go)
+- [Update packages](#update-packages)
+- [Necessary dev tools](#necessary-dev-tools)
+- [Programming](#programming)
+- [goroutine/chanel](#goroutinechanel)
+- [Performance](#performance)
+- [Test](#test)
+- [Data Structure](#data-structure)
+- [Code generator](#code-generator)
+- [IO](#io)
+- [File format](#file-format)
+- [Algorithm](#algorithm)
+- [Marchine Learning](#marchine-learning)
+- [Math](#math)
+- [Statistics](#statistics)
+- [NLP](#nlp)
+- [Util](#util)
+- [Code generator](#code-generator-1)
+- [CLI](#cli)
+- [JSON](#json)
+- [Serialization](#serialization)
+- [Text](#text)
+- [Markdown](#markdown)
+- [WEB](#web)
+- [DB](#db)
+- [GUI](#gui)
+- [Figure and Chart](#figure%C2%A0and-chart)
+- [Image](#image)
+- [Graphics](#graphics)
+- [HPC](#hpc)
+- [Distributed systems](#distributed-systems)
+- [Flow / piple](#flow--piple)
+- [Glue](#glue)
+- [misc](#misc)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Golang
 
 ## doc
 
@@ -139,6 +139,7 @@ tutorials
 - [Using contexts to avoid leaking goroutines](http://golang.rakyll.org/leakingctx/)
 - [Mastering concurrency in Go](https://www.outlearn.com/learn/matryer/mastering-concurrency-in-go)
 - [Go channels are bad and you should feel bad](http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/?utm_source=statuscode&utm_medium=medium)
+- [**How To Close Channels in Golang Elegantly**](http://www.tapirgames.com/blog/golang-channel-closing)
 
 packages
 

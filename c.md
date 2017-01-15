@@ -1,22 +1,22 @@
+# C
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [C](#c)
-  - [Tutorial](#tutorial)
+- [Tutorial](#tutorial)
     - [Guide](#guide)
     - [Performance](#performance)
     - [regexp](#regexp)
-  - [Practice](#practice)
-  - [C vs C++](#c-vs-c)
-  - [Resources](#resources)
-  - [Book](#book)
-  - [Library](#library)
+- [Practice](#practice)
+- [C vs C++](#c-vs-c)
+- [Resources](#resources)
+- [Book](#book)
+- [Library](#library)
     - [DB](#db)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# C
 
 ## Tutorial
 

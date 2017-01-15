@@ -1,25 +1,25 @@
+# Data Science
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
-- [Data Science](#data-science)
-  - [Doc](#doc)
-  - [Data storage](#data-storage)
-  - [Markup Language](#markup-language)
-  - [Languages](#languages)
-  - [Workflow/Pipelines tools](#workflowpipelines-tools)
-  - [Dataset](#dataset)
-  - [Tools](#tools)
-  - [Data structure](#data-structure)
-  - [Statistics](#statistics)
-  - [Big Data and Cloud](#big-data-and-cloud)
-  - [Books](#books)
-  - [Course](#course)
-  - [Misc](#misc)
+- [Doc](#doc)
+- [Data storage](#data-storage)
+- [Markup Language](#markup-language)
+- [Languages](#languages)
+- [Workflow/Pipelines tools](#workflowpipelines-tools)
+- [Dataset](#dataset)
+- [Tools](#tools)
+- [Data structure](#data-structure)
+- [Statistics](#statistics)
+- [Big Data and Cloud](#big-data-and-cloud)
+- [Books](#books)
+- [Course](#course)
+- [Misc](#misc)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Data Science
 
 ## Doc
 

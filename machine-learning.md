@@ -1,20 +1,19 @@
+# Marchine Learning
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
-- [Marchine Learning](#marchine-learning)
-  - [Doc](#doc)
-  - [Random Forest](#random-forest)
-  - [unclassified](#unclassified)
-  - [Clustering](#clustering)
-  - [benchmark](#benchmark)
-  - [Neural Network](#neural-network)
-  - [Deep Learning](#deep-learning)
-  - [Optimization](#optimization)
+- [Doc](#doc)
+- [Random Forest](#random-forest)
+- [unclassified](#unclassified)
+- [Clustering](#clustering)
+- [benchmark](#benchmark)
+- [Neural Network](#neural-network)
+- [Deep Learning](#deep-learning)
+- [Optimization](#optimization)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Marchine Learning
 
 
 ## Doc

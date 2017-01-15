@@ -1,14 +1,14 @@
+# Git and Github
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
-- [Git and Github](#git-and-github)
-  - [Doc](#doc)
-  - [Note](#note)
+- [Doc](#doc)
+- [Note](#note)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Git and Github
 
 ## Doc
 -  [Ten Simple Rules for Taking Advantage of Git and GitHub](http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004947)
