@@ -99,7 +99,7 @@ packages
 - Sankey from Scratch using rCharts, d3.js, and igraph
 - [largevis](https://github.com/elbamos/largevis) - This is an implementation of the largeVis algorithm described in (https://arxiv.org/abs/1602.00370). It also incorporates code for a very fast algorithm for estimating k-nearest neighbors.
 - [Vennerable](https://github.com/js229/Vennerable) - Vennerable provides Venn diagrams in R. It displays Venn and Euler diagrams for up to 9 different sets and using a variety of geometries. It allows the display of area-weighted Venn diagrams and allows fine graphical control over the result.
-- [alluvial](https://github.com/mbojan/alluvial) - Alluvial diagrams ![](http://bc.bojanorama.pl/wp-content/uploads/2014/03/titanic4.svg)
+- [alluvial](https://github.com/mbojan/alluvial) - Alluvial diagrams (you can also use [ggalluvial](https://github.com/corybrunson/ggalluvial)
 
 circos like
 
@@ -145,11 +145,12 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [ggvis](http://ggvis.rstudio.com/)- Interactive grammar of graphics for R
 - [***ggcorr***](https://briatte.github.io/ggcorr/): correlation matrixes with ggplot2
 - [***ggtree***](http://guangchuangyu.github.io/ggtree): an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data.
-- [***ggsurv***](https://ggobi.github.io/ggally/gh-pages/ggsurv.html) - survival curves with ggplot2
+- [***ggsurv***](https://ggobi.github.io/ggally/#ggallyggsurv) - survival curves with ggplot2
 - [ggExtra](https://github.com/daattali/ggExtra) Add marginal histograms to ggplot2, and more ggplot2 enhancements http://daattali.com/shiny/ggExtra-ggMarginal-demo/
 - [ggradar](https://github.com/ricardo-bion/ggradar) - radar charts with ggplot2
 - [ggRandomForests](https://cran.r-project.org/web/packages/ggRandomForests/) : Visually Exploring Random Forests
 - [ggmcmc](https://cran.r-project.org/web/packages/ggmcmc/index.html): Tools for Analyzing MCMC Simulations from Bayesian Inference
+- [***ggalluvial***](https://github.com/corybrunson/ggalluvial) - alluvial diagrams in ggplot2
 
 
 Tutorial

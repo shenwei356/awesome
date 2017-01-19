@@ -53,6 +53,7 @@
 -  [生物信息学家级别](http://blog.sciencenet.cn/blog-404304-834869.html) [Levels of Bioinformatics Research](http://www.longwoodgenomics.org/2014/10/11/levels-of-bioinformatics-research/)
 -  [It’s time to reboot bioinformatics education](http://toddharris.net/blog/2015/03/23/its-time-to-reboot-bioinformatics-education/)
 -  [An Explosion Of Bioinformatics Careers](http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2014_06_13/science.opms.r1400143)
+-  [**Is going back to the wet lab worth it?**](https://www.biostars.org/p/228950/#231887)
 
 Programming skills
 
