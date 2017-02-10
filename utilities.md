@@ -16,9 +16,12 @@
 
 ## data
 
+- [rsync的文件同步，复制，镜像，增量备份 v1.2](https://www.huzs.net/?p=920)
 - [gut-sync](https://github.com/tillberg/gut) - Realtime bidirectional folder synchronization
 - [magic-wormhole](https://github.com/warner/magic-wormhole) - get things from one computer to another, safely
 - [syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization http://forum.syncthing.net/
+- [restic](https://restic.github.io/) - restic backup program
+
 
 
 ## MISC

@@ -126,6 +126,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
 - [Who needs generics? Use ... instead!](https://appliedgo.net/generics/), [Summary of Go Generics Discussions](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/edit#heading=h.vuko0u3txoew)
 - [Practical advice for Go library authors](https://go-talks.appspot.com/github.com/cep21/go-talks/practical-advice-for-go-library-authors.slide)
+- [Why are slices sometimes altered when passed by value in Go?](https://www.calhoun.io/why-are-slices-sometimes-altered-when-passed-by-value-in-go/)
 
 packages
 

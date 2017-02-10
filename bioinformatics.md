@@ -44,6 +44,7 @@
 ## Bioinformatician
 
 -  [What is a bioinformatician](http://blog.fejes.ca/?p=2418)
+-  [Benjamin Franklin Award for Open Access in the Life Sciences](http://www.bioinformatics.org/franklin/)
 -  [My Formula as a Bioinformatician](http://computationalproteomic.blogspot.co.uk/2014/01/my-formula-as-bioinformatician.html)
 -  [So you want to be a computational biologist?](http://www.nature.com/nbt/journal/v31/n11/abs/nbt.2740.html) ☆
 -  [Bioinformatics is not something you are taught, it’s a way of life](http://biomickwatson.wordpress.com/2013/08/06/bioinformatics-is-not-something-you-are-taught-its-a-way-of-life/)
@@ -89,6 +90,7 @@ Programming skills
 ## Online courses
 
 -  [Rosalind](http://rosalind.info/) (Rosalind is a platform for learning bioinformatics through problem solving)
+-  [**Teaching Materials of Langmead-lab**](http://www.langmead-lab.org/teaching-materials/)
 
 ## Comprehensive packages
 

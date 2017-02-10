@@ -30,6 +30,10 @@
 - [Ten Simple Rulesfor Digital Data Storage](http://journals.plos.org/ploscompbiol/article/asset?id=10.1371/journal.pcbi.1005097.PDF)
 - [How to share data with a statistician](https://github.com/jtleek/datasharing)
 
+New tech
+
+- [IPFS](https://ipfs.io/) is the Distributed Web
+
 ## Markup Language
 
 - [YAML 语言教程](http://www.ruanyifeng.com/blog/2016/07/yaml.html)
@@ -45,8 +49,9 @@
 
 DSL
 
+- [Common Workflow Language](http://www.commonwl.org/)
 -  [***snakemake***](https://bitbucket.org/snakemake/snakemake/wiki/Home) - Snakemake is a workflow management system that aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern specification language in python style.  [Build bioinformatics pipelines with Snakemake](https://slowkow.com/notes/snakemake-tutorial/)
--  [nextflow](https://github.com/nextflow-io/nextflow) - A DSL for data-driven computational pipelines http://nextflow.io
+-  [**nextflow**](https://github.com/nextflow-io/nextflow) - A DSL for data-driven computational pipelines http://nextflow.io
 -  [sake](https://github.com/tonyfischetti/sake) - A self-documenting build automation tool
 
 Language-dependent
@@ -114,3 +119,4 @@ p-value
 ## Misc
 
 -  [What to do with “small” data?](https://medium.com/rants-on-machine-learning/what-to-do-with-small-data-d253254d1a89#.720upf8f1)
+-  [Convert xlsx to csv in linux command line](http://stackoverflow.com/questions/10557360/convert-xlsx-to-csv-in-linux-command-line), use `ssconvert` of Gnumeric
