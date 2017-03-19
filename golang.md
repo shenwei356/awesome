@@ -320,6 +320,7 @@ Release
 - [教你写一个color日志库，不止有代码还有原理。](https://www.zybuluo.com/aliasliyu4/note/612147?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 - [tablewriter](https://github.com/olekukonko/tablewriter) - ASCII table in golang
 - [Handling CTRL-C (interrupt signal) in Golang Programs](https://nathanleclaire.com/blog/2014/08/24/handling-ctrl-c-interrupt-signal-in-golang-programs/)
+- [**multibar**](https://github.com/sethgrid/multibar) - Display multiple progress bars in Go (golang).
 
 ## JSON
 
@@ -349,6 +350,13 @@ Release
 
 ## WEB
 
+doc 
+
+- [Go Web Examples](https://gowebexamples.github.io/)
+
+packages
+
+- [gorilla](https://github.com/gorilla) - Gorilla web toolkit
 - [go.rice](https://github.com/GeertJohan/go.rice) is a Go package that makes working with resources such as html,js,css,images,templates, etc very easy.
 - **[gin](https://gin-gonic.github.io/gin/)** - Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance, up to 40 times faster. If you need smashing performance, get yourself some Gin. [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin)
 - [beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language. [http://beego.me](http://beego.me/)

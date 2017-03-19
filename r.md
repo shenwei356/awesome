@@ -132,6 +132,7 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 [ggplot2 extensions - gallery](http://www.ggplot2-exts.org/gallery/)
 
 - [***ggthemes***](https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html) - Some extra themes, geoms, and scales for  ggplot2.
+- [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) - Opinionated, typographic-centric ggplot2 themes and theme components
 - [**ggsci**](https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html) - Scientific Journal and Sci-Fi Themed Color Palettes for ggplot2
 - [***cowplot***](https://github.com/wilkelab/cowplot)  - provide a publication-ready theme for ggplot2. similar package: [ggmatrix](https://ggobi.github.io/ggally/gh-pages/ggmatrix.html), [ggpairs](https://ggobi.github.io/ggally/gh-pages/ggpairs.html), [ggscatmat](https://ggobi.github.io/ggally/gh-pages/ggscatmat.html)
 - [***ggfortify***](https://github.com/sinhrks/ggfortify) - Define fortify and autoplot functions to allow ggplot2 to handle some popular R packages.  [http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/](http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/)
@@ -168,6 +169,7 @@ Tutorial
 - [2D plot with histograms for each dimension](http://blog.mckuhn.de/2013/04/2d-plot-with-histograms-for-each.html)
 - [R Recipe: Aligning Axes in ggplot2]( http://www.exegetic.biz/blog/2015/05/r-recipe-aligning-axes-in-ggplot2/)
 - [making-faceted-heatmaps-with-ggplot2/](http://rud.is/b/2016/02/14/making-faceted-heatmaps-with-ggplot2/)
+- [R语言：ggplot2精细化绘图——以实用商业化图表绘图为例](http://www.cnblogs.com/weibaar/p/4567791.html)
 
 ## Statistics
 

@@ -12,6 +12,7 @@
 - [Dataset](#dataset)
 - [Tools](#tools)
 - [Data structure](#data-structure)
+- [Algorithm](#algorithm)
 - [Statistics](#statistics)
 - [Big Data and Cloud](#big-data-and-cloud)
 - [Books](#books)
@@ -49,7 +50,8 @@ New tech
 
 DSL
 
-- [Common Workflow Language](http://www.commonwl.org/)
+-  [GNU make](https://www.gnu.org/software/make/), [manual](https://www.gnu.org/software/make/manual/), [Make 命令教程](http://www.ruanyifeng.com/blog/2015/02/make.html)
+-  [Common Workflow Language](http://www.commonwl.org/)
 -  [***snakemake***](https://bitbucket.org/snakemake/snakemake/wiki/Home) - Snakemake is a workflow management system that aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern specification language in python style.  [Build bioinformatics pipelines with Snakemake](https://slowkow.com/notes/snakemake-tutorial/)
 -  [**nextflow**](https://github.com/nextflow-io/nextflow) - A DSL for data-driven computational pipelines http://nextflow.io
 -  [sake](https://github.com/tonyfischetti/sake) - A self-documenting build automation tool
@@ -79,6 +81,10 @@ Language-dependent
    [大数据计算：如何仅用1.5KB内存为十亿对象计数 - Hyper LogLog 算法](http://blog.csdn.net/heiyeshuwu/article/details/41248379),
    [如何快速估计巨大 dataset 中unique 元素的数目](http://baozitraining.org/blog/how-to-quickly-count-unique-items-in-large-dataset/)
 
+## Algorithm
+
+-  [Fast and Easy Levenshtein distance using a Trie](http://stevehanov.ca/blog/index.php?id=114)
+
 ## Statistics
 
 -  [YGC的统计笔记](http://ygc.name/stats/)
@@ -87,6 +93,7 @@ Language-dependent
 -  [Where priors come from](http://zinkov.com/posts/2015-06-09-where-priors-come-from/) (some popular distribution)
 -  [Probabilistic Programming & Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 -  [The Advanced Matrix Factorization Jungle](https://sites.google.com/site/igorcarron2/matrixfactorizations)
+-  [R, STATISTICS, PSYCHOLOGY, OPEN SCIENCE, DATA VISUALIZATION](http://rpsychologist.com/)
 
 p-value
 
