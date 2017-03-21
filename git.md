@@ -30,3 +30,4 @@
 - [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/),
   and then [Syncing a fork](https://help.github.com/articles/syncing-a-fork/) when upstream goes ahead.
 - [Changing a remote's URL](https://help.github.com/articles/changing-a-remote-s-url/)
+- [Undo pushed commits](http://stackoverflow.com/questions/22682870/git-undo-pushed-commits)
