@@ -101,6 +101,10 @@ packages
 - [Vennerable](https://github.com/js229/Vennerable) - Vennerable provides Venn diagrams in R. It displays Venn and Euler diagrams for up to 9 different sets and using a variety of geometries. It allows the display of area-weighted Venn diagrams and allows fine graphical control over the result.
 - [alluvial](https://github.com/mbojan/alluvial) - Alluvial diagrams (you can also use [ggalluvial](https://github.com/corybrunson/ggalluvial)
 
+misc
+
+- [Mathematical Annotation in R](http://vis.supstat.com/2013/04/mathematical-annotation-in-r/)
+
 circos like
 
 - [rCircos](https://cran.r-project.org/web/packages/RCircos/index.html): R package for circular plots. [last update: 2013]

@@ -7,6 +7,7 @@
 - [Bioinformatician](#bioinformatician)
 - [Bioinformatics](#bioinformatics-1)
 - [生物信息杂谈](#%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E6%9D%82%E8%B0%88)
+- [Talks](#talks)
 - [Online courses](#online-courses)
 - [Comprehensive packages](#comprehensive-packages)
 - [General file formats](#general-file-formats)
@@ -56,6 +57,11 @@
 -  [An Explosion Of Bioinformatics Careers](http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2014_06_13/science.opms.r1400143)
 -  [**Is going back to the wet lab worth it?**](https://www.biostars.org/p/228950/#231887)
 
+Social media
+
+- [Staying Current in Bioinformatics & Genomics: 2017 Edition](http://www.gettinggeneticsdone.com/2017/02/staying-current-in-bioinformatics-genomics-2017.html)
+- [Interesting bioinformatics blogs (2017 edition)](https://www.biostars.org/p/243961/)
+
 Programming skills
 
 - [An Introduction to Programming for Bioscientists: A Python-Based Primer](http://journals.plos.org/ploscompbiol/article/asset?id=10.1371%2Fjournal.pcbi.1004867.PDF)
@@ -85,6 +91,10 @@ Programming skills
 -  [个性化医疗会带来更昂贵的药物？](http://www.biodiscover.com/news/industry/109583.html)
 -  [高通量测序公司靠什么赚钱？](http://blog.sina.com.cn/s/blog_52cb75b90102uw21.html)
 -  [生物不退学指南：教你如何靠生物养家糊口](http://mp.weixin.qq.com/s?__biz=MzA3MjQzODAzNA==&mid=200430076&idx=1&sn=35635d8a4b1c13be069ee557f7466983&scene=2&from=timeline&isappinstalled=0#rd) （想进入生物学领域的请看）
+
+## Talks
+
+- [How NGS is transforming medicine](http://genomespot.blogspot.be/2017/02/how-ngs-is-transforming-medicine.html)
 
 
 ## Online courses
@@ -121,7 +131,7 @@ Programming skills
 ## Fasta/q
 
 - [seqtk](https://github.com/lh3/seqtk) - Toolkit for processing sequences in FASTA/Q formats
-- [seqkit](http://github.com/shenwei356/seqkit) - A cross-platform and efficient toolkit for FASTA/Q file manipulation http://shenwei356.github.io/seqkit
+- [seqkit](http://github.com/shenwei356/seqkit) - A cross-platform and efficient toolkit for FASTA/Q file manipulation http://bioinf.shenwei.me/seqkit
 - [python] [pyfaidx](https://github.com/mdshw5/pyfaidx) - pyfaidx: efficient pythonic random access to fasta subsequences
 - [golang] [bio](https://github.com/shenwei356/bio) - A lightweight and high-performance bioinformatics package in Go
 
@@ -160,6 +170,7 @@ FASTA index
 
 ## Scripts
 
+- [oneliners](https://github.com/stephenturner/oneliners) - Useful bash one-liners for bioinformatics.
 - [cgat](https://github.com/CGATOxford/cgat) - CGAT - Computational Genomics Analysis Tools
 - [bcbb](https://github.com/chapmanb/bcbb) - Incubator for useful bioinformatics code, primarily in Python and R [http://bcbio.wordpress.com](http://bcbio.wordpress.com/)
 - [jcvi](https://github.com/tanghaibao/jcvi) - Python utility libraries on genome assembly, annotation and comparative genomics
@@ -217,6 +228,7 @@ FASTA index
 - [taxiphy](https://github.com/bendmorris/taxiphy) - Common repository for scripts to generate trees from taxonomies. Currently includes ITIS, NCBI, and GBIF.
 - [gtaxon](https://github.com/shenwei356/gtaxon) - A fast cross-platform NCBI taxonomy data querying (gi2taxid, taxid2taxon, name2taxid, LCA) tool, with cmd client and REST API server for both local and remote server. 
 - [R] [taxize](https://github.com/ropensci/taxize) - A taxonomic toolbelt for R http://ropensci.org/tutorials/taxize.html
+- [TaxonKit](https://github.com/shenwei356/taxonkit) - Cross-platform and Efficient NCBI Taxonomy Toolkit http://bioinf.shenwei.me/taxonkit/
 
 ## Assembly
 
