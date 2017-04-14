@@ -21,7 +21,7 @@
 - [magic-wormhole](https://github.com/warner/magic-wormhole) - get things from one computer to another, safely
 - [syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization http://forum.syncthing.net/
 - [restic](https://restic.github.io/) - restic backup program
-
+- [pget](https://github.com/Code-Hex/pget) - Parallel file download client
 
 
 ## MISC

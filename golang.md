@@ -127,6 +127,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [Who needs generics? Use ... instead!](https://appliedgo.net/generics/), [Summary of Go Generics Discussions](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/edit#heading=h.vuko0u3txoew)
 - [Practical advice for Go library authors](https://go-talks.appspot.com/github.com/cep21/go-talks/practical-advice-for-go-library-authors.slide)
 - [Why are slices sometimes altered when passed by value in Go?](https://www.calhoun.io/why-are-slices-sometimes-altered-when-passed-by-value-in-go/)
+- [How to ship production-grade Go](https://www.oreilly.com/ideas/how-to-ship-production-grade-go)
 
 packages
 
@@ -280,6 +281,7 @@ Others
 - [clipboard](https://github.com/atotto/clipboard) - clipboard for golang
 - [go.pipeline](https://github.com/songgao/go.pipeline) - go.pipeline is a utility library that imitates unix pipeline. It simplifies chaining unix commands (and other stuff) in Go.
 - [go-qrcode](https://github.com/skip2/go-qrcode) - :sparkles: QR Code encoder (Go) http://go-qrcode.appspot.com
+- [commonregex](https://github.com/mingrammer/commonregex) - A collection of common regular expressions for Go
 
 Date
 
