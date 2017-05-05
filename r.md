@@ -67,6 +67,7 @@ packages
 - [tidyr](https://github.com/hadley/tidyr) tidyr is a reframing of reshape2 designed to accompany the tidy data framework, and to work hand-in-hand with magrittr and dplyr to build a solid pipeline for data analysis.
 - [dplyr-and-plyr](http://www.slideshare.net/Sheffield_R_/dplyr-and-plyr), [When I use plyr/dplyr](http://educate-r.org//2014/01/24/usePlyr/)，[Using dplyr, and a comparison with plyr.]http://scicomp2014.edc.uri.edu/posts/2014-04-14-Smith.html
 - [dplyr: How to do data manipulation with R](http://www.sharpsightlabs.com/dplyr-intro-data-manipulation-with-r/)
+- [Programming with dplyr](http://dplyr.tidyverse.org/articles/programming.html) 
 - [normalising-data-within-groups](http://www.r-bloggers.com/normalising-data-within-groups/), [script](https://dl.dropboxusercontent.com/u/67041874/normalise.R)
 
 ## CLI

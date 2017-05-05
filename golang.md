@@ -128,6 +128,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [Practical advice for Go library authors](https://go-talks.appspot.com/github.com/cep21/go-talks/practical-advice-for-go-library-authors.slide)
 - [Why are slices sometimes altered when passed by value in Go?](https://www.calhoun.io/why-are-slices-sometimes-altered-when-passed-by-value-in-go/)
 - [How to ship production-grade Go](https://www.oreilly.com/ideas/how-to-ship-production-grade-go)
+- [There is no pass-by-reference in Go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go)
 
 packages
 
