@@ -15,7 +15,6 @@
 - [Database](#database)
 - [Distributed system](#distributed-system)
 - [Internet](#internet)
-- [Web](#web)
 - [AngularJS](#angularjs)
 - [Vuejs](#vuejs)
 - [Docker](#docker)
@@ -104,10 +103,6 @@
 -  [centos VPS上安装ShadowSocks](http://51lica.com/archives/1923)
 -  [Choosing an HTTP Status Code — Stop Making It Hard](http://racksburg.com/choosing-an-http-status-code/)
 
-## Web
-
--  [file-server](https://github.com/codeskyblue/file-server) - File Static Server written by golang.
--  [hugo](https://github.com/spf13/hugo) - A Fast and Flexible Static Site Generator built with love by spf13 in GoLang [http://gohugo.io](http://gohugo.io/)
 
 ## AngularJS
 
