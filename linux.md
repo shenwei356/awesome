@@ -56,3 +56,5 @@
 
 - [***SHELL编程之语法基础***](http://liwei.life/2016/05/16/69/)
 - [shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck, a static analysis tool for shell scripts http://www.shellcheck.net
+- [详解 awk 工具的使用方法](http://blog.jobbole.com/111002/)
+- [Linux 中高效编写 Bash 脚本的 10 个技巧](http://blog.jobbole.com/111514/)

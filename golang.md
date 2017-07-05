@@ -157,9 +157,12 @@ packages
 - [**So You Wanna Go Fast?**](http://bravenewgeek.com/so-you-wanna-go-fast/)
 - [**writing-high-performance-go**](http://go-talks.appspot.com/github.com/davecheney/presentations/writing-high-performance-go.slide)
     The compiler implements a specific optimisation for this case
+    
         var m map[string]string
         v, ok := m[string(bytes)]
+    
     This will avoid the conversion of the byte slice to a string for the map lookup. This is very specific, it won't work if you do something like
+    
         key := string(bytes)
         val, ok := m[key]
 
@@ -170,6 +173,7 @@ packages
 - [Debugging performance issues in Go programs](https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs)
 - [golang手动管理内存](http://my.oschina.net/lubia/blog/175154)
 - [go-filemutex](https://github.com/alexflint/go-filemutex) - Like sync.Mutex, but works across processes
+- [Profiler labels in Go 1.9+](https://rakyll.org/profiler-labels/)
 
 Packages:
 

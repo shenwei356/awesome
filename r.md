@@ -33,6 +33,7 @@ update all R packages
 
 ## Tutorial 
 
+- [R for data science](https://github.com/hadley/r4ds)
 - [Cheatsheets by rstudio](https://www.rstudio.com/resources/cheatsheets/)
 - [Hands-On Data Science with R](http://onepager.togaware.com/)
 - [DataPyR](https://datapyr.zeef.com/kranthi.kumar)
@@ -47,6 +48,7 @@ update all R packages
 
 ## Text
 
+- [stringr](https://github.com/tidyverse/stringr) - A fresh approach to string manipulation in R http://stringr.tidyverse.org
 - [Text Processing in R](http://www.mjdenny.com/Text_Processing_In_R.html)
 - [pystr](https://github.com/nicolewhite/pystr) - Python String Methods in R. [http://cran.r-project.org/web/packages/pystr](http://cran.r-project.org/web/packages/pystr)
 - [R语言基础知识-字符串的处理](http://r.rzaixian.com/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/how-to-deal-with-string-huyuan.html)
@@ -62,6 +64,12 @@ packages
 
 ## Data wrangling
 
+data structure
+
+- [tibble](http://tibble.tidyverse.org/) - A tibble, or tbl_df, is a modern reimagining of the data.frame, keeping what time has proven to be effective, and throwing out what is not.
+
+tools
+
 - [faster-data-manipulation-7-packages](http://www.analyticsvidhya.com/blog/2015/12/faster-data-manipulation-7-packages/)
 - [data-wrangling-cheatsheet.pdf](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 - [tidyr](https://github.com/hadley/tidyr) tidyr is a reframing of reshape2 designed to accompany the tidy data framework, and to work hand-in-hand with magrittr and dplyr to build a solid pipeline for data analysis.
@@ -69,6 +77,7 @@ packages
 - [dplyr: How to do data manipulation with R](http://www.sharpsightlabs.com/dplyr-intro-data-manipulation-with-r/)
 - [Programming with dplyr](http://dplyr.tidyverse.org/articles/programming.html) 
 - [normalising-data-within-groups](http://www.r-bloggers.com/normalising-data-within-groups/), [script](https://dl.dropboxusercontent.com/u/67041874/normalise.R)
+- [**broom**](https://github.com/tidyverse/broom) - Convert Statistical Analysis Objects into Tidy Data Frames
 
 ## CLI
 
