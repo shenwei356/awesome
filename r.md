@@ -166,7 +166,10 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [ggRandomForests](https://cran.r-project.org/web/packages/ggRandomForests/) : Visually Exploring Random Forests
 - [ggmcmc](https://cran.r-project.org/web/packages/ggmcmc/index.html): Tools for Analyzing MCMC Simulations from Bayesian Inference
 - [***ggalluvial***](https://github.com/corybrunson/ggalluvial) - alluvial diagrams in ggplot2
-
+- [ggpubr](https://github.com/kassambara/ggpubr) - 'ggplot2' Based Publication Ready Plots
+- [gggenes](https://github.com/wilkox/gggenes) - Draw gene arrow maps in ggplot2
+- [ggfittext](https://github.com/wilkox/ggfittext) - ggplot2 geoms to fit text into boxes
+- [**ggbeeswarm**](https://github.com/eclarke/ggbeeswarm) - Provides methods for beeswarm plots in ggplot2
 
 Tutorial
 

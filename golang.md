@@ -30,6 +30,7 @@
 - [Text](#text)
 - [Markdown](#markdown)
 - [WEB](#web)
+- [Cache](#cache)
 - [DB](#db)
 - [GUI](#gui)
 - [Figure and Chart](#figure%C2%A0and-chart)
@@ -207,6 +208,7 @@ Applications:
 - [golib/sort](https://github.com/tideland/golib#sort) - Parallel Quicksort.
 - [go-minhash](https://github.com/dgryski/go-minhash) - BottomK minwise hashing for streaming set similarity
 - [hyperloglog](https://github.com/clarkduvall/hyperloglog) - HyperLogLog and HyperLogLog++ implementation in Go/Golang. http://godoc.org/github.com/clarkduvall/hyperloglog
+- [**hyperloglog**](https://github.com/axiomhq/hyperloglog) - HyperLogLog with lots of sugar (Sparse, LogLog-Beta bias correction and TailCut space reduction)
 - [mafsa](https://github.com/smartystreets/mafsa) - Package mafsa implements Minimal Acyclic Finite State Automata in Go, essentially a high-speed, memory-efficient, Unicode-friendly set of strings. https://godoc.org/github.com/smartystreets/mafsa
 
 Persistent
@@ -328,6 +330,8 @@ Release
 - [tablewriter](https://github.com/olekukonko/tablewriter) - ASCII table in golang
 - [Handling CTRL-C (interrupt signal) in Golang Programs](https://nathanleclaire.com/blog/2014/08/24/handling-ctrl-c-interrupt-signal-in-golang-programs/)
 - [**multibar**](https://github.com/sethgrid/multibar) - Display multiple progress bars in Go (golang).
+- [spinner](https://github.com/briandowns/spinner) - Go (golang) package for providing a terminal spinner/progress indicator with options.
+
 
 ## JSON
 
@@ -383,6 +387,10 @@ packages
 - [go-i18n](https://github.com/nicksnyder/go-i18n) - Translate your Go program into multiple languages with templates and CLDR plural support.
 - [gorequest](https://github.com/parnurzeal/gorequest) - GoRequest -- Simplified HTTP client ( inspired by nodejs SuperAgent ) http://parnurzeal.github.io/gorequest/
 
+## Cache
+
+- [bigcache](https://github.com/allegro/bigcache)
+
 ## DB
 
 KV
@@ -390,6 +398,7 @@ KV
 - [goleveldb](https://github.com/syndtr/goleveldb) - LevelDB key/value database in Go.
 - [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
 - [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery
+- [badger](https://github.com/dgraph-io/badger) - An embeddable, persistent, simple and fast key-value (KV) store, written natively in Go. Optimize for SSDs
 
 In-memory
 
