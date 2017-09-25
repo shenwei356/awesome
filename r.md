@@ -170,6 +170,8 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [gggenes](https://github.com/wilkox/gggenes) - Draw gene arrow maps in ggplot2
 - [ggfittext](https://github.com/wilkox/ggfittext) - ggplot2 geoms to fit text into boxes
 - [**ggbeeswarm**](https://github.com/eclarke/ggbeeswarm) - Provides methods for beeswarm plots in ggplot2
+- [waffle](https://github.com/hrbrmstr/waffle) - Make waffle (square pie) charts in R
+  [introduction](https://nsaunders.wordpress.com/2017/09/08/infographic-style-charts-using-the-r-waffle-package/)
 
 Tutorial
 

@@ -130,6 +130,8 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [Why are slices sometimes altered when passed by value in Go?](https://www.calhoun.io/why-are-slices-sometimes-altered-when-passed-by-value-in-go/)
 - [How to ship production-grade Go](https://www.oreilly.com/ideas/how-to-ship-production-grade-go)
 - [There is no pass-by-reference in Go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go)
+- [**The ultimate guide to writing a Go tool**](https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/)
+- [**Allocation Efficiency in High-Performance Go Services**](https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/)
 
 packages
 
@@ -143,6 +145,7 @@ tutorials
 - [Using contexts to avoid leaking goroutines](http://golang.rakyll.org/leakingctx/)
 - [Mastering concurrency in Go](https://www.outlearn.com/learn/matryer/mastering-concurrency-in-go)
 - [Go channels are bad and you should feel bad](http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/?utm_source=statuscode&utm_medium=medium)
+- [Channels in Golang](http://www.tapirgames.com/blog/golang-channel)
 - [**How To Close Channels in Golang Elegantly**](http://www.tapirgames.com/blog/golang-channel-closing)
 
 packages
