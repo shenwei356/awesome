@@ -34,7 +34,7 @@ update all R packages
 ## Tutorial 
 
 - [R for data science](https://github.com/hadley/r4ds)
-- [Cheatsheets by rstudio](https://www.rstudio.com/resources/cheatsheets/)
+- [**Cheatsheets by rstudio**](https://www.rstudio.com/resources/cheatsheets/) https://github.com/rstudio/cheatsheets
 - [Hands-On Data Science with R](http://onepager.togaware.com/)
 - [DataPyR](https://datapyr.zeef.com/kranthi.kumar)
 - [http://www.sthda.com/english/](http://www.sthda.com/english/)
@@ -170,6 +170,7 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [gggenes](https://github.com/wilkox/gggenes) - Draw gene arrow maps in ggplot2
 - [ggfittext](https://github.com/wilkox/ggfittext) - ggplot2 geoms to fit text into boxes
 - [**ggbeeswarm**](https://github.com/eclarke/ggbeeswarm) - Provides methods for beeswarm plots in ggplot2
+- [gghighlight](https://github.com/yutannihilation/gghighlight/) - Highlight points and lines in ggplot2
 - [waffle](https://github.com/hrbrmstr/waffle) - Make waffle (square pie) charts in R
   [introduction](https://nsaunders.wordpress.com/2017/09/08/infographic-style-charts-using-the-r-waffle-package/)
 

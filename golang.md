@@ -132,6 +132,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [There is no pass-by-reference in Go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go)
 - [**The ultimate guide to writing a Go tool**](https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/)
 - [**Allocation Efficiency in High-Performance Go Services**](https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/)
+- [*Memory Blocks in Go*](http://www.tapirgames.com/blog/golang-memory-management)
 
 packages
 
@@ -334,6 +335,7 @@ Release
 - [Handling CTRL-C (interrupt signal) in Golang Programs](https://nathanleclaire.com/blog/2014/08/24/handling-ctrl-c-interrupt-signal-in-golang-programs/)
 - [**multibar**](https://github.com/sethgrid/multibar) - Display multiple progress bars in Go (golang).
 - [spinner](https://github.com/briandowns/spinner) - Go (golang) package for providing a terminal spinner/progress indicator with options.
+- [promptui](https://github.com/manifoldco/promptui) - Interactive prompt for command-line applications
 
 
 ## JSON
@@ -367,6 +369,7 @@ Release
 doc 
 
 - [Go Web Examples](https://gowebexamples.github.io/)
+- [Top 6 web frameworks for Go as of 2017](https://dev.to/speedwheel/top-6-web-frameworks-for-go-as-of-2017-34i)
 
 packages
 
@@ -374,7 +377,7 @@ packages
 - [go.rice](https://github.com/GeertJohan/go.rice) is a Go package that makes working with resources such as html,js,css,images,templates, etc very easy.
 - **[gin](https://gin-gonic.github.io/gin/)** - Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance, up to 40 times faster. If you need smashing performance, get yourself some Gin. [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin)
 - [beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language. [http://beego.me](http://beego.me/)
-- [echo](https://github.com/labstack/echo) - Echo is a fast :rocket: and unfancy micro web framework for Golang. http://echo.labstack.com
+- [**echo**](https://github.com/labstack/echo) - Echo is a fast :rocket: and unfancy micro web framework for Golang. http://echo.labstack.com
 - [ace](https://github.com/yosssi/ace) - HTML template engine for Go [http://ace.yoss.si/](http://ace.yoss.si/)
 - [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library
 - [go-oauth](https://github.com/garyburd/go-oauth) - OAuth 1.0 client package for Go
@@ -470,7 +473,7 @@ graph
 - [rpcx](https://github.com/smallnest/rpcx) - rpcx is a distributed RPC service framework based net/rpc like alibaba Dubbo and weibo Motan. Implemented by Go
 - [mesh](https://github.com/weaveworks/mesh) - Mesh is a tool for building distributed applications.
 - [Beehive](https://github.com/kandoo/beehive) Beehive is a distributed programming framework that comes with built-in transactions, replication, fault-tolerance, runtime instrumentation, and optimized placement.
-
+- [How we use gRPC to build a client/server system in Go](https://medium.com/pantomath/how-we-use-grpc-to-build-a-client-server-system-in-go-dd20045fa1c2)
 
 ## Flow / piple
 

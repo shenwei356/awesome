@@ -25,6 +25,7 @@
 - [Life](#life)
 - [Fun](#fun)
 - [Internet](#internet-1)
+- [GraphDB](#graphdb)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -174,3 +175,10 @@
 ## Internet
 
 -  youtube-dl - Small command-line program to download videos from YouTube.com and other video sites
+
+
+## GraphDB
+
+GraphQL
+
+- [An Overview of GraphQL](An Overview of GraphQL)
