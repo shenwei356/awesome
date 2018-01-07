@@ -110,6 +110,7 @@ packages
 - [largevis](https://github.com/elbamos/largevis) - This is an implementation of the largeVis algorithm described in (https://arxiv.org/abs/1602.00370). It also incorporates code for a very fast algorithm for estimating k-nearest neighbors.
 - [Vennerable](https://github.com/js229/Vennerable) - Vennerable provides Venn diagrams in R. It displays Venn and Euler diagrams for up to 9 different sets and using a variety of geometries. It allows the display of area-weighted Venn diagrams and allows fine graphical control over the result.
 - [alluvial](https://github.com/mbojan/alluvial) - Alluvial diagrams (you can also use [ggalluvial](https://github.com/corybrunson/ggalluvial)
+- [UpSetR](https://github.com/hms-dbmi/UpSetR) - An R implementation of the UpSet set visualization technique published by Lex, Gehlenborg, et al..
 
 misc
 
@@ -119,7 +120,7 @@ circos like
 
 - [rCircos](https://cran.r-project.org/web/packages/RCircos/index.html): R package for circular plots. [last update: 2013]
 - [**OmicCircos**](http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.html): R package for circular plots for omics data. [vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/OmicCircos/inst/doc/OmicCircos_vignette.pdf) [last update: 2016-05]
-- [circlize](https://github.com/jokergoo/circlize) - circular layout in R http://jokergoo.github.io/circlize
+- [**circlize**](https://github.com/jokergoo/circlize) - circular layout in R http://jokergoo.github.io/circlize
 
 
 Shiny

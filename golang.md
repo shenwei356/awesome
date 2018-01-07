@@ -53,6 +53,7 @@
 -  Rob Pike的Go语言PPT教程翻译[1](http://tonybai.com/2012/08/23/the-go-programming-language-tutorial-part1/),[2](http://tonybai.com/2012/08/27/the-go-programming-language-tutorial-part2/),[3](http://tonybai.com/2012/08/28/the-go-programming-language-tutorial-part3/)
 -  [Translating Effective Python into Go: Know When to Use Channels for Generator-Like Functions](http://www.informit.com/articles/article.aspx?p=2359758)
 - [go-best-practices-2016](https://peter.bourgon.org/go-best-practices-2016/)
+- [年终盘点！2017年超有价值的Golang文章](http://colobu.com/2017/12/28/top-golang-articles-of-2017/)
 
 ## Install packages
 
@@ -188,6 +189,7 @@ Applications:
 
 ## Test
 
+- [**testify**](https://github.com/stretchr/testify) - A toolkit with common assertions and mocks that plays nicely with the standard library
 - [gotests](https://github.com/cweill/gotests) - Generate better Go tests from your source code.
 
 ## Data Structure
@@ -195,7 +197,7 @@ Applications:
 - **[go-datastructures](https://github.com/Workiva/go-datastructures)** - Go-datastructures is a collection of useful, performant, and threadsafe Go datastructures.
 - [**golang-set**](https://github.com/deckarep/golang-set) - A simple set type for the Go language.
 - [set](https://github.com/fatih/set) - Set is a basic and simple, hash-based, Set data structure implementation in Go (Golang)
-- [set](https://github.com/xtgo/set) - General, type-safe, non-allocating set-operations for any sort.Interface
+- [**set**](https://github.com/xtgo/set) - General, type-safe, non-allocating set-operations for any sort.Interface
 - [pmap (ParallelMap)](https://github.com/shenwei356/pmap) - A lock-free parallel map in go
 - [concurrent-map](https://github.com/streamrail/concurrent-map) - provides a high-performance solution to this by sharding the map with minimal time spent waiting for locks.
 - [lane](https://github.com/oleiade/lane) - A golang queues, stacks and deques implementation library
@@ -335,7 +337,9 @@ Release
 - [Handling CTRL-C (interrupt signal) in Golang Programs](https://nathanleclaire.com/blog/2014/08/24/handling-ctrl-c-interrupt-signal-in-golang-programs/)
 - [**multibar**](https://github.com/sethgrid/multibar) - Display multiple progress bars in Go (golang).
 - [spinner](https://github.com/briandowns/spinner) - Go (golang) package for providing a terminal spinner/progress indicator with options.
+- [**go-prompt**](https://github.com/c-bata/go-prompt) - Building a powerful interactive prompt in Go, inspired by python-prompt-toolkit.
 - [promptui](https://github.com/manifoldco/promptui) - Interactive prompt for command-line applications
+- [beeep](https://github.com/gen2brain/beeep) - Go cross-platform library for sending desktop notifications and beeps
 
 
 ## JSON
