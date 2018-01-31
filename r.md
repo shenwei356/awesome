@@ -112,6 +112,10 @@ packages
 - [alluvial](https://github.com/mbojan/alluvial) - Alluvial diagrams (you can also use [ggalluvial](https://github.com/corybrunson/ggalluvial)
 - [UpSetR](https://github.com/hms-dbmi/UpSetR) - An R implementation of the UpSet set visualization technique published by Lex, Gehlenborg, et al..
 
+book
+
+- [Fundamentals of Data Visualization](http://serialmentor.com/dataviz/)
+
 misc
 
 - [Mathematical Annotation in R](http://vis.supstat.com/2013/04/mathematical-annotation-in-r/)
@@ -154,6 +158,7 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [***ggrepel***](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
 - [ggalt](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms and Statistical Transformations for 'ggplot2' https://cran.rstudio.com/web/packages/ggalt/ggalt.pdf
 - [***ggforce***](https://github.com/thomasp85/ggforce) - aime primarily at ad hoc data visualization in order to investigate the data at hand, and less at utilities for composing custom plots a la D3.js.
+    - [sina plot](https://cran.r-project.org/web/packages/sinaplot/vignettes/SinaPlot.html): `geom_sina`:  enhanced jitter strip char
 - [***gganimate***](https://github.com/dgrtwo/gganimate) - Create easy animations with ggplot2
 - [ggord](https://github.com/fawda123/ggord) - a take on ordination plots using ggplot2
 - [gbiplot](https://github.com/vqv/ggbiplot) - A biplot based on ggplot2
