@@ -7,6 +7,7 @@
 - [Doc](#doc)
 - [Random Forest](#random-forest)
 - [unclassified](#unclassified)
+- [Dimensionality reduction](#dimensionality-reduction)
 - [Clustering](#clustering)
 - [benchmark](#benchmark)
 - [Neural Network](#neural-network)
@@ -43,6 +44,12 @@ Learning
 - [machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
 - [What If I Am Not Good At Mathematics](http://machinelearningmastery.com/what-if-im-not-good-at-mathematics/)
 
+## Courses
+
+- [机器学习速成课程 from Google](https://developers.google.cn/machine-learning/crash-course/)
+- [深度学习入门系列 - 网易云课堂](https://study.163.com/course/courseMain.htm?courseId=1004111045)
+- [《动手学深度学习》第一季课程汇总](https://discuss.gluon.ai/t/topic/753)
+
 ## Random Forest
 
 - [Powerful Guide to learn Random Forest (with codes in R & Python)](http://www.analyticsvidhya.com/blog/2015/09/random-forest-algorithm-multiple-challenges/), [Tuning the parameters of your Random Forest model](https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/)
@@ -52,6 +59,10 @@ Learning
 ## unclassified
 
 - [A Guide to Gradient Boosted Trees with XGBoost in Python](https://jessesw.com/XG-Boost/)
+
+## Dimensionality reduction
+
+- [Comprehensive Guide on t-SNE algorithm with implementation in R & Python](https://www.analyticsvidhya.com/blog/2017/01/t-sne-implementation-r-python/)
 
 ## Clustering
 

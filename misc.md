@@ -59,6 +59,7 @@
 
 ## Work && Career
 
+-  [程序员的好日子什么时候才到头？](https://zhuanlan.zhihu.com/p/30771677)
 -  [同工不同酬，年薪 50 万美金的工程师到底有什么神本事？](http://news.cnblogs.com/n/207596/)
 -  [精益技术简历之道——改善技术简历的47条原则](http://zh.lucida.me/blog/lean-technical-resume/) （来个漂亮的在线简历[JJ Ying](http://iconmoon.com/about/)）
 

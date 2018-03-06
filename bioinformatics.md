@@ -102,6 +102,10 @@ Programming skills
 -  [Rosalind](http://rosalind.info/) (Rosalind is a platform for learning bioinformatics through problem solving)
 -  [**Teaching Materials of Langmead-lab**](http://www.langmead-lab.org/teaching-materials/)
 
+## Book
+
+- [A Primer for Computational Biology](http://library.open.oregonstate.edu/computationalbiology/)
+
 ## Comprehensive packages
 
 - [python] [Biopython](http://biopython.org/)

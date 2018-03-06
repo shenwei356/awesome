@@ -39,6 +39,7 @@ update all R packages
 - [DataPyR](https://datapyr.zeef.com/kranthi.kumar)
 - [http://www.sthda.com/english/](http://www.sthda.com/english/)
 - [http://www.r-bloggers.com/search/ggplot2](http://www.r-bloggers.com/search/ggplot2)
+- [**Mastering Software Development in R**](https://bookdown.org/rdpeng/RProgDA/)
 
 ## Packages
 
@@ -75,9 +76,12 @@ tools
 - [tidyr](https://github.com/hadley/tidyr) tidyr is a reframing of reshape2 designed to accompany the tidy data framework, and to work hand-in-hand with magrittr and dplyr to build a solid pipeline for data analysis.
 - [dplyr-and-plyr](http://www.slideshare.net/Sheffield_R_/dplyr-and-plyr), [When I use plyr/dplyr](http://educate-r.org//2014/01/24/usePlyr/)，[Using dplyr, and a comparison with plyr.]http://scicomp2014.edc.uri.edu/posts/2014-04-14-Smith.html
 - [dplyr: How to do data manipulation with R](http://www.sharpsightlabs.com/dplyr-intro-data-manipulation-with-r/)
+    - [Data Wrangling Part 1: Basic to Advanced Ways to Select Columns](https://suzan.rbind.io/2018/01/dplyr-tutorial-1/)
+    - [Data Wrangling Part 2: Transforming your columns into the right shape](https://suzan.rbind.io/2018/02/dplyr-tutorial-2/)
 - [Programming with dplyr](http://dplyr.tidyverse.org/articles/programming.html) 
 - [normalising-data-within-groups](http://www.r-bloggers.com/normalising-data-within-groups/), [script](https://dl.dropboxusercontent.com/u/67041874/normalise.R)
 - [**broom**](https://github.com/tidyverse/broom) - Convert Statistical Analysis Objects into Tidy Data Frames
+- [widyr](https://github.com/dgrtwo/widyr) - Widen, process, and re-tidy a dataset
 
 ## CLI
 
@@ -177,7 +181,7 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [ggfittext](https://github.com/wilkox/ggfittext) - ggplot2 geoms to fit text into boxes
 - [**ggbeeswarm**](https://github.com/eclarke/ggbeeswarm) - Provides methods for beeswarm plots in ggplot2
 - [gghighlight](https://github.com/yutannihilation/gghighlight/) - Highlight points and lines in ggplot2
-- [waffle](https://github.com/hrbrmstr/waffle) - Make waffle (square pie) charts in R
+- [**waffle**](https://github.com/hrbrmstr/waffle) - Make waffle (square pie) charts in R
   [introduction](https://nsaunders.wordpress.com/2017/09/08/infographic-style-charts-using-the-r-waffle-package/)
 
 Tutorial
@@ -199,9 +203,18 @@ Tutorial
 
 ## Statistics
 
+book
+
+- [Summary and Analysis of Extension Program Evaluation in R](http://rcompanion.org/handbook/)
+
+misc
+
 - [Quick Multivariate data analysis (PCA, CA, MCA) and visualization](http://www.sthda.com/english/wiki/factoextra-r-package-quick-multivariate-data-analysis-pca-ca-mca-and-visualization-r-software-and-data-mining)
 - [The R Stats Package](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/00Index.html) ([Adjust P-values for Multiple Comparisons](http://stat.ethz.ch/R-manual/R-devel/library/stats/html/p.adjust.html), [多重检验中的FDR错误控制方法与p-value的校正及Bonferroni校正](http://fhqdddddd.blog.163.com/blog/static/18699154201093171158444/))
-- [How can I do post-hoc pairwise comparisons in R?](http://statistics.ats.ucla.edu/stat/r/faq/posthoc.htm)
+- [How can I do post-hoc pairwise comparisons in R?](https://stats.idre.ucla.edu/r/faq/how-can-i-do-post-hoc-pairwise-comparisons-in-r/)
+
+- [Kruskal–Wallis Test](http://rcompanion.org/handbook/F_08.html)
+- [Multiple Comparison Procedures](http://www.jerrydallal.com/lhsp/mc.htm)
 
 ## Cluster
 

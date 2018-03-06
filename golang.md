@@ -36,6 +36,7 @@
 - [Figure and Chart](#figure%C2%A0and-chart)
 - [Image](#image)
 - [Graphics](#graphics)
+- [PDF](#pdf)
 - [HPC](#hpc)
 - [Distributed systems](#distributed-systems)
 - [Flow / piple](#flow--piple)
@@ -47,6 +48,7 @@
 
 ## doc
 
+-  [A curated selection of blog posts on Go](https://github.com/enocom/gopher-reading-list)
 -  [Ten Useful Techniques in Go](http://arslan.io/ten-useful-techniques-in-go)
 -  [Effective Go in chinese](http://www.hellogcc.org/effective_go.html)
 -  [(Draft) Traps, Gotchas, and Common Mistakes in Go (golang)](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
@@ -202,6 +204,7 @@ Applications:
 - [concurrent-map](https://github.com/streamrail/concurrent-map) - provides a high-performance solution to this by sharding the map with minimal time spent waiting for locks.
 - [lane](https://github.com/oleiade/lane) - A golang queues, stacks and deques implementation library
 - [btree](https://github.com/google/btree) - by google
+- [btree](https://github.com/tidwall/btree) - tidwall's folk
 - [bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters
 - [cfilter](https://github.com/irfansharif/cfilter) - Cuckoo Filter implementation in Go, better than Bloom Filters
 - [bitset](https://github.com/willf/bitset) - Go package implementing bitsets
@@ -396,6 +399,7 @@ packages
 - [gomail](https://github.com/go-gomail/gomail) - The best way to send emails in Go.
 - [go-i18n](https://github.com/nicksnyder/go-i18n) - Translate your Go program into multiple languages with templates and CLDR plural support.
 - [gorequest](https://github.com/parnurzeal/gorequest) - GoRequest -- Simplified HTTP client ( inspired by nodejs SuperAgent ) http://parnurzeal.github.io/gorequest/
+- [melody](https://github.com/olahol/melody) - Minimalist websocket framework for Go
 
 ## Cache
 
@@ -412,6 +416,8 @@ KV
 
 In-memory
 
+- [buntdb](https://github.com/tidwall/buntdb) - BuntDB is an embeddable, in-memory key/value database for Go with custom indexing and geospatial support
+- [summitdb](https://github.com/tidwall/summitdb) - In-memory NoSQL database with ACID transactions, Raft consensus, and Redis API
 - [go-memdb](https://github.com/hashicorp/go-memdb) - Golang in-memory database built on immutable radix trees
 - [yakdb](https://github.com/needcaffeine/yakdb) - yakdb (yet another key-value database) is a highly-performant in-memory key-value store written in Go. http://vicvijayakumar.com/yakdb-a-nosql-database-in-go.html
 
@@ -461,6 +467,10 @@ graph
 
 -  [ln](https://github.com/fogleman/ln) - 3D line art engine.
 
+## PDF
+
+- [signintech/gopdf](https://github.com/signintech/gopdf) - A simple library for generating PDF written in Go lang [Chinese supported]
+- [gofpdf](https://github.com/jung-kurt/gofpdf) - A PDF document generator with high level support for text, drawing and images [Chinese not supported]
 
 ## HPC
 

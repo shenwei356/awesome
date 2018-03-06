@@ -5,6 +5,7 @@
 **Table of Contents**
 
 - [Doc](#doc)
+- [Open data](#open-data)
 - [Data storage](#data-storage)
 - [Markup Language](#markup-language)
 - [Languages](#languages)
@@ -25,6 +26,11 @@
 ## Doc
 
 -  [Three Things About Data Science You Won't Find In the Books](http://blog.mikiobraun.de/2015/03/three-things-about-data-science.html)
+
+## Open data
+
+- [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) - A topic-centric list of high-quality open datasets in public domains. By everyone, for everyone!
+- [fivethirtyeight/data](https://github.com/fivethirtyeight/data) - Data and code behind the articles and graphics at FiveThirtyEight https://data.fivethirtyeight.com/
 
 ## Data storage
 
