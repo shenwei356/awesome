@@ -6,7 +6,7 @@
 
 - [Doc](#doc)
 - [Random Forest](#random-forest)
-- [unclassified](#unclassified)
+- [Gradient boosting](gradient-boosting)
 - [Dimensionality reduction](#dimensionality-reduction)
 - [Clustering](#clustering)
 - [benchmark](#benchmark)
@@ -56,9 +56,13 @@ Learning
 - [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
 - [A Complete Tutorial on Tree Based Modeling from Scratch (in R & Python)](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/)
 
-## unclassified
+## gradient boosting
 
+- [CatBoost](https://github.com/catboost/catboost) - CatBoost is an open-source gradient boosting on decision trees library with categorical features support out of the box for Python, R https://catboost.yandex
+- [LightGBM](https://github.com/Microsoft/LightGBM) - A fast, distributed, high performance gradient boosting (GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. It is under the umbrella of the DMTK(http://github.com/microsoft/dmtk) project of Microsoft.
+- [XGboost](https://github.com/dmlc/xgboost) - An optimized general purpose gradient boosting library. The library is parallelized, and also provides an optimized distributed version.
 - [A Guide to Gradient Boosted Trees with XGBoost in Python](https://jessesw.com/XG-Boost/)
+- [CatBoost vs. Light GBM vs. XGBoost](https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db), [入门 | 从结构到性能，一文概述XGBoost、Light GBM和CatBoost的同与不同](https://mp.weixin.qq.com/s/TD3RbdDidCrcL45oWpxNmw)
 
 ## Dimensionality reduction
 
@@ -95,7 +99,6 @@ packages
 - [Evaluation of Deep Learning Frameworks](https://github.com/zer0n/deepframeworks)
 - [Deep Machine Learning libraries and frameworks](https://medium.com/@abduljaleel/deep-machine-learning-libraries-and-frameworks-5fdf2bb6bfbe)
 - [Deep Learning Libraries by Language](http://www.teglor.com/b/deep-learning-libraries-language-cm569/)
-- [XGboost](https://github.com/dmlc/xgboost) - An optimized general purpose gradient boosting library. The library is parallelized, and also provides an optimized distributed version.
 - [mxnet](http://mxnet.rtfd.org/) - Lightweight, Portable, Flexible Distributed Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Go, and more
 - [利用Theano理解深度学习——Logistic Regression](http://blog.csdn.net/google19890102/article/details/48976021)，[利用Theano理解深度学习——Multilayer Perceptron](http://blog.csdn.net/google19890102/article/details/49071305)，[利用Theano理解深度学习——Convolutional Neural Networks](http://blog.csdn.net/google19890102/article/details/49966391)
 - [hyperas](https://github.com/maxpumperla/hyperas) - Keras + Hyperopt: A very simple wrapper for convenient hyperparameter optimization http://maxpumperla.github.io/hyperas/

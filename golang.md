@@ -136,6 +136,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [**The ultimate guide to writing a Go tool**](https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/)
 - [**Allocation Efficiency in High-Performance Go Services**](https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/)
 - [*Memory Blocks in Go*](http://www.tapirgames.com/blog/golang-memory-management)
+- [Writing a very fast cache service with millions of entries in Go](https://allegro.tech/2016/03/writing-fast-cache-service-in-go.html)
 
 packages
 
@@ -411,6 +412,7 @@ KV
 
 - [goleveldb](https://github.com/syndtr/goleveldb) - LevelDB key/value database in Go.
 - [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
+- [storm](https://github.com/asdine/storm) - Simple and powerful toolkit for BoltDB
 - [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery
 - [badger](https://github.com/dgraph-io/badger) - An embeddable, persistent, simple and fast key-value (KV) store, written natively in Go. Optimize for SSDs
 
