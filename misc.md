@@ -62,7 +62,8 @@
 -  [程序员的好日子什么时候才到头？](https://zhuanlan.zhihu.com/p/30771677)
 -  [同工不同酬，年薪 50 万美金的工程师到底有什么神本事？](http://news.cnblogs.com/n/207596/)
 -  [精益技术简历之道——改善技术简历的47条原则](http://zh.lucida.me/blog/lean-technical-resume/) （来个漂亮的在线简历[JJ Ying](http://iconmoon.com/about/)）
-
+- [苹果、谷歌等大厂的AI面试题被我们搞到手了，你敢来挑战吗？](https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247489971&idx=1&sn=f9b023413f17576c0e859e1f12c3c5fb&chksm=fbe9a07ccc9e296a24891063cb92c4ecbdee984985f9c9afcc1691748d7ea4c483bd96dc5540#rd)
+- [Google人工智能面试·真·题（附参考答案+攻略）](https://mp.weixin.qq.com/s/Nf-LHpGkQSwTKFpdFR00MQ)
 
 ## IT
 
@@ -126,7 +127,12 @@
 ## Visualization
 
 -  [http://colorbrewer2.org/](http://colorbrewer2.org/)
+-  [What to consider when choosing colors for data visualization](https://blog.datawrapper.de/colors/)
+- [Fundamentals of Data Visualization](http://serialmentor.com/dataviz/)
 -  [http://www.colorcombos.com/](http://www.colorcombos.com/)
+
+toools
+
 -  [DATA VISUALIZATION TOOLS](http://descienceblog.tumblr.com/tools)
 -  [d3js.org](https://github.com/mbostock/d3/wiki/Gallery), [nvd3](NVD3%20- A reusable D3 charting library)
 -  [Plotly](https://plot.ly/) – Online data visualization software. Best feature: Interface with multiple programming languages including R and Python or just use their graphical user interface.

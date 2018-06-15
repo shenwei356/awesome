@@ -53,6 +53,8 @@
 
 ## shell
 
+- [The Unix Shell](http://swcarpentry.github.io/shell-novice/) 
+  and [Extra Unix Shell Material](http://swcarpentry.github.io/shell-extras/)
 
 - [***SHELL编程之语法基础***](http://liwei.life/2016/05/16/69/)
 - [shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck, a static analysis tool for shell scripts http://www.shellcheck.net

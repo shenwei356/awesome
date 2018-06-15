@@ -103,6 +103,9 @@ packages
 - [利用Theano理解深度学习——Logistic Regression](http://blog.csdn.net/google19890102/article/details/48976021)，[利用Theano理解深度学习——Multilayer Perceptron](http://blog.csdn.net/google19890102/article/details/49071305)，[利用Theano理解深度学习——Convolutional Neural Networks](http://blog.csdn.net/google19890102/article/details/49966391)
 - [hyperas](https://github.com/maxpumperla/hyperas) - Keras + Hyperopt: A very simple wrapper for convenient hyperparameter optimization http://maxpumperla.github.io/hyperas/
 
+TensorFlow
+
+- [TensorFlow入门：线性回归](https://miketech.it/tf_linear_regression/)
 
 ## Optimization
 

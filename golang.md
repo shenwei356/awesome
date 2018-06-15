@@ -122,6 +122,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 
 ## Programming
 
+- [Good Code vs Bad Code in Golang](https://teivah.io/blog/good-code-vs-bad-code-in-golang/)
 - [go-patterns](https://github.com/tmrts/go-patterns) - A curated list of Go patterns and idioms http://tmrts.com/go-patterns
 - [composable-go-services-using-libchan/](http://blog.codeship.com/composable-go-services-using-libchan/)
 - [libchan](https://github.com/docker/libchan) - Like Go channels over the network,
@@ -175,6 +176,7 @@ packages
         key := string(bytes)
         val, ok := m[key]
 
+- [技术分享之《golang高性能实战》](http://xiaorui.cc/2018/04/09/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E4%B9%8B%E3%80%8Agolang%E9%AB%98%E6%80%A7%E8%83%BD%E5%AE%9E%E6%88%98%E3%80%8B/)
 - [gcvis](https://github.com/davecheney/gcvis) - Visualise Go program GC trace data in real time http://dave.cheney.net/2014/07/11/visualising-the-go-garbage-collector
 - [go-torch](https://github.com/uber/go-torch) - Stochastic flame graph profiler for Go programs
 - [Visualizing profiling in Go: A different way](http://www.florinpatan.ro/2016/05/visualizing-profiling-in-go-different.html)
@@ -183,6 +185,7 @@ packages
 - [golang手动管理内存](http://my.oschina.net/lubia/blog/175154)
 - [go-filemutex](https://github.com/alexflint/go-filemutex) - Like sync.Mutex, but works across processes
 - [Profiler labels in Go 1.9+](https://rakyll.org/profiler-labels/)
+- [Go code refactoring : the 23x performance hunt](https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7)
 
 Packages:
 
