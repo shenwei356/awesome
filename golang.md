@@ -138,6 +138,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [**Allocation Efficiency in High-Performance Go Services**](https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/)
 - [*Memory Blocks in Go*](http://www.tapirgames.com/blog/golang-memory-management)
 - [Writing a very fast cache service with millions of entries in Go](https://allegro.tech/2016/03/writing-fast-cache-service-in-go.html)
+- [The empty struct{}](https://dave.cheney.net/2014/03/25/the-empty-struct)
 
 packages
 

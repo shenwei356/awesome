@@ -199,19 +199,27 @@ FASTA index
 - [J-Circos](http://www.australianprostatecentre.org/research/software/jcircos) is a java application for doing interactive work with circos plots.
 - [ClicO FS](http://bioinformatics.oxfordjournals.org/content/early/2015/08/18/bioinformatics.btv433.long): an interactive web-based service of Circos.
 - [rCircos](https://cran.r-project.org/web/packages/RCircos/index.html): R package for circular plots. [last update: 2013]
--  [OmicCircos](http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.html): R package for circular plots for omics data.[last update: 2015-04]
+- [OmicCircos](http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.html): R package for circular plots for omics data.[last update: 2015-04]
+
+### Gene Annotation
+
+- [Gviz](https://bioconductor.org/packages/release/bioc/html/Gviz.html) - Plotting data and annotation information along genomic coordinates
+- [pyGenomeTracks](https://github.com/deeptools/pyGenomeTracks) - python module to plot beautiful and highly customizable genome browser tracks
+- [karyoploteR](https://github.com/bernatgel/karyoploteR) - karyoploteR - An R/Bioconductor package to plot arbitrary data along the genome
+- [gggenes](https://github.com/wilkox/gggenes) - Draw gene arrow maps in ggplot2
 
 ### Others
 
 - [ggbio](http://bioconductor.org/packages/release/bioc/html/ggbio.html): R package for visualizing biological data. Has a circular view similar to the previous packages.
 - [D3 chord diagrams](https://github.com/mbostock/d3/wiki/Chord-Layout) (javascript) can be used to visualize genomic rearrangements. [See this plot of migration flows](http://www.global-migration.info/) as a similar example.
- - [Genomatix Transcriptome Viewer: Gene Fusion analyses](http://www.genomatix.de/online_help/help_eldorado/transcriptome_help.html#gene_fusion_analyses)
+- [Genomatix Transcriptome Viewer: Gene Fusion analyses](http://www.genomatix.de/online_help/help_eldorado/transcriptome_help.html#gene_fusion_analyses)
 - [iFUSE: integrated fusion gene explorer](http://www.ncbi.nlm.nih.gov/pubmed/23661695)
 - [FusionAnalyser: a new graphical, event-driven tool for fusion rearrangements discovery](http://www.ncbi.nlm.nih.gov/pubmed/22570408)
 - [SOAPFuse includes the option to generate figures](http://soap.genomics.org.cn/soapfuse.html#output2)
 - [Gremlin](http://compbio.cs.brown.edu/projects/gremlin/)
 - [Seqeyes](http://www.biovis.net/2011/materials/abstracts/BioVispaper107.pdf): A flash tool for visualizing structural variations.
 - [SVVIZ](http://svviz.github.io/svviz/) - A READ VISUALIZER TO VALIDATE STRUCTURAL VARIANTS
+- [samplot](https://github.com/ryanlayer/samplot) - Plot structural variant signals from many BAMs and CRAMs
 
 ## Kmer
 
