@@ -23,6 +23,7 @@ and miscellaneous stuff.
 - [Machine Learning](https://github.com/shenwei356/awesome/blob/master/machine-learning.md)
 - [Linux](https://github.com/shenwei356/awesome/blob/master/linux.md)
 - [Git](https://github.com/shenwei356/awesome/blob/master/git.md)
+- [Deepnote](https://www.deepnote.com)
 
 ## Programming languages
 
