@@ -6,6 +6,7 @@
 
 - [Base](#base)
 - [Tutorial ](#tutorial)
+- [Books](#books)
 - [Packages](#packages)
 - [Text](#text)
 - [Performance](#performance)
@@ -40,6 +41,10 @@ update all R packages
 - [http://www.sthda.com/english/](http://www.sthda.com/english/)
 - [http://www.r-bloggers.com/search/ggplot2](http://www.r-bloggers.com/search/ggplot2)
 - [**Mastering Software Development in R**](https://bookdown.org/rdpeng/RProgDA/)
+
+## Books
+
+-[R in Action, Third Edition](https://www.manning.com/books/r-in-action-third-edition) by Robert I. Kabacoff.
 
 ## Packages
 
