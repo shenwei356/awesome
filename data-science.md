@@ -123,6 +123,7 @@ p-value
 ## Books
 
 - [***Mining of Massive Datasets***](http://www.mmds.org/) - The book is based on Stanford Computer Science course CS246: Mining Massive Datasets
+- [***Exploring Data with R***](https://www.manning.com/books/exploring-data-with-r/) - A book that explores the most common types of data using the powerful combination of R and the RStudio IDE.
 
 ## Course
 
