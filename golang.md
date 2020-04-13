@@ -190,6 +190,7 @@ packages
 - [Profiler labels in Go 1.9+](https://rakyll.org/profiler-labels/)
 - [Go code refactoring : the 23x performance hunt](https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7)
 - [2018-12-26-在Go中恰到好处的内存对齐](https://github.com/EDDYCJY/blog/blob/master/golang/2018-12-26-在Go中恰到好处的内存对齐.md)
+- [String interning in Go](https://artem.krylysov.com/blog/2018/12/12/string-interning-in-go/)
 
 Packages:
 
