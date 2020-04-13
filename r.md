@@ -63,6 +63,25 @@ docs
 
 packages
 
+## Install
+
+```
+> devtools::install_github("houyunhuang/ggcor")
+Error in curl::curl_fetch_memory(url, handle = h) 
+error setting certificate verify locations:
+CAfile: /opt/microsoft/ropen/3.5.2/lib64/R/lib/microsoft-r-cacert.pem 
+CApath: none
+```
+
+One solution :
+
+    remove.packages(c("curl","httr"))
+    install.packages(c("curl", "httr"))
+
+    file.edit('~/.Renviron')
+    CURL_CA_BUNDLE=/usr/lib/R/lib/microsoft-r-cacert.pem
+
+
 ## Data wrangling
 
 data structure
@@ -107,7 +126,6 @@ packages
 - [http://rcharts.io/gallery/](http://rcharts.io/gallery/)
 - [corrplot](https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html)
 - ordination plots
-- [igraph](http://igraph.org/r/), [**Network Analysis and Visualization with R and igraph**](http://kateto.net/networks-r-igraph)
 - Dendrogram: hclust
 - [factoextra](https://github.com/kassambara/factoextra) -  Visualization of the outputs of a multivariate analysis [http://www.sthda.com](http://www.sthda.com/)
 - Sankey from Scratch using rCharts, d3.js, and igraph
@@ -115,6 +133,8 @@ packages
 - [Vennerable](https://github.com/js229/Vennerable) - Vennerable provides Venn diagrams in R. It displays Venn and Euler diagrams for up to 9 different sets and using a variety of geometries. It allows the display of area-weighted Venn diagrams and allows fine graphical control over the result.
 - [alluvial](https://github.com/mbojan/alluvial) - Alluvial diagrams (you can also use [ggalluvial](https://github.com/corybrunson/ggalluvial)
 - [UpSetR](https://github.com/hms-dbmi/UpSetR) - An R implementation of the UpSet set visualization technique published by Lex, Gehlenborg, et al..
+- [ggcorrplot](https://github.com/kassambara/ggcorrplot) - Visualization of a correlation matrix using ggplot2 https://rpkgs.datanovia.com/ggcorrplot/
+
 
 book
 
@@ -130,6 +150,14 @@ circos like
 - [**OmicCircos**](http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.html): R package for circular plots for omics data. [vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/OmicCircos/inst/doc/OmicCircos_vignette.pdf) [last update: 2016-05]
 - [**circlize**](https://github.com/jokergoo/circlize) - circular layout in R http://jokergoo.github.io/circlize
 
+graph
+
+- [Network Visualizations in R using ggraph and graphlayouts](http://mr.schochastics.net/netVizR.html)
+- [Network visualization with R](https://kateto.net/network-visualization)
+- [igraph](http://igraph.org/r/), [**Network Analysis and Visualization with R and igraph**](http://kateto.net/networks-r-igraph)
+- [**ggraph**](https://github.com/thomasp85/ggraph) - Grammar of Graph Graphics
+- [ggnetwork](https://github.com/briatte/ggnetwork)
+- [ggnet](https://github.com/briatte/ggnet) - Simple network plots with ggplot2 in R.
 
 Shiny
 
@@ -166,7 +194,6 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [***gganimate***](https://github.com/dgrtwo/gganimate) - Create easy animations with ggplot2
 - [ggord](https://github.com/fawda123/ggord) - a take on ordination plots using ggplot2
 - [gbiplot](https://github.com/vqv/ggbiplot) - A biplot based on ggplot2
-- [***ggnet***](https://github.com/briatte/ggnet) - Simple network plots with ggplot2 in R. Similar packages: [ggnetworkmap](https://ggobi.github.io/ggally/gh-pages/ggnetworkmap.html), [ggraph](https://github.com/thomasp85/ggraph) - Grammar of Graph Graphics
 - [ggvis](http://ggvis.rstudio.com/)- Interactive grammar of graphics for R
 - [***ggcorr***](https://briatte.github.io/ggcorr/): correlation matrixes with ggplot2
 - [***ggtree***](http://guangchuangyu.github.io/ggtree): an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data.
@@ -184,7 +211,8 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [**waffle**](https://github.com/hrbrmstr/waffle) - Make waffle (square pie) charts in R
   [introduction](https://nsaunders.wordpress.com/2017/09/08/infographic-style-charts-using-the-r-waffle-package/)
 - [ggridges](https://github.com/clauswilke/ggridges) - Geoms to make ridgeline plots with ggplot2
-- [https://github.com/wilkox/ggwrap] - ‘ggwrap’ wraps a ‘ggplot2’ plot over multiple rows, to make plots with long x axes easier to read.
+- [ggwrap](https://github.com/wilkox/ggwrap) - ‘ggwrap’ wraps a ‘ggplot2’ plot over multiple rows, to make plots with long x axes easier to read.
+- [ggbump](https://github.com/davidsjoberg/ggbump) - A geom for ggplot to create bump plots
 
 Tutorial
 

@@ -56,6 +56,7 @@
 -  [Translating Effective Python into Go: Know When to Use Channels for Generator-Like Functions](http://www.informit.com/articles/article.aspx?p=2359758)
 - [go-best-practices-2016](https://peter.bourgon.org/go-best-practices-2016/)
 - [年终盘点！2017年超有价值的Golang文章](http://colobu.com/2017/12/28/top-golang-articles-of-2017/)
+- [go-under-the-hood](https://github.com/changkun/go-under-the-hood) [Go 语言原本](https://changkun.de/golang/)
 
 ## Install packages
 
@@ -139,6 +140,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [*Memory Blocks in Go*](http://www.tapirgames.com/blog/golang-memory-management)
 - [Writing a very fast cache service with millions of entries in Go](https://allegro.tech/2016/03/writing-fast-cache-service-in-go.html)
 - [The empty struct{}](https://dave.cheney.net/2014/03/25/the-empty-struct)
+- [译文 如何使用 Go 1.13 里的错误处理](https://gocn.vip/topics/9858)
 
 packages
 
@@ -187,6 +189,7 @@ packages
 - [go-filemutex](https://github.com/alexflint/go-filemutex) - Like sync.Mutex, but works across processes
 - [Profiler labels in Go 1.9+](https://rakyll.org/profiler-labels/)
 - [Go code refactoring : the 23x performance hunt](https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7)
+- [2018-12-26-在Go中恰到好处的内存对齐](https://github.com/EDDYCJY/blog/blob/master/golang/2018-12-26-在Go中恰到好处的内存对齐.md)
 
 Packages:
 
@@ -303,6 +306,7 @@ Others
 - [go.pipeline](https://github.com/songgao/go.pipeline) - go.pipeline is a utility library that imitates unix pipeline. It simplifies chaining unix commands (and other stuff) in Go.
 - [go-qrcode](https://github.com/skip2/go-qrcode) - :sparkles: QR Code encoder (Go) http://go-qrcode.appspot.com
 - [commonregex](https://github.com/mingrammer/commonregex) - A collection of common regular expressions for Go
+- [cwalk](https://github.com/iafan/cwalk) - cwalk = Concurrent filepath.Walk replacement (Go)
 
 Date
 
@@ -353,10 +357,24 @@ Release
 ## JSON
 
 - [gjson](https://github.com/tidwall/gjson) - Get JSON values very quickly in Go
-- [ffjson](https://github.com/pquerna/ffjson): faster JSON for Go
 - [megajson](https://github.com/benbjohnson/megajson) - A JSON parser generator for high performance encoding and decoding in Go.
 - [gojson](https://github.com/ChimeraCoder/gojson) - A simple command-line tool for manipulating JSON for use in developing Go cod
 - [jsonpp](https://github.com/jmhodges/jsonpp) - A command line JSON pretty printer.
+
+Needing code generation
+
+- [ffjson](https://github.com/pquerna/ffjson): faster JSON for Go
+- [easyjson](https://github.com/mailru/easyjson) - Fast JSON serializer for golang.
+
+Using reflection
+
+
+xxx
+
+- [jsonparser](https://github.com/buger/jsonparser) - Alternative JSON parser for Go that does not require schema (so far fastest)
+- [gojay](https://github.com/francoispqt/gojay) - fastest JSON encoder/decoder with powerful stream API for Golang
+- [json-iterator/go](https://github.com/json-iterator/go) - A high-performance 100% compatible drop-in replacement of "encoding/json"
+- [fastjson](https://github.com/valyala/fastjson) - Fast JSON parser and validator for Go. No custom structs, no code generation, no reflection
 
 ## Serialization
 

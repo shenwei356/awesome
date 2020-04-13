@@ -94,6 +94,8 @@
 -  [Mysql在大型网站的应用架构演变](http://www.cnblogs.com/Creator/p/3776110.html)
 -  [leveldb 性能、使用场景评估](http://www.cnblogs.com/lulu/p/4231810.html)
 
+- [一文了解数据库索引：哈希、B-Tree 与 LSM](https://juejin.im/post/5ca07cd851882567b2034938)
+
 ## Distributed system
 
 -  [distsysbook](https://github.com/mixu/distsysbook)

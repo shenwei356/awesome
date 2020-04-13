@@ -82,6 +82,7 @@ Programming skills
 -  [The myths of bioinformatics software](https://liorpachter.wordpress.com/2015/07/10/the-myths-of-bioinformatics-software)
 -  [**Good Habit for Bioinformatics Analyst or Scientist**](https://www.biostars.org/p/190366/)
 -  [**What Are The Most Common Stupid Mistakes In Bioinformatics?**](https://www.biostars.org/p/7126/#191667)
+-  [Myths about Bioinformatics](https://bioinformaticsreview.com/20200302/myths-about-bioinformatics/)
 
 ## 生物信息杂谈
 
