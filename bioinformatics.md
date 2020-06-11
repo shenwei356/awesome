@@ -9,6 +9,7 @@
 - [生物信息杂谈](#%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E6%9D%82%E8%B0%88)
 - [Talks](#talks)
 - [Online courses](#online-courses)
+- [Workshop](#workshop)
 - [Comprehensive packages](#comprehensive-packages)
 - [General file formats](#general-file-formats)
 - [bam/sam/tabix/bgzf](#bamsamtabixbgzf)
@@ -38,6 +39,8 @@
 - [Plastform](#plastform)
 - [PCR](#pcr)
 - [HPC](#hpc)
+- [Transcriptome](#transcriptome)
+- [Variant Calling](#variant-calling)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -56,6 +59,7 @@
 -  [It’s time to reboot bioinformatics education](http://toddharris.net/blog/2015/03/23/its-time-to-reboot-bioinformatics-education/)
 -  [An Explosion Of Bioinformatics Careers](http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2014_06_13/science.opms.r1400143)
 -  [**Is going back to the wet lab worth it?**](https://www.biostars.org/p/228950/#231887)
+- [5 things I wish I knew when I started getting into bioinformatics](https://angus.readthedocs.io/en/2019/_static/Lee-5-things.pdf)
 
 Social media
 
@@ -102,6 +106,10 @@ Programming skills
 
 -  [Rosalind](http://rosalind.info/) (Rosalind is a platform for learning bioinformatics through problem solving)
 -  [**Teaching Materials of Langmead-lab**](http://www.langmead-lab.org/teaching-materials/)
+
+## Workshop
+
+- [Next-Gen Sequence Analysis Workshop](https://angus.readthedocs.io/en/2019/)
 
 ## Book
 
@@ -274,6 +282,9 @@ FASTA index
 - [PhyloSift](https://github.com/gjospin/PhyloSift) - Phylogenetic and taxonomic analysis for genomes and metagenomes
 - [MetaQuery: Annotation and quantitative analysis of genes in the human gut microbiome](http://metaquery.docpollard.org/)
 
+- [Microbial Ecology - a discussion and overview of amplicon sequencing and metagenomics](https://angus.readthedocs.io/en/2019/amplicon_and_metagen.html)
+- [Quick Insights from Sequencing Data with sourmash](https://angus.readthedocs.io/en/2019/sourmash.html#)
+- [Recovering “genomes” from metagenomes](https://angus.readthedocs.io/en/2019/recovering-rep-genomes-from-mgs.html)
 
 ## 16S
 
@@ -310,3 +321,25 @@ FASTA index
 
 - [hpcgo](https://github.com/drio/hpcgo) - Helping submit jobs to HPC cluster.
 - [easy_qsub](https://github.com/shenwei356/easy_qsub)  - Easily submitting PBS jobs with script template. Multiple input files supported.
+
+## Transcriptome
+
+- [De novo transcriptome assembly](https://angus.readthedocs.io/en/2019/transcriptome-assembly-nematostella.html)
+- [Annotating and evaluating a de novo transcriptome assembly](https://angus.readthedocs.io/en/2019/dammit_annotation.html)
+- [Evaluating your transcriptome assembly](https://dibsi-rnaseq.readthedocs.io/en/latest/evaluation.html)
+
+- [Differential Expression and Visualization in R](https://angus.readthedocs.io/en/2019/diff-ex-and-viz.html)
+- [RNA-seq Analysis](https://angus.readthedocs.io/en/2019/RNA-seq-Analysis.html)
+
+## variant calling
+
+## one-liner
+
+ensemble id -> symbol -> biotype
+
+    zcat Homo_sapiens.GRCh38.84.gtf.gz \
+        | awk '$3=="gene"' \
+        | perl -ne 'next unless /gene_id "(.+?)".+gene_name "(.+?)".+gene_biotype "(.+?)"/; print "$1\t$2\t$3\n";' \
+        > Homo_sapiens.GRCh38.84.gtf.gz.ensemble2symol-biotype.tsv
+
+

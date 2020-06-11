@@ -2,6 +2,19 @@ My R learning note.
 
 ## R
 
+configurations
+
+```
+$ vim ~/.Rprofile
+# http not https!!!
+options(repos=c(CRAN="http://mirrors.tuna.tsinghua.edu.cn/CRAN/"))
+options(BioC_mirror="http://mirrors.tuna.tsinghua.edu.cn/bioconductor")
+
+utils::setRepositories(ind=1:2)
+
+```
+
+
 update all installed packages:
 
 ```R
@@ -352,6 +365,32 @@ names(g.index) <- g
 
 Control   GROUP  GROUP2 
       1       2       3 
+
+```
+
+### parallel
+
+
+
+```
+library(parallel)
+
+options("mc.cores"=detectCores())
+
+mclapply
+
+library(foreach)
+foreach (i=1:3) %do% {
+  sqrt(i)
+}
+
+library(foreach)
+library(doParallel)
+registerDoParallel(numCores)  # use multicore, set to the number of our cores
+foreach (i=1:3) %dopar% {
+  sqrt(i)
+}
+
 
 ```
 

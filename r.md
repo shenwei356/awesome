@@ -31,6 +31,12 @@ update all R packages
     install.packages("rvcheck")
     update_all()
 
+install github repo
+
+    library(devtools)
+    devtools::install_github("kassambara/survminer")
+    # if http error: manually download and install_url("file:///home/xxx/xx.tar.gz")
+    
 ## Tutorial 
 
 - [R for data science](https://github.com/hadley/r4ds)
@@ -59,7 +65,7 @@ update all R packages
 docs
 
 - [http://rstatistics.net/strategies-to-speed-up-r-code/](http://rstatistics.net/strategies-to-speed-up-r-code/)
-
+- [Quick Intro to Parallel Computing in R](https://nceas.github.io/oss-lessons/parallel-computing-in-r/parallel-computing-in-r.html)
 
 packages
 
@@ -83,6 +89,12 @@ One solution :
 
 
 ## Data wrangling
+
+io
+
+- [data.table](https://github.com/Rdatatable/data.table)
+- [readr](https://readr.tidyverse.org/) 
+
 
 data structure
 
@@ -163,6 +175,8 @@ Shiny
 
 - [Building Web Data Products with R & Shiny](https://www.codementor.io/r/tutorial/building-a-web-based-sentiment-classifier-using-r-shiny)
 
+- [shinyWidgets](https://github.com/dreamRs/shinyWidgets) - shinyWidgets : Extend widgets available in shiny 
+
 ## Color
 
 - [R color cheatsheet](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/colorPaletteCheatsheet.pdf)
@@ -180,15 +194,18 @@ Shiny
 Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visualize),
 [ggally](https://github.com/ggobi/ggally)
 
-[ggplot2 extensions - gallery](http://www.ggplot2-exts.org/gallery/)
+[ggplot2 extensions - gallery](https://exts.ggplot2.tidyverse.org/gallery/)
+
+- [esquisse](https://github.com/dreamRs/esquisse) - RStudio add-in to make plots with ggplot2 
 
 - [***ggthemes***](https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html) - Some extra themes, geoms, and scales for  ggplot2.
 - [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) - Opinionated, typographic-centric ggplot2 themes and theme components
+- [**ggcharts**](https://thomas-neitmann.github.io/ggcharts/index.html) - provides a high-level ggplot2 interface for creating common charts.
 - [**ggsci**](https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html) - Scientific Journal and Sci-Fi Themed Color Palettes for ggplot2
 - [***cowplot***](https://github.com/wilkelab/cowplot)  - provide a publication-ready theme for ggplot2. similar package: [ggmatrix](https://ggobi.github.io/ggally/gh-pages/ggmatrix.html), [ggpairs](https://ggobi.github.io/ggally/gh-pages/ggpairs.html), [ggscatmat](https://ggobi.github.io/ggally/gh-pages/ggscatmat.html)
 - [***ggfortify***](https://github.com/sinhrks/ggfortify) - Define fortify and autoplot functions to allow ggplot2 to handle some popular R packages.  [http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/](http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/)
 - [***ggrepel***](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
-- [ggalt](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms and Statistical Transformations for 'ggplot2' https://cran.rstudio.com/web/packages/ggalt/ggalt.pdf
+- [***ggalt***](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms and Statistical Transformations for 'ggplot2' https://cran.rstudio.com/web/packages/ggalt/ggalt.pdf
 - [***ggforce***](https://github.com/thomasp85/ggforce) - aime primarily at ad hoc data visualization in order to investigate the data at hand, and less at utilities for composing custom plots a la D3.js.
 - [sina plot](https://cran.r-project.org/web/packages/sinaplot/vignettes/SinaPlot.html): `geom_sina`:  enhanced jitter strip char
 - [***gganimate***](https://github.com/dgrtwo/gganimate) - Create easy animations with ggplot2
@@ -210,9 +227,15 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [gghighlight](https://github.com/yutannihilation/gghighlight/) - Highlight points and lines in ggplot2
 - [**waffle**](https://github.com/hrbrmstr/waffle) - Make waffle (square pie) charts in R
   [introduction](https://nsaunders.wordpress.com/2017/09/08/infographic-style-charts-using-the-r-waffle-package/)
-- [ggridges](https://github.com/clauswilke/ggridges) - Geoms to make ridgeline plots with ggplot2
+- [**ggridges**](https://github.com/clauswilke/ggridges) - Geoms to make ridgeline plots with ggplot2
 - [ggwrap](https://github.com/wilkox/ggwrap) - ‘ggwrap’ wraps a ‘ggplot2’ plot over multiple rows, to make plots with long x axes easier to read.
 - [ggbump](https://github.com/davidsjoberg/ggbump) - A geom for ggplot to create bump plots
+- [ggdag](https://ggdag.malco.io/) - An R Package for visualizing and analyzing causal directed acyclic graphs
+- [ggpol](https://erocoar.github.io/ggpol/)
+- [gghalves](https://github.com/erocoar/gghalves) - Easy half-half geoms in ggplot2 https://erocoar.github.io/gghalves/
+- [sugrrants](https://pkg.earo.me/sugrrants/) - Calendar-based graphics
+- [lindia](https://github.com/yeukyul/lindia) - Extension package of linear regression diagonostic plots in ggplot2.
+- [ggnewscale](https://github.com/eliocamp/ggnewscale) - Multiple Fill and Color Scales in `ggplot2` 
 
 Tutorial
 
@@ -274,3 +297,45 @@ data <- read.xls("datafile.xls")
 - [How to apply function over each matrix element](http://stackoverflow.com/questions/7395397/how-to-apply-function-over-each-matrix-element)
 - [How do I pass variables to a custom function in ddply?]( http://stackoverflow.com/questions/20845409/how-do-i-pass-variables-to-a-custom-function-in-ddply)
 - [R-Transposing a data frame]( http://stackoverflow.com/questions/6778908/r-transposing-a-data-frame)
+
+
+## Bioinformatics
+
+### ID mapping
+
+- [biomaRt](https://bioconductor.org/packages/release/bioc/html/biomaRt.html)
+
+### xxx
+
+- [plyranges](https://github.com/sa-lee/plyranges) - A grammar of genomic data transformation https://sa-lee.github.io/plyranges/
+
+## GLM
+
+- [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html)
+- [eNetXplorer](https://cran.r-project.org/web/packages/eNetXplorer/index.html)
+
+### Enrichment Analysis
+
+- [clusterProfiler](https://yulab-smu.github.io/clusterProfiler-book)
+
+Dataset
+
+- [rWikiPathways](https://bioconductor.org/packages/release/bioc/html/rWikiPathways.html)
+- [msigdbr](https://cran.r-project.org/web/packages/msigdbr/index.html)
+- [NCG](http://ncg.kcl.ac.uk/) Cancer Genes
+- [ReactomePA](https://bioconductor.org/packages/release/bioc/html/ReactomePA.html) Reactome Pathway Analysis
+
+### Survival Analysis
+
+[Cox Proportional-Hazards Model](http://www.sthda.com/english/wiki/cox-proportional-hazards-model)
+
+- [survival](https://cran.r-project.org/package=survival)
+- [survminer](https://rpkgs.datanovia.com/survminer/)
+- [survcomp](http://www.bioconductor.org/packages/release/bioc/html/survcomp.html)
+
+### TCGA
+
+- [TCGAmutations](https://github.com/PoisonAlien/TCGAmutations)
+- [CDGS-R](https://www.cbioportal.org/rmatlab)
+- [xena](https://xenabrowser.net/datapages/)
+- [UCSCXenaTools](https://github.com/ShixiangWang/UCSCXenaTools), [intro]https://shixiangwang.github.io/home/en/post/ucscxenatools-201908/)
