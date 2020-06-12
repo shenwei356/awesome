@@ -52,6 +52,7 @@
 -  [My Formula as a Bioinformatician](http://computationalproteomic.blogspot.co.uk/2014/01/my-formula-as-bioinformatician.html)
 -  [So you want to be a computational biologist?](http://www.nature.com/nbt/journal/v31/n11/abs/nbt.2740.html) ☆
 -  [Bioinformatics is not something you are taught, it’s a way of life](http://biomickwatson.wordpress.com/2013/08/06/bioinformatics-is-not-something-you-are-taught-its-a-way-of-life/)
+-  [A guide for the lonely bioinformatician](http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/)
 -  [Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies](http://www.ploscompbiol.org/article/info:doi%2F10.1371%2Fjournal.pcbi.1003496)
 -  [Top N Reasons To Do A Ph.D. or Post-Doc in Bioinformatics/Computational Biology](http://caseybergman.wordpress.com/2012/07/31/top-n-reasons-to-do-a-ph-d-or-post-doc-in-bioinformaticscomputational-biology/)
 -  [101 Questions: a new series of interviews with notable bioinformaticians](http://www.acgt.me/?tag=101+questions)
