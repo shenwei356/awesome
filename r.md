@@ -69,6 +69,10 @@ docs
 
 packages
 
+- [future](https://github.com/HenrikBengtsson/future) - R package: future: Unified Parallel and Distributed Processing in R for Everyone
+- [furrr](https://davisvaughan.github.io/furrr/) - simplify the combination of purrr’s family of mapping functions and future’s parallel processing capabilities.
+
+
 ## Install
 
 ```
@@ -102,6 +106,8 @@ data structure
 
 tools
 
+- [tidyverse](www.tidyverse.org) 
+- [tidytidbits](https://cran.r-project.org/web/packages/tidytidbits/index.html) A selection of various tools to extend a data analysis workflow based on the 'tidyverse' packages
 - [faster-data-manipulation-7-packages](http://www.analyticsvidhya.com/blog/2015/12/faster-data-manipulation-7-packages/)
 - [data-wrangling-cheatsheet.pdf](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 - [tidyr](https://github.com/hadley/tidyr) tidyr is a reframing of reshape2 designed to accompany the tidy data framework, and to work hand-in-hand with magrittr and dplyr to build a solid pipeline for data analysis.
@@ -113,6 +119,7 @@ tools
 - [normalising-data-within-groups](http://www.r-bloggers.com/normalising-data-within-groups/), [script](https://dl.dropboxusercontent.com/u/67041874/normalise.R)
 - [**broom**](https://github.com/tidyverse/broom) - Convert Statistical Analysis Objects into Tidy Data Frames
 - [widyr](https://github.com/dgrtwo/widyr) - Widen, process, and re-tidy a dataset
+
 
 ## CLI
 
@@ -126,7 +133,7 @@ docs
 
 packages
 
-- [caret](https://github.com/topepo/caret/) - (Classification And Regression Training) R package that contains misc functions for training and plotting classification and regression models
+- [caret](https://github.com/topepo/caret/) - (Classification And Regression Training) R package that contains misc functions for training and plotting classification and regression models https://topepo.github.io/caret/index.html
 - [ROCR](https://rocr.bioinf.mpi-sb.mpg.de/) - visualizing classifier performance in R, with only 3 commands
 - [xgboost](https://github.com/dmlc/xgboost) - Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow
     - [How to use XGBoost algorithm in R in easy steps](https://www.analyticsvidhya.com/blog/2016/01/xgboost-algorithm-easy-steps/)
@@ -332,6 +339,7 @@ Dataset
 - [survival](https://cran.r-project.org/package=survival)
 - [survminer](https://rpkgs.datanovia.com/survminer/)
 - [survcomp](http://www.bioconductor.org/packages/release/bioc/html/survcomp.html)
+- [survivalAnalysis](https://cran.r-project.org/web/packages/survivalAnalysis/) - A high-level interface to perform survival analysis, including Kaplan-Meier analysis and log-rank tests and Cox regression
 
 ### TCGA
 
@@ -339,3 +347,7 @@ Dataset
 - [CDGS-R](https://www.cbioportal.org/rmatlab)
 - [xena](https://xenabrowser.net/datapages/)
 - [UCSCXenaTools](https://github.com/ShixiangWang/UCSCXenaTools), [intro]https://shixiangwang.github.io/home/en/post/ucscxenatools-201908/)
+
+### Ecology
+
+- [vegan](https://github.com/vegandevs/vegan) R package for community ecologists: popular ordination methods, ecological null models & diversity analysis https://CRAN.R-project.org/package=vegan
