@@ -260,6 +260,7 @@ Tutorial
 - [R Recipe: Aligning Axes in ggplot2]( http://www.exegetic.biz/blog/2015/05/r-recipe-aligning-axes-in-ggplot2/)
 - [making-faceted-heatmaps-with-ggplot2/](http://rud.is/b/2016/02/14/making-faceted-heatmaps-with-ggplot2/)
 - [R语言：ggplot2精细化绘图——以实用商业化图表绘图为例](http://www.cnblogs.com/weibaar/p/4567791.html)
+- [The Evolution of a ggplot (Ep. 1)](https://cedricscherer.netlify.app/2019/05/17/the-evolution-of-a-ggplot-ep.-1/)
 
 ## Statistics
 

@@ -741,8 +741,12 @@ p <- ggplot(df_m) +
   scale_y_continuous(expand=c(0,0)) # delete space between bar and x axis
   scale_x_continuous(limits=c(0, args$x_limit), breaks = seq(0, args$x_limit, by = args$x_break))+
   scale_y_continuous(labels = comma) +  expand_limits(y=0) + # equal to ylim(0, max(BOD$demand))
+  
+  #  mix of plain and italic text in ggplot categorical x-axis
+  scale_x_discrete(labels=c("strain",  expression(paste("Δ",italic("gene") )))) + 
 
   scale_fill_manual(values=c("#CCEEFF", "#FFDDDD"), guide=FALSE)
+  
 
   xlab('Frame') +
   ylab('Counts') +
