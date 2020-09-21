@@ -242,7 +242,8 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [gghalves](https://github.com/erocoar/gghalves) - Easy half-half geoms in ggplot2 https://erocoar.github.io/gghalves/
 - [sugrrants](https://pkg.earo.me/sugrrants/) - Calendar-based graphics
 - [lindia](https://github.com/yeukyul/lindia) - Extension package of linear regression diagonostic plots in ggplot2.
-- [ggnewscale](https://github.com/eliocamp/ggnewscale) - Multiple Fill and Color Scales in `ggplot2` 
+- [ggnewscale](https://github.com/eliocamp/ggnewscale) - Multiple Fill and Color Scales in `ggplot2`
+- [ggrastr](https://github.com/VPetukhov/ggrastr) - Provides a set of ggplot2 geoms to rasterize only specific layers of the plot 
 
 Tutorial
 
@@ -308,6 +309,11 @@ data <- read.xls("datafile.xls")
 
 
 ## Bioinformatics
+
+### batch effect
+
+- [sva](https://bioconductor.org/packages/release/bioc/html/sva.html) - Surrogate Variable Analysis, contains functions for removing batch effects and other unwanted variation in high-throughput experiment. 
+
 
 ### ID mapping
 

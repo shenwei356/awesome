@@ -12,7 +12,9 @@
 
 ## Workflow
 
-- [Differential Gene Expression using RNA-Seq (Workflow)](https://github.com/twbattaglia/RNAseq-workflow)
+- [**Differential Gene Expression using RNA-Seq (Workflow)**](https://github.com/twbattaglia/RNAseq-workflow)
+
+
 - [Snakemake workflow: rna-seq-star-deseq2](https://github.com/snakemake-workflows/rna-seq-star-deseq2)
 - [**RNA-seq workflow: gene-level exploratory analysis and differential expression**](https://bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html)
 - [**Analyzing RNA-seq data with DESeq2**](http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
@@ -21,5 +23,15 @@
 ## Tools
 
 - [List of RNA-Seq bioinformatics tools](https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools)
+- [SortMeRNA](https://github.com/biocore/sortmerna/)
+- [**Salmon**](https://salmon.readthedocs.io/en/latest/salmon.html) - a tool for wicked-fast transcript quantification from RNA-seq data
 - [tximport](https://github.com/mikelove/tximport) - Import and summarize transcript-level estimates for transcript- and gene-level analysis
+    - [Importing transcript abundance with tximport](http://bioconductor.org/packages/release/bioc/vignettes/tximport/inst/doc/tximport.html)
 - [tximeta](https://github.com/mikelove/tximeta) - Transcript Quantification Import with Automatic Metadata
+    - [Tximeta: transcript quantification import with automatic metadata](https://bioconductor.org/packages/release/bioc/vignettes/tximeta/inst/doc/tximeta.html)
+- [TxDb.Hsapiens.UCSC.hg19.knownGene](https://bioconductor.org/packages/release/data/annotation/html/TxDb.Hsapiens.UCSC.hg19.knownGene.html)
+
+Explore
+
+- [ReportingTools](http://bioconductor.org/packages/release/bioc/html/ReportingTools.html) - Tools for making reports in various formats
+- [pcaExplorer](http://bioconductor.org/packages/release/bioc/html/pcaExplorer.html) -an R/Bioconductor package for interacting with RNA-seq principal components, [doc](http://bioconductor.org/packages/release/bioc/vignettes/pcaExplorer/inst/doc/upandrunning.html)
