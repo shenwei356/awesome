@@ -271,7 +271,7 @@ book
 
 misc
 
-- [Quick Multivariate data analysis (PCA, CA, MCA) and visualization](http://www.sthda.com/english/wiki/factoextra-r-package-quick-multivariate-data-analysis-pca-ca-mca-and-visualization-r-software-and-data-mining)
+- [**Quick Multivariate data analysis (PCA, CA, MCA) and visualization**](http://www.sthda.com/english/wiki/factoextra-r-package-quick-multivariate-data-analysis-pca-ca-mca-and-visualization-r-software-and-data-mining)
 - [The R Stats Package](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/00Index.html) ([Adjust P-values for Multiple Comparisons](http://stat.ethz.ch/R-manual/R-devel/library/stats/html/p.adjust.html), [多重检验中的FDR错误控制方法与p-value的校正及Bonferroni校正](http://fhqdddddd.blog.163.com/blog/static/18699154201093171158444/))
 - [How can I do post-hoc pairwise comparisons in R?](https://stats.idre.ucla.edu/r/faq/how-can-i-do-post-hoc-pairwise-comparisons-in-r/)
 

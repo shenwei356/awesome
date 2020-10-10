@@ -158,6 +158,9 @@ FASTA index
 
 - [bedtools2](https://github.com/arq5x/bedtools2) - A powerful toolset for genome arithmetic.
 - [BEDOPS](https://bedops.readthedocs.org/en/latest/index.html) - the fast, highly scalable and easily-parallelizable genome analysis toolkit
+- [gffcompare](https://github.com/gpertea/gffcompare) - classify, merge, tracking and annotation of GFF files by comparing to a reference annotation GFF
+- [gffread](https://github.com/gpertea/gffread) - GFF/GTF utility providing format conversions, region filtering, FASTA sequence extraction and more
+
 - [python] [gffutils](https://github.com/daler/gffutils) - GFF and GTF file manipulation and interconversion
 - [python] [pybedtools](https://github.com/daler/pybedtools) - Python wrapper for Aaron Quinlan's BEDTools
 - [golang] [irelate](https://github.com/brentp/irelate) - Streaming relation (overlap, distance, KNN) of (any number of) sorted genomic interval sets. #golang
