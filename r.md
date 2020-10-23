@@ -90,8 +90,15 @@ One solution :
 
     file.edit('~/.Renviron')
     CURL_CA_BUNDLE=/usr/lib/R/lib/microsoft-r-cacert.pem
+    http_proxy="http://127.0.0.1:12333"
+    https_proxy="http://127.0.0.1:12333"
 
+Or 
 
+    Sys.setenv(http_proxy="http://127.0.0.1:12333")
+    Sys.setenv(https_proxy="http://127.0.0.1:12333")
+
+    
 ## Data wrangling
 
 io
@@ -119,7 +126,7 @@ tools
 - [normalising-data-within-groups](http://www.r-bloggers.com/normalising-data-within-groups/), [script](https://dl.dropboxusercontent.com/u/67041874/normalise.R)
 - [**broom**](https://github.com/tidyverse/broom) - Convert Statistical Analysis Objects into Tidy Data Frames
 - [widyr](https://github.com/dgrtwo/widyr) - Widen, process, and re-tidy a dataset
-
+- [themis](https://github.com/tidymodels/themis) - Extra recipes steps for dealing with unbalanced data
 
 ## CLI
 
@@ -174,9 +181,11 @@ graph
 - [Network Visualizations in R using ggraph and graphlayouts](http://mr.schochastics.net/netVizR.html)
 - [Network visualization with R](https://kateto.net/network-visualization)
 - [igraph](http://igraph.org/r/), [**Network Analysis and Visualization with R and igraph**](http://kateto.net/networks-r-igraph)
+- [graphlayouts](https://github.com/schochastics/graphlayouts) -  implements some graph layout algorithms that are not available in igraph
 - [**ggraph**](https://github.com/thomasp85/ggraph) - Grammar of Graph Graphics
 - [ggnetwork](https://github.com/briatte/ggnetwork)
 - [ggnet](https://github.com/briatte/ggnet) - Simple network plots with ggplot2 in R.
+
 
 Shiny
 

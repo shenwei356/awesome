@@ -102,6 +102,26 @@ go get -v github.com/golang/lint/golint
 go get -v github.com/sqs/goreturns
 ```
 
+update xcode-go
+
+```
+proxychains go get -u github.com/acroca/go-symbols
+proxychains go get -u github.com/davidrjenni/reftools/cmd/fillstruct
+proxychains go get -u github.com/haya14busa/goplay/cmd/goplay
+proxychains go get -u github.com/mdempsky/gocode
+proxychains go get -u github.com/sqs/goreturns
+proxychains go get -u github.com/uudashr/gopkgs/v2/cmd/gopkgs
+proxychains go get -u github.com/zmb3/gogetdoc
+proxychains go get -u golang.org/x/lint/golint
+proxychains go get -u golang.org/x/tools/cmd/gorename
+proxychains go get -u golang.org/x/tools/gopls
+proxychains go get -u github.com/cweill/gotests/...
+proxychains go get -u github.com/rogpeppe/godef
+proxychains go get -u github.com/ramya-rao-a/go-outline
+proxychains go get -u github.com/go-delve/delve/cmd/dlv
+
+```
+
 ## Awesome go
 
 - [go.libhunt.com](https://go.libhunt.com)

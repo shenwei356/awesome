@@ -184,6 +184,7 @@ packages 3
 tools
 
 - [vprof](https://github.com/nvdv/vprof) - Visual Python profiler
+- [scalene: a high-performance CPU and memory profiler for Python](https://github.com/emeryberger/scalene)
 
 tutorials
 
