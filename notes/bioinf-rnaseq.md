@@ -1,3 +1,7 @@
+## Resources
+
+- [RNA-seq Bioinformatics](https://rnabio.org/)
+
  
 ## Transcriptome
 
@@ -61,8 +65,20 @@ Pathway Database
 Enrichment Analysis
 
 - [clusterProfiler](http://yulab-smu.top/clusterProfiler-book/) - universal enrichment tool for functional and comparative study
-- []
 
 Resource
 
+- [MSigDB](https://www.gsea-msigdb.org/gsea/msigdb/index.jsp) (human only),
+  for human and mouse: [MSigDF](https://github.com/ToledoEM/msigdf), mouse: [GSKB](https://bioconductor.org/packages/release/data/experiment/html/gskb.html)
+- [MeSH](https://meshb.nlm.nih.gov/)
 - [AnnotationHub](https://bioconductor.org/packages/devel/bioc/vignettes/AnnotationHub/inst/doc/AnnotationHub.html) - Access the AnnotationHub Web Service
+- [org.Hs.eg.db](https://bioconductor.org/packages/release/data/annotation/html/org.Hs.eg.db.html)
+- [org.Mm.eg.db](https://bioconductor.org/packages/release/data/annotation/html/org.Mm.eg.db.html)
+- [org.Rn.eg.db](https://bioconductor.org/packages/release/data/annotation/html/org.Rn.eg.db.html)
+- [MeSH.Hsa.eg.db](https://bioconductor.org/packages/release/data/annotation/html/MeSH.Hsa.eg.db.html)
+- [MeSH.Mmu.eg.db](https://bioconductor.org/packages/release/data/annotation/html/MeSH.Mmu.eg.db.html)
+- [MeSH.Rno.eg.db](https://bioconductor.org/packages/release/data/annotation/html/MeSH.Rno.eg.db.html)
+
+Online tools
+
+- [idep](http://bioinformatics.sdstate.edu/idep/) - an integrated web application for differential expression and pathway analysis of RNA-Seq data

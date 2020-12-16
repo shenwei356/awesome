@@ -228,6 +228,8 @@ fill na
 
 ```R
 x$rank[is.na(x$rank)] <- 0
+
+x %>% dplyr::replace(is.na(.), 0)
 ```
 
 replace text in data frame
@@ -754,8 +756,11 @@ p <- ggplot(df_m) +
 
   guides(fill = guide_legend(reverse = TRUE)) # reverse legend order, could not use color=**  in aes at the same time
   guides(fill = guide_legend(title="xxxx")) # change legend title
-  labs(color="s...", shape="...")
+  labs(color="s...", shape="...") +
+  ggtitle(args$title, subtitle="") +
+  labs(title = “Main title”, subtitle = “My subtitle”, caption = “My caption”)
 
+# https://ggplot2.tidyverse.org/reference/theme.html
 p <- p +
   theme_bw() +
   theme(
@@ -798,7 +803,7 @@ p <- p +
     # legend.position = "none", # remove legend
     # legend.position = c(0.3, 0.2), # custom relative positon
     # 
-    # legend.margin = unit(0.1, "cm"),
+    # legend.margin = margin(0.0, 0.2, 0.0, 0.0, unit="cm"),
     legend.key.height=unit(1,"line"),
     legend.key.width=unit(1,"line"),
 
@@ -932,6 +937,16 @@ ggsave(
   p, file = "Figure 2.png", width = 8, height = 5, dpi = 600
 )
 
+
+# with title
+title <- ggdraw() + draw_label(ggtitle(paste0(comp[2], " vs ", comp[3])))
+
+p <- plot_grid(
+    title, 
+    plot_grid(p1, p2, ncol=2),
+    nrow = 2,
+    rel_heights=c(0.1, 1)
+)
 
 ```
 

@@ -29,9 +29,13 @@
 update all R packages
 
     install.packages("rvcheck")
-    update_all()
+    
+    library(rvcheck)
+    update_all(check_R=FALSE)
 
 install github repo
+
+    install.packages(c("RCurl", "curl", "httr", "openssl"))
 
     library(devtools)
     devtools::install_github("kassambara/survminer")
