@@ -299,6 +299,12 @@ df <- df  %>%
 
 ```
 
+ops whithin group
+
+df %>% 
+  group_by(Category) %>%
+  group_modify(~ { .x %>% arrange(GeneRatio) %>% head(8) })
+
 
 separate
 
@@ -511,15 +517,35 @@ library(RColorBrewer)
 scale_fill_distiller(palette ="RdBu", direction = -1) # or direction=1
 ```
 
+case_when
+
+```R
+fl_stand %>% 
+  mutate(
+    color = case_when(
+      year < 2020 & playoff_seed <= 6 ~ "blue",
+      year == 2020 & playoff_seed <= 7 ~ "blue",
+      TRUE ~  "red"
+    )
+  )
+```
 
 ## ggplot
 
 ### theme
 
-http://docs.ggplot2.org/dev/vignettes/themes.html
+
 
 
 ### axis
+
+[Reorder a column before plotting with faceting, such that the values are ordered within each facet](https://rdrr.io/cran/tidytext/man/reorder_within.html)
+
+```R
+ggplot(aes(x = tidytext::reorder_within(abb_name, playoff_seed, conf), y = differential)) +
+tidytext::scale_x_reordered() +
+facet_grid(~conf, scales = "free_x") +
+```
 
 10,000
 
@@ -533,6 +559,12 @@ scale_x_continuous(breaks = seq(0, max(df$loc), by = args$x_interval), labels = 
 ```R
 library(scales)
 scale_y_continuous(formatter = 'percent')
+
+# or 
+scale_y_continuous(
+    labels = scales::percent_format(accuracy = 1),
+    breaks = seq(.0, 1, by = .10)
+    ) 
 ```
 
 log
@@ -601,6 +633,13 @@ wrapit <- function(text) {
 
 data$wrapped_text <- llply(data$text, wrapit)
 data$wrapped_text <- unlist(data$wrapped_text)
+```
+
+Other string
+
+```R
+str_wrap: https://stringr.tidyverse.org/reference/str_wrap.html
+str_trunc 
 ```
 
 ## legend
@@ -758,6 +797,7 @@ p <- ggplot(df_m) +
   guides(fill = guide_legend(title="xxxx")) # change legend title
   labs(color="s...", shape="...") +
   ggtitle(args$title, subtitle="") +
+  ggtitle(gene, subtitle=paste(strwrap(product, width=50), collapse = "\n")) + # wrap text
   labs(title = “Main title”, subtitle = “My subtitle”, caption = “My caption”)
 
 # https://ggplot2.tidyverse.org/reference/theme.html
@@ -786,7 +826,9 @@ p <- p +
 
     # axis.ticks.y = element_blank(),
     # axis.title = element_blank(),
-    # axis.text.x = element_text(angle=30, hjust=1, vjust=1)
+    # axis.text.x = element_text(angle=30, hjust=1, vjust=1) # label of axis
+    # axis.title.x =element_text(size=12),  
+    
 
     # remove y axix
     #     axis.line = element_line(colour = "black"),
@@ -806,6 +848,10 @@ p <- p +
     # legend.margin = margin(0.0, 0.2, 0.0, 0.0, unit="cm"),
     legend.key.height=unit(1,"line"),
     legend.key.width=unit(1,"line"),
+    
+    # add dashed frame to legend
+    legend.margin = margin(0.1, 0.1, 0.1, 0.1, unit="cm"),
+    legend.background = element_rect(color="grey80", linetype = 2),
 
     # legend.background = element_rect(fill=alpha('blue', 0)), # need library(scale)    
     plot <- plot + theme(legend.position=c(1,1),legend.justification=c(1,1),
@@ -833,7 +879,8 @@ p <- p +
     
     plot.margin = unit(c(0.1,0.1,0.1,0),"cm"),
 
-    plot.title = element_text(size=16)
+    plot.title = element_text(size=16),
+    plot.subtitle = element_text(size=9)
     # plot.title = element_text(hjust = 5)
   )
 

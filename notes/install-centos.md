@@ -129,3 +129,12 @@ Tensorflow via conda
 - https://www.tensorflow.org/install/source?hl=zh-cn#gpu_support_3 
 
 
+## Users
+
+limit cores and memory
+
+    echo "@xiaoming hard rss 2097152" >> /etc/security/limits.conf
+    echo "#Sets up user limits according to /etc/security/limits.conf" >/etc/pam.d/login
+    echo "session required pam_limits.so" > /etc/pam.d/login
+
+

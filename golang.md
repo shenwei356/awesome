@@ -161,6 +161,7 @@ Or use [gofresh](https://github.com/divan/gofresh) (Keep your Go package depend
 - [Writing a very fast cache service with millions of entries in Go](https://allegro.tech/2016/03/writing-fast-cache-service-in-go.html)
 - [The empty struct{}](https://dave.cheney.net/2014/03/25/the-empty-struct)
 - [译文 如何使用 Go 1.13 里的错误处理](https://gocn.vip/topics/9858)
+- [GO编程模式系列](https://coolshell.cn/articles/21128.html)
 
 packages
 
@@ -211,6 +212,7 @@ packages
 - [Go code refactoring : the 23x performance hunt](https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7)
 - [2018-12-26-在Go中恰到好处的内存对齐](https://github.com/EDDYCJY/blog/blob/master/golang/2018-12-26-在Go中恰到好处的内存对齐.md)
 - [String interning in Go](https://artem.krylysov.com/blog/2018/12/12/string-interning-in-go/)
+
 
 Packages:
 
@@ -337,6 +339,7 @@ Date
 Debug
 
 - [go-spew](https://github.com/davecgh/go-spew) - Go-spew implements a deep pretty printer for Go data structures to aid in debugging.
+- [Debugging Goroutines: How to debug like a pro](https://vtimothy.com/posts/debugging-goroutines/)
 
 Release
 

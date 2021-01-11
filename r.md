@@ -201,6 +201,7 @@ Shiny
 
 - [R color cheatsheet](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/colorPaletteCheatsheet.pdf)
 - [RColorBrewer](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CB8QFjAAahUKEwic7ene6uTGAhXPMIgKHbSBAvs&url=http%3A%2F%2Fcran.r-project.org%2Fpackage%3DRColorBrewer&ei=DVuqVdyyHc_hoAS0g4rYDw&usg=AFQjCNHdzsnSUdQ4Uj7y4721JA426mW_dA&sig2=p6oVhW7jglAJcQRPNQI_HA)
+- [colorspace](https://cran.r-project.org/web/packages/colorspace/vignettes/colorspace.html) - A Toolbox for Manipulating and Assessing Colors and Palettes
 
 
 ## Heatmap
@@ -220,12 +221,13 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 
 - [***ggthemes***](https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html) - Some extra themes, geoms, and scales for  ggplot2.
 - [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) - Opinionated, typographic-centric ggplot2 themes and theme components
-- [**ggcharts**](https://thomas-neitmann.github.io/ggcharts/index.html) - provides a high-level ggplot2 interface for creating common charts.
+- [**ggcharts**](https://thomas-neitmann.github.io/ggcharts/index.html) - provides a high-level ggplot2 interface for creating common charts. 
 - [**ggsci**](https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html) - Scientific Journal and Sci-Fi Themed Color Palettes for ggplot2
 - [***cowplot***](https://github.com/wilkelab/cowplot)  - provide a publication-ready theme for ggplot2. similar package: [ggmatrix](https://ggobi.github.io/ggally/gh-pages/ggmatrix.html), [ggpairs](https://ggobi.github.io/ggally/gh-pages/ggpairs.html), [ggscatmat](https://ggobi.github.io/ggally/gh-pages/ggscatmat.html)
 - [***ggfortify***](https://github.com/sinhrks/ggfortify) - Define fortify and autoplot functions to allow ggplot2 to handle some popular R packages.  [http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/](http://cos.name/2015/11/ggfortify-visualization-in-one-line-of-code/)
 - [***ggrepel***](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
-- [***ggalt***](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms and Statistical Transformations for 'ggplot2' https://cran.rstudio.com/web/packages/ggalt/ggalt.pdf
+- [***ggtext***](https://github.com/wilkelab/ggtext) - Improved text rendering support for ggplot2. `ggtext::geom_richtext`.
+- [***ggalt***](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms and Statistical Transformations for 'ggplot2' https://cran.rstudio.com/web/packages/ggalt/ggalt.pdf , `geom_lollipop`
 - [***ggforce***](https://github.com/thomasp85/ggforce) - aime primarily at ad hoc data visualization in order to investigate the data at hand, and less at utilities for composing custom plots a la D3.js.
 - [sina plot](https://cran.r-project.org/web/packages/sinaplot/vignettes/SinaPlot.html): `geom_sina`:  enhanced jitter strip char
 - [***gganimate***](https://github.com/dgrtwo/gganimate) - Create easy animations with ggplot2
@@ -275,6 +277,8 @@ Tutorial
 - [making-faceted-heatmaps-with-ggplot2/](http://rud.is/b/2016/02/14/making-faceted-heatmaps-with-ggplot2/)
 - [R语言：ggplot2精细化绘图——以实用商业化图表绘图为例](http://www.cnblogs.com/weibaar/p/4567791.html)
 - [The Evolution of a ggplot (Ep. 1)](https://cedricscherer.netlify.app/2019/05/17/the-evolution-of-a-ggplot-ep.-1/)
+- [Best practices for programming with ggplot2](https://fishandwhistle.net/slides/rstudioconf2020/#1)
+- [Creating and using custom ggplot2 themes0](https://themockup.blog/posts/2020-12-26-creating-and-using-custom-ggplot2-themes/)
 
 ## Statistics
 
