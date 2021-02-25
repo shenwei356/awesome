@@ -58,6 +58,8 @@
 - [年终盘点！2017年超有价值的Golang文章](http://colobu.com/2017/12/28/top-golang-articles-of-2017/)
 - [go-under-the-hood](https://github.com/changkun/go-under-the-hood) [Go 语言原本](https://changkun.de/golang/)
 
+- [Go语言高级编程(Advanced Go Programming)](https://chai2010.cn/advanced-go-programming-book/)
+
 ## Install packages
 
 Use proxy, or use [Gopm](https://github.com/gpmgo/gopm).
@@ -340,6 +342,7 @@ Debug
 
 - [go-spew](https://github.com/davecgh/go-spew) - Go-spew implements a deep pretty printer for Go data structures to aid in debugging.
 - [Debugging Goroutines: How to debug like a pro](https://vtimothy.com/posts/debugging-goroutines/)
+- [Debugging in Go with Delve](https://eleni.blog/2020/12/19/debugging-in-go-with-delve/)
 
 Release
 

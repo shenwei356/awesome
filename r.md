@@ -259,6 +259,8 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [lindia](https://github.com/yeukyul/lindia) - Extension package of linear regression diagonostic plots in ggplot2.
 - [ggnewscale](https://github.com/eliocamp/ggnewscale) - Multiple Fill and Color Scales in `ggplot2`
 - [ggrastr](https://github.com/VPetukhov/ggrastr) - Provides a set of ggplot2 geoms to rasterize only specific layers of the plot 
+- [ggvenn](https://github.com/yanlinlin82/ggvenn)
+- [gggenomes](https://github.com/thackl/gggenomes) - A grammar of graphics for comparative genomics
 
 Tutorial
 

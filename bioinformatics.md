@@ -105,6 +105,7 @@ Programming skills
 
 ## Online courses
 
+-  [https://liulab-dfci.github.io/bioinfo-combio/](https://liulab-dfci.github.io/bioinfo-combio/)
 -  [Rosalind](http://rosalind.info/) (Rosalind is a platform for learning bioinformatics through problem solving)
 -  [**Teaching Materials of Langmead-lab**](http://www.langmead-lab.org/teaching-materials/)
 

@@ -35,6 +35,11 @@ python
 
     python3 -m pip install --upgrade pip
     
+Add pip mirror
+
+    pip install pip -U
+    pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+    
 ## Disk
 
 multipath

@@ -56,6 +56,11 @@ Learning
 - [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
 - [A Complete Tutorial on Tree Based Modeling from Scratch (in R & Python)](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/)
 
+## Feature selection
+
+- [Boruta all-relevant feature selection method](https://github.com/scikit-learn-contrib/boruta_py)
+- [Parallelized Mutual Information based Feature Selection module](https://github.com/danielhomola/mifs)
+
 ## gradient boosting
 
 - [CatBoost](https://github.com/catboost/catboost) - CatBoost is an open-source gradient boosting on decision trees library with categorical features support out of the box for Python, R https://catboost.yandex

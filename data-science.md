@@ -90,6 +90,7 @@ Language-dependent
 ## Algorithm
 
 -  [Fast and Easy Levenshtein distance using a Trie](http://stevehanov.ca/blog/index.php?id=114)
+- [9 Distance Measures in Data Science](https://towardsdatascience.com/9-distance-measures-in-data-science-918109d069fa)
 
 ## Statistics
 

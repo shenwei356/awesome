@@ -657,6 +657,68 @@ disable some legend
 guide(color=FALSE)
 ```
 
+shared legend
+
+```R
+
+legend <- get_legend(
+    # create some space to the left of the legend
+    p1 + theme(legend.box.margin = margin(0, 0, 0, 12))
+)
+
+
+p <- plot_grid(
+    plot_grid(
+        p1 + theme(legend.position="none"),
+        p2 + theme(legend.position="none"),
+        p3 + theme(legend.position="none"),
+        ncol = 1,
+        nrow = 3,
+        labels = c("HSC", "ENDO", "MAC"),
+        rel_heights = c(1, 1, 1)
+    ),
+    legend,
+    ncol = 2,
+    rel_widths = c(1, 0.2)
+)
+
+```
+
+## stats
+
+- https://www.datanovia.com/en/blog/how-to-add-p-values-onto-basic-ggplots/
+- https://www.datanovia.com/en/blog/how-to-add-p-values-onto-a-grouped-ggplot-using-the-ggpubr-r-package/
+- https://www.datanovia.com/en/blog/how-to-add-p-values-to-ggplot-facets/
+- https://github.com/kassambara/ggpubr
+
+```R
+library(ggpubr)
+library(rstatix)
+
+# getting all pairwise combinations to test
+# my_comparisons = combn(as.character(unique(df$diet)), 2, simplify=FALSE) 
+
+stat.test <- df %>%
+    wilcox_test(exp ~ group) %>%
+    add_significance() %>%
+    add_xy_position(x = "group")
+
+p <- p + stat_pvalue_manual(stat.test,
+                            tip.length = 0.02,
+                            # vjust = 0.45,
+                            bracket.size = 0.25,
+                            label = "p.adj.signif",
+                            # label = "p",
+                            
+                            bracket.nudge.y = -0.5,
+                            step.increase = -0.2,
+                            hide.ns = TRUE,
+                            )
+
+p <- p + scale_y_continuous(expand = expansion(mult = c(0, 0.1))) 
+
+```
+
 ## plot
 
 plot text in midle of every stacked bar 
@@ -781,7 +843,8 @@ p <- ggplot(df_m) +
   scale_x_discrete(labels = c('0','1','2')) +
   scale_y_continuous(expand=c(0,0)) # delete space between bar and x axis
   scale_x_continuous(limits=c(0, args$x_limit), breaks = seq(0, args$x_limit, by = args$x_break))+
-  scale_y_continuous(labels = comma) +  expand_limits(y=0) + # equal to ylim(0, max(BOD$demand))
+  scale_y_continuous(labels = comma) + 
+  expand_limits(y=0) + # equal to ylim(0, max(BOD$demand))
   
   #  mix of plain and italic text in ggplot categorical x-axis
   scale_x_discrete(labels=c("strain",  expression(paste("Δ",italic("gene") )))) + 
@@ -794,6 +857,7 @@ p <- ggplot(df_m) +
   ggtitle(args$title) +
 
   guides(fill = guide_legend(reverse = TRUE)) # reverse legend order, could not use color=**  in aes at the same time
+  guides(fill = guide_colourbar(reverse = TRUE)) 
   guides(fill = guide_legend(title="xxxx")) # change legend title
   labs(color="s...", shape="...") +
   ggtitle(args$title, subtitle="") +
@@ -982,6 +1046,7 @@ p <- plot_grid(
   )  # water mark
 ggsave(
   p, file = "Figure 2.png", width = 8, height = 5, dpi = 600
+  # compression = "lzw"
 )
 
 
