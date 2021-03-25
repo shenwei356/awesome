@@ -281,6 +281,7 @@ Tutorial
 - [The Evolution of a ggplot (Ep. 1)](https://cedricscherer.netlify.app/2019/05/17/the-evolution-of-a-ggplot-ep.-1/)
 - [Best practices for programming with ggplot2](https://fishandwhistle.net/slides/rstudioconf2020/#1)
 - [Creating and using custom ggplot2 themes0](https://themockup.blog/posts/2020-12-26-creating-and-using-custom-ggplot2-themes/)
+- [Getting things into the right order](https://wilkelab.org/SDS375/slides/getting-things-in-order.html#1) with `forcats`
 
 ## Statistics
 

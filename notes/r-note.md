@@ -506,6 +506,12 @@ library(scales)
 colors <- stata_pal(scheme = "s2color")(15)
 show_col(colors)
 
+# https://rdrr.io/cran/ggthemes/man/colorblind.html
+colors <- colorblind_pal()(8)
+show_col(colors)
+
+colors <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00" "#CC79A7")
+
 n <- 18 # give me 18 colors
 show_col(rep(colors, ceiling(n/length(colors)))[1:n])
 ```
