@@ -124,6 +124,7 @@ p-value
 ## Books
 
 - [***Mining of Massive Datasets***](http://www.mmds.org/) - The book is based on Stanford Computer Science course CS246: Mining Massive Datasets
+- [***Data Science Bookcamp***](https://www.manning.com/books/data-science-bookcamp) - Learn data science with Python by building five real-world projects!.
 
 ## Course
 
