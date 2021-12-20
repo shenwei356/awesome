@@ -556,3 +556,4 @@ See more on [awesome-go](https://github.com/avelino/awesome-go), [golang openso
 ## misc
 
 - [range over interface{} which stores a slice](https://stackoverflow.com/questions/14025833/range-over-interface-which-stores-a-slice/14026030#14026030)
+- [calendarheatmap](https://github.com/nikolaydubina/calendarheatmap)

@@ -221,6 +221,7 @@ FASTA index
 - [pyGenomeTracks](https://github.com/deeptools/pyGenomeTracks) - python module to plot beautiful and highly customizable genome browser tracks
 - [karyoploteR](https://github.com/bernatgel/karyoploteR) - karyoploteR - An R/Bioconductor package to plot arbitrary data along the genome
 - [gggenes](https://github.com/wilkox/gggenes) - Draw gene arrow maps in ggplot2
+- [DnaFeaturesViewer](https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer) - Python library to plot DNA sequence features (e.g. from Genbank files)
 
 ### Others
 
@@ -234,6 +235,7 @@ FASTA index
 - [Seqeyes](http://www.biovis.net/2011/materials/abstracts/BioVispaper107.pdf): A flash tool for visualizing structural variations.
 - [SVVIZ](http://svviz.github.io/svviz/) - A READ VISUALIZER TO VALIDATE STRUCTURAL VARIANTS
 - [samplot](https://github.com/ryanlayer/samplot) - Plot structural variant signals from many BAMs and CRAMs
+- [Understanding UMAP](https://pair-code.github.io/understanding-umap/)
 
 ## Kmer
 
@@ -290,6 +292,10 @@ FASTA index
 - [Microbial Ecology - a discussion and overview of amplicon sequencing and metagenomics](https://angus.readthedocs.io/en/2019/amplicon_and_metagen.html)
 - [Quick Insights from Sequencing Data with sourmash](https://angus.readthedocs.io/en/2019/sourmash.html#)
 - [Recovering “genomes” from metagenomes](https://angus.readthedocs.io/en/2019/recovering-rep-genomes-from-mgs.html)
+
+network
+
+- [NetCoMi](https://github.com/stefpeschel/NetCoMi) Network Comparison for Microbial Compositional Data
 
 ## 16S
 
@@ -348,3 +354,8 @@ ensemble id -> symbol -> biotype
         > Homo_sapiens.GRCh38.84.gtf.gz.ensemble2symol-biotype.tsv
 
 
+## Knowledge
+
+- [Sequencing depth and coverage: key considerations in genomic analyses](https://www.nature.com/articles/nrg3642),
+https://www.biostars.org/p/638/, 
+[What does coverage mean in the context of NGS?](https://www.ecseq.com/support/ngs/how-to-calculate-the-coverage-for-a-sequencing-experiment)

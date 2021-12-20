@@ -261,6 +261,11 @@ Extended packages. More: [RStartHere](https://github.com/rstudio/RStartHere#visu
 - [ggrastr](https://github.com/VPetukhov/ggrastr) - Provides a set of ggplot2 geoms to rasterize only specific layers of the plot 
 - [ggvenn](https://github.com/yanlinlin82/ggvenn)
 - [gggenomes](https://github.com/thackl/gggenomes) - A grammar of graphics for comparative genomics
+- [ggside](https://github.com/jtlandis/ggside) - ggplot2 extension allowing for plotting various geometries as side panels using the ggplot2 API
+- [ggTimeSeries](https://github.com/AtherEnergy/ggTimeSeries) - Time series visualisation. [用R语言画日历](https://zhuanlan.zhihu.com/p/387386733). [calendarheatmap](https://github.com/nikolaydubina/calendarheatmap)
+- [ggh4x](https://github.com/teunbrand/ggh4x) - ggplot extension: options for tailored facets, multiple colourscales and miscellaneous
+- [geomtextpath](https://github.com/AllanCameron/geomtextpath) - Create curved text paths in ggplot2
+
 
 Tutorial
 

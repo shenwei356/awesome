@@ -301,10 +301,16 @@ df <- df  %>%
 
 ops whithin group
 
-df %>% 
-  group_by(Category) %>%
-  group_modify(~ { .x %>% arrange(GeneRatio) %>% head(8) })
+    df %>% 
+    group_by(Category) %>%
+    group_modify(~ { .x %>% arrange(GeneRatio) %>% head(8) })
 
+    
+binning
+
+```R 
+df <- df %>% mutate(bin = cut_width(days, width = 7, center = 3.5))
+```
 
 separate
 
@@ -508,6 +514,9 @@ show_col(colors)
 
 # https://rdrr.io/cran/ggthemes/man/colorblind.html
 colors <- colorblind_pal()(8)
+
+colors <- colorblind_pal()(n+1)[2:n+1] # begin with 2nd color
+
 show_col(colors)
 
 colors <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00" "#CC79A7")
@@ -646,6 +655,9 @@ Other string
 ```R
 str_wrap: https://stringr.tidyverse.org/reference/str_wrap.html
 str_trunc 
+
+    scale_x_discrete(expand = c(0, 0), 
+                     labels = function(x) str_wrap(x, width = 30)) +
 ```
 
 ## legend
@@ -752,6 +764,33 @@ p <- ggplot(aes(x = mpg, y = hp), data = mtcars)
 p + myFunction()
 ```
 
+minor_breaks
+
+    https://stackoverflow.com/questions/34533472/insert-blanks-into-a-vector-for-e-g-minor-tick-labels-in-r
+
+[dual y-axis (second axis)](https://www.r-graph-gallery.com/line-chart-dual-Y-axis-ggplot2.html)
+
+```R
+scale <- xxxx
+
+geom_line(aes(y = -log10(fpr) / scale, color = rlen), size = 0.9) +
+
+scale_y_continuous(
+    name = "Recall(%)",
+    sec.axis = sec_axis(
+        ~ . * scale,
+        name = "-log10(Query FPR)",
+        breaks = custom_breaks_y2,
+        labels = every_nth(custom_breaks_y2, 2)
+    ),
+    expand = c(0, 0),
+    breaks = custom_breaks_y,
+    labels =  every_nth(custom_breaks_y, 2, inverse = TRUE)
+)
+
+```
+
+    
 ## template
 
 ```R
@@ -857,6 +896,9 @@ p <- ggplot(df_m) +
 
   scale_fill_manual(values=c("#CCEEFF", "#FFDDDD"), guide=FALSE)
   
+  scale_colour_gradient2_tableau("Orange-Blue Diverging")  +
+  scale_colour_gradient2_tableau(trans = "reverse")
+  
 
   xlab('Frame') +
   ylab('Counts') +
@@ -865,6 +907,7 @@ p <- ggplot(df_m) +
   guides(fill = guide_legend(reverse = TRUE)) # reverse legend order, could not use color=**  in aes at the same time
   guides(fill = guide_colourbar(reverse = TRUE)) 
   guides(fill = guide_legend(title="xxxx")) # change legend title
+  guides(linetype = "none") # remove this 
   labs(color="s...", shape="...") +
   ggtitle(args$title, subtitle="") +
   ggtitle(gene, subtitle=paste(strwrap(product, width=50), collapse = "\n")) + # wrap text
