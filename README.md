@@ -32,6 +32,7 @@ and miscellaneous stuff.
 - [Perl](https://github.com/shenwei356/awesome/blob/master/perl.md)
 - [C](https://github.com/shenwei356/awesome/blob/master/c.md)
 - [Javascript](https://github.com/shenwei356/awesome/blob/master/javascript.md)
+- [Java Programming](https://www.scaler.com/topics/java)
 
 ## Specific domains
 
