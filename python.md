@@ -55,6 +55,7 @@
 - [Python Practice Book](http://anandology.com/python-practice-book/index.html)
 - [pymbook](http://pymbook.readthedocs.org/en/latest/)
 - [Full Stack Python](http://www.fullstackpython.com/)
+- [Learn Python Programming](https://www.scaler.com/topics/python/)
 - [Migrating to Python 3 with pleasure](https://github.com/arogozhnikov/python3_with_pleasure) / [在Python 2.7即将停止支持时，我们为你准备了一份3.x迁移指南](https://mp.weixin.qq.com/s/Q3cqLuOZDSMOdAjVrCDrtQ)
 - [Writing Python 2-3 compatible code](http://python-future.org/compatible_idioms.html) | [编写兼容 Python 2 和 Python 3 的代码](http://blog.segmentfault.com/yexiaobai/1190000000637180)
 - [Python Cookbook](http://chimera.labs.oreilly.com/books/1230000000393/index.html)
