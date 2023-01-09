@@ -51,6 +51,7 @@
 
 - [Python教程](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)  ([Python3版本](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)) by 廖雪峰, [python进阶](http://www.imooc.com/learn/317)
 - [零基础学python](https://github.com/qiwsir/StarterLearningPython/blob/master/index.md)
+- [Python Tutorial](https://www.scaler.com/topics/python/)
 - [Intermediate Python](http://book.pythontips.com/en/latest/)
 - [Python Practice Book](http://anandology.com/python-practice-book/index.html)
 - [pymbook](http://pymbook.readthedocs.org/en/latest/)
