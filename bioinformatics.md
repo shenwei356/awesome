@@ -123,6 +123,17 @@ Programming skills
 - [golang] [Biogo](https://github.com/biogo)
 - [golang] [bio](https://github.com/shenwei356/bio) - A simple but high-performance bioinformatics package in Go
 
+## Sequencing
+
+### About reads duplicates
+
+> I recommend optical duplicate removal for all HiSeq platforms, for any kind of project in which you expect high library complexity (such as WGS). By optical duplicate, I mean removal of duplicates with very close coordinates on the flow cell
+
+- [Duplicates on Illumina](https://www.biostars.org/p/229842/)
+- [Remove duplicates from reads: best practices?](https://www.biostars.org/p/230822/)
+- [`bbmap clumpify` can remove PCR and optical duplicates](https://www.biostars.org/p/225338/#230178)
+- [Deduplication Improves Cost-Efficiency and Yields of De Novo Assembly and Binning of Shotgun Metagenomes in Microbiome Research](https://journals.asm.org/doi/10.1128/spectrum.04282-22)
+
 ## General file formats
 
 - [zindex](https://github.com/mattgodbolt/zindex) - Create an index on a compressed text file

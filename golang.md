@@ -557,3 +557,4 @@ See more on [awesome-go](https://github.com/avelino/awesome-go), [golang openso
 
 - [range over interface{} which stores a slice](https://stackoverflow.com/questions/14025833/range-over-interface-which-stores-a-slice/14026030#14026030)
 - [calendarheatmap](https://github.com/nikolaydubina/calendarheatmap)
+- [Dump any data as valid syntax in Go](https://github.com/Code-Hex/dd)

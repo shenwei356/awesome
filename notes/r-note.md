@@ -61,6 +61,18 @@ regular expression capture
 # str_match_all() to match all groups in a regex
 ```
 
+## font
+
+https://stackoverflow.com/questions/61204259/how-can-i-resolve-the-no-font-name-issue-when-importing-fonts-into-r-using-ext
+
+```R
+library(extrafont)
+font_import(paths="/home/shenwei/.fonts/a/", prompt = FALSE)
+
+
+```
+
+
 ## Data Structures
 
 ### Vector
@@ -515,7 +527,7 @@ show_col(colors)
 # https://rdrr.io/cran/ggthemes/man/colorblind.html
 colors <- colorblind_pal()(8)
 
-colors <- colorblind_pal()(n+1)[2:n+1] # begin with 2nd color
+colors <- colorblind_pal()(n+1)[2:(n+1)] # begin with 2nd color
 
 show_col(colors)
 
@@ -523,6 +535,20 @@ colors <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#
 
 n <- 18 # give me 18 colors
 show_col(rep(colors, ceiling(n/length(colors)))[1:n])
+
+
+# colorblind
+n <- length(unique(df$tool))
+colors0 <- c("grey30", "grey50", "grey70", "grey90")
+if (n>7) {
+    colors <- colorblind_pal()(7 + 1)[2:(7 + 1)] # begin with 2nd color
+    for (i in seq(1, n-7)) {
+        colors <- append(colors, colors0[i])
+    }
+} else {
+    colors <- colorblind_pal()(n + 1)[2:(n + 1)] # begin with 2nd color
+}
+
 ```
 
 reverse gradient color
@@ -693,12 +719,17 @@ p <- plot_grid(
         ncol = 1,
         nrow = 3,
         labels = c("HSC", "ENDO", "MAC"),
+        label_size = 10.5,
+        label_fontface = "plain",
         rel_heights = c(1, 1, 1)
     ),
     legend,
     ncol = 2,
     rel_widths = c(1, 0.2)
-)
+) + theme ( # fill the gap in sub figures
+    panel.background = element_rect(fill = "white", colour = NA),
+) 
+
 
 ```
 
@@ -733,7 +764,7 @@ p <- p + stat_pvalue_manual(stat.test,
                             hide.ns = TRUE,
                             )
 
-p <- p + scale_y_continuous(expand = expansion(mult = c(0, 0.1))) 
+p <- p + scale_y_continuous(expand = expansion(mult = c(0, 0.1)))  No space below the bars but 10% above them
 
 ```
 
@@ -770,15 +801,41 @@ minor_breaks
 
 [dual y-axis (second axis)](https://www.r-graph-gallery.com/line-chart-dual-Y-axis-ggplot2.html)
 
-```R
-scale <- xxxx
+[How to plot a 2- y axis chart with bars side by side without re-scaling the data](https://stackoverflow.com/questions/54413787/how-to-plot-a-2-y-axis-chart-with-bars-side-by-side-without-re-scaling-the-data/54426831#54426831)
 
-geom_line(aes(y = -log10(fpr) / scale, color = rlen), size = 0.9) +
+```R
+
+every_nth <- function(x,
+                      nth,
+                      empty = TRUE,
+                      inverse = FALSE) {
+  if (!inverse) {
+    if (empty) {
+      x[1:nth == 1] <- ""
+      x
+    } else {
+      x[1:nth != 1]
+    }
+  } else {
+    if (empty) {
+      x[1:nth != 1] <- ""
+      x
+    } else {
+      x[1:nth == 1]
+    }
+  }
+}
+
+
+
+s <- max(left)/max(right)
+
+geom_line(aes(y = -log10(fpr) / s, color = rlen), size = 0.9) +
 
 scale_y_continuous(
     name = "Recall(%)",
     sec.axis = sec_axis(
-        ~ . * scale,
+        ~ . /s,
         name = "-log10(Query FPR)",
         breaks = custom_breaks_y2,
         labels = every_nth(custom_breaks_y2, 2)
@@ -787,6 +844,40 @@ scale_y_continuous(
     breaks = custom_breaks_y,
     labels =  every_nth(custom_breaks_y, 2, inverse = TRUE)
 )
+
+# --- another example
+
+s <- max(df2$time2) / max(df2$mem2)
+
+p <- ggplot(df2, aes(app)) +
+    geom_col(aes(y = time2),
+             width = 0.4,
+             position = position_nudge(x = -.2),
+             fill = "#E69F00") +
+    geom_col(aes(y = mem2*s),
+             width = 0.4,
+             position = position_nudge(x = +.2),
+             fill = "#56B4E9") +
+    xlab(NULL) +
+    scale_y_continuous(
+        name = "Time (seconds)",
+        sec.axis = sec_axis(
+            ~ . / s,
+            name = "Peak memory (GB)"
+        ),
+        expand = c(0, 0)
+    ) +
+    theme1 + 
+    theme(
+        legend.position = "none",
+        axis.text.x = element_text(color = "grey10", angle=30, hjust=1, vjust=1), # label of axis
+        
+        axis.title.y.left = element_text(color="#E69F00"),
+        axis.text.y.left = element_text(color="#E69F00"),
+        axis.title.y.right = element_text(color="#56B4E9"),
+        axis.text.y.right = element_text(color="#56B4E9"),
+    )
+
 
 ```
 
@@ -887,6 +978,7 @@ p <- ggplot(df_m) +
 
   scale_x_discrete(labels = c('0','1','2')) +
   scale_y_continuous(expand=c(0,0)) # delete space between bar and x axis
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1))) + # No space below the bars but 10% above them + 
   scale_x_continuous(limits=c(0, args$x_limit), breaks = seq(0, args$x_limit, by = args$x_break))+
   scale_y_continuous(labels = comma) + 
   expand_limits(y=0) + # equal to ylim(0, max(BOD$demand))
@@ -895,6 +987,8 @@ p <- ggplot(df_m) +
   scale_x_discrete(labels=c("strain",  expression(paste("Δ",italic("gene") )))) + 
 
   scale_fill_manual(values=c("#CCEEFF", "#FFDDDD"), guide=FALSE)
+  
+  scale_color_gradient_tableau(palette = "Orange", guide = "legend") + # combine/merge color/fill and size legends
   
   scale_colour_gradient2_tableau("Orange-Blue Diverging")  +
   scale_colour_gradient2_tableau(trans = "reverse")
@@ -1096,7 +1190,23 @@ p <- plot_grid(
 ggsave(
   p, file = "Figure 2.png", width = 8, height = 5, dpi = 600
   # compression = "lzw"
-)
+) + theme ( # fill the gap in sub figures
+    panel.background = element_rect(fill = "white", colour = NA),
+) 
+
+
+
+# move legend to anywhere
+legend <- get_legend(pn) 
+
+plot_grid(
+    pn + theme(legend.position = "none"),
+    pc,
+    ncol = 2,
+    labels = c("a", "c"),
+    rel_widths = c(1, 1)
+) + draw_plot(legend, 0.005, 0.65, 0.4, 0.4) ,
+
 
 
 # with title
@@ -1107,7 +1217,9 @@ p <- plot_grid(
     plot_grid(p1, p2, ncol=2),
     nrow = 2,
     rel_heights=c(0.1, 1)
-)
+) + theme ( # fill the gap in sub figures
+    panel.background = element_rect(fill = "white", colour = NA),
+) 
 
 ```
 
@@ -1115,4 +1227,17 @@ p <- plot_grid(
 recode a continuous variable to another variable
 ```
 pg$wtclass <- cut(pg$weight, breaks = c(0, 5, 6, Inf))
+```
+
+plyr::mapvalues with dplyr
+```R
+df %>% mutate(sex=recode(sex,
+`1`="Male",
+`2`="Female"))
+```
+
+add index (unique number)  with in group
+
+```R
+df <- df %>% group_by(sample) %>% mutate(id = seq_along(taxid))
 ```
