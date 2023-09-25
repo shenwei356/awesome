@@ -69,6 +69,7 @@ Social media
 
 Programming skills
 
+- [Linux Command Line for Bioinformatics](https://telatin.github.io/microbiome-bioinformatics/Bash-course/)
 - [An Introduction to Programming for Bioscientists: A Python-Based Primer](http://journals.plos.org/ploscompbiol/article/asset?id=10.1371%2Fjournal.pcbi.1004867.PDF)
 -  [You can code, too!](http://blog.olgabotvinnik.com/blog/2013/11/22/2013-11-22-you-can-code-too/)
 
@@ -116,6 +117,7 @@ Programming skills
 ## Book
 
 - [A Primer for Computational Biology](http://library.open.oregonstate.edu/computationalbiology/)
+- [Human Genome Variation Lab](https://mccoy-lab.github.io/hgv_modules/index.html), teaching materials from our undergrad computational course on human genetic variation
 
 ## Comprehensive packages
 
