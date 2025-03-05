@@ -618,6 +618,33 @@ p + scale_x_log10(breaks=10^(-1:5),
 　　　　　labels=trans_format("log10", math_format(10^.x)))
 ```
 
+second - minute - hour - day
+
+```R
+log60_trans <- function() {
+  trans_new(
+    name = "log60",
+    transform = function(x) log(x, 60), 
+    inverse = function(x) 60^x
+  )
+}
+
+scale_y_continuous(
+  trans = log60_trans(),
+  breaks = 60^c(0, 1, 2, 2.776206),
+  labels = function(x) {
+    case_when(
+      as.integer(x) == 1 ~ "1 second",
+      as.integer(x) == 60 ~ "1 minute",
+      as.integer(x) == 3600 ~ "1 hour",
+      as.integer(x) == 3600*24 ~ "1 day",
+      TRUE ~ as.character(x)
+    )
+  }
+) 
+
+```
+
 10^n
 
 ```
@@ -693,6 +720,18 @@ str_trunc
 ```R
 library(scales)
 i + guides(colour = guide_legend(nrow = 2))
+```
+change the name and set order
+
+```R
+library(scales)
+i + guides(color = guide_legend(title="Tool", order = 1))
+```
+
+change the symbol size
+
+```R
+  guides(color = guide_legend(override.aes = list(size = 2.5))) +
 ```
 
 disable some legend
