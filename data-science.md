@@ -124,6 +124,7 @@ p-value
 ## Books
 
 - [***Mining of Massive Datasets***](http://www.mmds.org/) - The book is based on Stanford Computer Science course CS246: Mining Massive Datasets
+- [***Regression, a Friendly Guide***](https://www.manning.com/books/regression-a-friendly-guide) - The book that teaches you how to predict future outcomes and understand important relationships in your data using regression
 
 ## Course
 
