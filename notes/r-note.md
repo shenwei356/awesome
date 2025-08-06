@@ -551,6 +551,18 @@ if (n>7) {
 
 ```
 
+Ensure each tool has the same color in multiple plots.
+
+```
+colors <- colorblind_pal()(8)
+
+tools1 <- unique(df$tool)
+tools2 <- unique(df2$tool)
+colors2 <- colors[1:length(tools2)]
+dfc <- data.frame(tool = tools2, color = colors2 )
+colors1 <- dfc %>% filter(tool %in% tools1) %>% select(color) %>% unlist() %>% unname()
+```
+
 reverse gradient color
 
 ```R
@@ -1086,12 +1098,15 @@ p <- p +
     legend.key = element_blank(),  
     legend.key.size = unit(0.3, "cm"),
     legend.spacing.x = unit(0.2, "cm"), # space between key and text
+    
     legend.title = element_blank(),
+    legend.title = element_text(margin = margin(b = 1)), // space between title and key/values    
+    legend.margin = margin(t = 0, r = 0, b = 0, l = 0), // margin of the whole legend
+    
     legend.text=element_text(size=12),  
     # legend.position = "none", # remove legend
     # legend.position = c(0.3, 0.2), # custom relative positon
-    # 
-    # legend.margin = margin(0.0, 0.2, 0.0, 0.0, unit="cm"),
+    
     legend.key.height=unit(1,"line"),
     legend.key.width=unit(1,"line"),
     
