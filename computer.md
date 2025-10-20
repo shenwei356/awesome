@@ -8,6 +8,7 @@
 - [CPU Caches and Why You Care](http://www.aristeia.com/TalkNotes/ACCU2011_CPUCaches.pdf)
 - [每个程序员都应该了解的内存知识](https://lrita.github.io/2018/06/10/programmer-should-know-about-memory-0/),
   [part2](https://lrita.github.io/2018/06/30/programmer-should-know-about-memory-1/)
+- [caching](https://planetscale.com/blog/caching) (有动画)
 
 ## Data
 
