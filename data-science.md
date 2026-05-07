@@ -51,6 +51,7 @@ New tech
 -  [R vs Python: head to head data analysis](https://www.dataquest.io/blog/python-vs-r/) | [R vs Python：硬碰硬的数据分析](http://mp.weixin.qq.com/s?__biz=MzA4OTg5NzY3NA==&mid=208986906&idx=4&sn=799e06b3d09acb8025df550aca3596a9)
 -  [DataPyR](https://datapyr.zeef.com/kranthi.kumar)
 -  [Choosing R or Python for data analysis? An infographic](http://blog.datacamp.com/r-or-python-for-data-analysis/)
+-  [Why Use Python for Data Science](https://www.appliedaicourse.com/blog/why-use-python-for-data-science/)
 
 ## Workflow/Pipelines tools
 
