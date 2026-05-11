@@ -211,6 +211,7 @@ FASTA index
 - [sesbio](https://github.com/sestaton/sesbio) - Bioinformatics scripts for genome analysis
 - [ngsutils](https://github.com/ngsutils/ngsutils) - Tools for next-generation sequencing analysis [http://ngsutils.org](http://ngsutils.org/)
 - [ngsTools](https://github.com/mfumagalli/ngsTools) - Programs to analyse NGS data for population genetics purposes
+- [dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis) - Personal genome analysis toolkit with Python scripts analyzing raw DNA data across 17 categories
 
 ## Visualization
 
