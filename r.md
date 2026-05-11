@@ -50,6 +50,7 @@ install github repo
 - [http://www.sthda.com/english/](http://www.sthda.com/english/)
 - [http://www.r-bloggers.com/search/ggplot2](http://www.r-bloggers.com/search/ggplot2)
 - [**Mastering Software Development in R**](https://bookdown.org/rdpeng/RProgDA/)
+- [R coder](https://r-coder.com/learn-r/)
 
 ## Packages
 
