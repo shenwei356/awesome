@@ -82,7 +82,7 @@ IO
 - [byteorder](https://github.com/BurntSushi/byteorder)
 - Dir walk: [walkdir](https://github.com/BurntSushi/walkdir)
   or [ignore](https://github.com/BurntSushi/ripgrep/tree/master/crates/ignore) for high performance.
-- Serialization: [bincode](https://docs.rs/bincode/latest/bincode/)
+- Serialization: [bincode-next](https://github.com/Apich-Organization/bincode)
 
 Compression
 
@@ -92,6 +92,7 @@ Performance
 
 - Concurrent programming: [Crossbeam](https://github.com/crossbeam-rs/crossbeam)
 - Asynchronous programming: [tokio](https://github.com/tokio-rs/tokio)
+- High performance runtime: [dtact](https://github.com/Apich-Organization/dtact)
 - Data parallelism: [rayon](https://github.com/rayon-rs/rayon)
 - Benchmarking: [hyperfine](https://github.com/sharkdp/hyperfine)
 - PProf: [pprof](https://github.com/tikv/pprof-rs)
@@ -100,6 +101,8 @@ Testing
 
 - [assert_cmd](https://github.com/assert-rs/assert_cmd)
 - [predicates](https://github.com/assert-rs/predicates-rs)
+- [proptest](https://github.com/proptest-rs/proptest)
+- [loom](https://github.com/tokio-rs/loom)
 
 Bioinformatics
 
